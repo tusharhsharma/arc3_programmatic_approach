@@ -1,0 +1,940 @@
+{
+ "game": "sc25",
+ "levels": 0,
+ "win_levels": 6,
+ "baseline": [
+  36,
+  6,
+  32,
+  83,
+  143,
+  50
+ ],
+ "per_level": {},
+ "actions": 800,
+ "secs": 11.8,
+ "error": null,
+ "deaths": [
+  87,
+  138,
+  189,
+  281,
+  335,
+  389,
+  440,
+  511,
+  562,
+  670
+ ],
+ "action_use": {
+  "ACTION1": 108,
+  "ACTION2": 94,
+  "ACTION3": 330,
+  "ACTION4": 167,
+  "ACTION6": 84,
+  "RESET": 7
+ },
+ "final": {
+  "motions": {
+   "ACTION3": [
+    0,
+    -2
+   ],
+   "ACTION4": [
+    0,
+    2
+   ]
+  },
+  "slides": [],
+  "shape_ops": {
+   "ACTION2": "rot90",
+   "ACTION1": "rot90"
+  },
+  "inert": [],
+  "walls": [
+   5
+  ],
+  "collect": [],
+  "lethal": [
+   9,
+   10
+  ],
+  "laws": [],
+  "click_laws": {},
+  "pushable": [],
+  "avatar_color": 2,
+  "avatar_size": 12,
+  "goal_refuted": [
+   3
+  ],
+  "timer": false,
+  "playfield": [
+   0,
+   64,
+   0,
+   62
+  ]
+ },
+ "level_marks": [],
+ "hlog": [
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    0,
+    -4
+   ],
+   "expected": [
+    -1,
+    -5
+   ],
+   "at": [
+    19,
+    35
+   ],
+   "kind": "anomaly",
+   "n": 9
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    0,
+    -4
+   ],
+   "at": [
+    19,
+    35
+   ],
+   "kind": "unknown_mechanic_confirmed",
+   "n": 11
+  },
+  {
+   "color": 10,
+   "alternatives": [],
+   "kind": "lethal_condemned",
+   "n": 138
+  },
+  {
+   "color": 10,
+   "alternatives": [],
+   "kind": "lethal_condemned",
+   "n": 189
+  },
+  {
+   "color": 3,
+   "reason": "unreachable_map_exhausted",
+   "kind": "goal_refuted",
+   "n": 192
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    0,
+    -2
+   ],
+   "expected": [
+    -1,
+    -5
+   ],
+   "at": [
+    19,
+    41
+   ],
+   "kind": "anomaly",
+   "n": 193
+  },
+  {
+   "archetype": "docking",
+   "allowance": 170,
+   "kind": "archetype_overspend",
+   "n": 314
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -2,
+    -4
+   ],
+   "expected": [
+    0,
+    -6
+   ],
+   "at": [
+    21,
+    35
+   ],
+   "kind": "anomaly",
+   "n": 315
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    0,
+    -10
+   ],
+   "expected": [
+    0,
+    2
+   ],
+   "at": [
+    19,
+    27
+   ],
+   "kind": "anomaly",
+   "n": 317
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    0,
+    -6
+   ],
+   "expected": [
+    0,
+    2
+   ],
+   "at": [
+    19,
+    23
+   ],
+   "kind": "anomaly",
+   "n": 325
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "kind": "anomaly_dismissed",
+   "n": 329
+  },
+  {
+   "color": 10,
+   "alternatives": [],
+   "kind": "lethal_condemned",
+   "n": 335
+  },
+  {
+   "color": 9,
+   "alternatives": [],
+   "kind": "lethal_condemned",
+   "n": 389
+  },
+  {
+   "color": 10,
+   "alternatives": [],
+   "kind": "lethal_condemned",
+   "n": 440
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    0,
+    2
+   ],
+   "expected": [
+    0,
+    -2
+   ],
+   "at": [
+    19,
+    23
+   ],
+   "kind": "anomaly",
+   "n": 497
+  },
+  {
+   "color": 9,
+   "alternatives": [],
+   "kind": "lethal_condemned",
+   "n": 511
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    0,
+    8
+   ],
+   "expected": [
+    0,
+    -2
+   ],
+   "at": [
+    19,
+    17
+   ],
+   "kind": "anomaly",
+   "n": 523
+  },
+  {
+   "color": 9,
+   "alternatives": [],
+   "kind": "lethal_condemned",
+   "n": 562
+  },
+  {
+   "color": 9,
+   "alternatives": [],
+   "kind": "lethal_condemned",
+   "n": 670
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    0,
+    6
+   ],
+   "expected": [
+    0,
+    -2
+   ],
+   "at": [
+    19,
+    17
+   ],
+   "kind": "anomaly",
+   "n": 718
+  }
+ ],
+ "gov": {
+  "refassembly": {
+   "spent": 0,
+   "dead": false
+  },
+  "actuators": {
+   "spent": 0,
+   "dead": false
+  },
+  "glyphs": {
+   "spent": 0,
+   "dead": false
+  },
+  "docking": {
+   "spent": 171,
+   "dead": true
+  },
+  "overlay": {
+   "spent": 0,
+   "dead": false
+  },
+  "edgemaze": {
+   "spent": 0,
+   "dead": false
+  },
+  "permuter": {
+   "spent": 0,
+   "dead": false
+  }
+ },
+ "anomalies": [
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    19,
+    35
+   ],
+   "vec": [
+    0,
+    -4
+   ],
+   "expected": [
+    -1,
+    -5
+   ],
+   "retests": 1,
+   "reproduced": 1,
+   "closed": true,
+   "n": 9
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    19,
+    41
+   ],
+   "vec": [
+    0,
+    -2
+   ],
+   "expected": [
+    -1,
+    -5
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 193
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    21,
+    35
+   ],
+   "vec": [
+    -2,
+    -4
+   ],
+   "expected": [
+    0,
+    -6
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 315
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    19,
+    27
+   ],
+   "vec": [
+    0,
+    -10
+   ],
+   "expected": [
+    0,
+    2
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 317
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    19,
+    23
+   ],
+   "vec": [
+    0,
+    -6
+   ],
+   "expected": [
+    0,
+    2
+   ],
+   "retests": 1,
+   "reproduced": 0,
+   "closed": true,
+   "n": 325
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    19,
+    23
+   ],
+   "vec": [
+    0,
+    2
+   ],
+   "expected": [
+    0,
+    -2
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 497
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    19,
+    17
+   ],
+   "vec": [
+    0,
+    8
+   ],
+   "expected": [
+    0,
+    -2
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 523
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    19,
+    17
+   ],
+   "vec": [
+    0,
+    6
+   ],
+   "expected": [
+    0,
+    -2
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 718
+  }
+ ],
+ "tail": [
+  {
+   "n": 735,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 736,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 737,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 738,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 739,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 740,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 741,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 742,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 743,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 744,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 745,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 746,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 747,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 748,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 749,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 750,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 751,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 752,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 753,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 754,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 755,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    19,
+    27
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 756,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    19,
+    31
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 757,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    29
+   ],
+   "seek": null,
+   "plan": 2
+  },
+  {
+   "n": 758,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 1
+  },
+  {
+   "n": 759,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 760,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    19,
+    27
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 761,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 761,
+   "a": "RESET",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 762,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 763,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 764,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 765,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 766,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 767,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 768,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 769,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    19,
+    27
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 770,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    19,
+    31
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 771,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    29
+   ],
+   "seek": null,
+   "plan": 2
+  },
+  {
+   "n": 772,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 1
+  },
+  {
+   "n": 773,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    19,
+    17
+   ],
+   "seek": null,
+   "plan": 0
+  }
+ ],
+ "unresolved": {}
+}

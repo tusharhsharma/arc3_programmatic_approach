@@ -1,0 +1,56 @@
+{
+ "game": "lf52",
+ "levels": 1,
+ "per_level": {
+  "1": 24
+ },
+ "score": {
+  "entities": 0.2,
+  "rules": 0.0,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "controlled:peg14",
+   "floor:floor1",
+   "hud:ring3",
+   "button:arrow2"
+  ],
+  "missed_rules": [
+   "ACTION6:select:peg14",
+   "ACTION6:appear:arrow2",
+   "ACTION6:translate:peg14",
+   "ACTION6:vanish:peg14",
+   "ACTION6:nothing:None",
+   "ACTION1:nothing:None",
+   "ACTION7:teleport:peg14"
+  ],
+  "reported_goal": null,
+  "truth_goal": "count(peg14->None)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     0
+    ]
+   }
+  ],
+  "rules": [],
+  "goal": null
+ },
+ "secs": 1.0,
+ "error": null
+}

@@ -1,0 +1,7444 @@
+{
+ "game": "re86",
+ "levels": 1,
+ "win_levels": 8,
+ "baseline": [
+  26,
+  42,
+  86,
+  108,
+  189,
+  139,
+  424,
+  241
+ ],
+ "per_level": {
+  "1": 41
+ },
+ "actions": 800,
+ "secs": 48.1,
+ "error": null,
+ "deaths": [
+  99,
+  198,
+  297,
+  473,
+  572,
+  671
+ ],
+ "action_use": {
+  "ACTION1": 236,
+  "ACTION2": 211,
+  "ACTION3": 99,
+  "ACTION4": 129,
+  "ACTION5": 42,
+  "ACTION6": 77
+ },
+ "final": {
+  "motions": {
+   "ACTION1": [
+    -3,
+    0
+   ],
+   "ACTION3": [
+    0,
+    -3
+   ],
+   "ACTION4": [
+    0,
+    3
+   ],
+   "ACTION5": [
+    -1,
+    0
+   ]
+  },
+  "slides": [],
+  "shape_ops": {
+   "ACTION2": "rot270"
+  },
+  "inert": [],
+  "walls": [],
+  "collect": [
+   12,
+   13
+  ],
+  "lethal": [],
+  "laws": [],
+  "click_laws": {},
+  "pushable": [],
+  "avatar_color": 12,
+  "avatar_size": 1,
+  "goal_refuted": [],
+  "timer": true,
+  "playfield": [
+   0,
+   63,
+   0,
+   64
+  ]
+ },
+ "level_marks": [
+  {
+   "level": 1,
+   "n": 40,
+   "beliefs": {
+    "motions": {
+     "ACTION1": [
+      -3,
+      0
+     ],
+     "ACTION2": [
+      3,
+      0
+     ],
+     "ACTION3": [
+      0,
+      -3
+     ],
+     "ACTION4": [
+      0,
+      3
+     ],
+     "ACTION5": [
+      36,
+      21
+     ]
+    },
+    "slides": [],
+    "shape_ops": {},
+    "inert": [],
+    "walls": [],
+    "collect": [],
+    "lethal": [],
+    "laws": [],
+    "click_laws": {},
+    "pushable": [],
+    "avatar_color": 9,
+    "avatar_size": 13,
+    "goal_refuted": [],
+    "timer": true,
+    "playfield": [
+     0,
+     63,
+     0,
+     64
+    ]
+   }
+  }
+ ],
+ "hlog": [
+  {
+   "candidates": [
+    "cover(M=11/45@(27.0, 21.0) -> own-colour constellation C11[4@(3, 6, 17, 24)])",
+    "cover(M=9/52@(45.0, 36.0) -> own-colour constellation C9[4@(16, 40, 35, 53)])"
+   ],
+   "kind": "goal_hypotheses",
+   "n": 0
+  },
+  {
+   "gkind": "cover",
+   "mover": 11,
+   "note": "own-colour constellation C11[4@(3, 6, 17, 24)]",
+   "kind": "goal_adopted",
+   "n": 0
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -11,
+    -15
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    32,
+    36
+   ],
+   "kind": "anomaly",
+   "n": 7
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    11,
+    2
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    21,
+    21
+   ],
+   "kind": "anomaly",
+   "n": 8
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -20,
+    -13
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    32,
+    23
+   ],
+   "kind": "anomaly",
+   "n": 12
+  },
+  {
+   "gkind": "cover",
+   "mover": 11,
+   "note": "own-colour constellation C11[4@(3, 6, 17, 24)]",
+   "spent": 15,
+   "merged": false,
+   "kind": "goal_satisfied",
+   "n": 15
+  },
+  {
+   "gkind": "cover",
+   "mover": 9,
+   "note": "own-colour constellation C9[4@(16, 40, 35, 53)]",
+   "kind": "goal_adopted",
+   "n": 15
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -1,
+    1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    9,
+    4
+   ],
+   "kind": "anomaly",
+   "n": 16
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -1,
+    1
+   ],
+   "at": [
+    10,
+    5
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 22
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -1,
+    -1
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    9,
+    6
+   ],
+   "kind": "anomaly",
+   "n": 23
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -6,
+    11
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    8,
+    5
+   ],
+   "kind": "anomaly",
+   "n": 28
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    6,
+    -11
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    2,
+    16
+   ],
+   "kind": "anomaly",
+   "n": 32
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -8,
+    -1
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    8,
+    5
+   ],
+   "kind": "anomaly",
+   "n": 36
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    24,
+    28
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    0,
+    4
+   ],
+   "kind": "anomaly",
+   "n": 40
+  },
+  {
+   "gkind": "cover",
+   "mover": 9,
+   "note": "own-colour constellation C9[4@(16, 40, 35, 53)]",
+   "spent": 26,
+   "kind": "goal_confirmed",
+   "n": 40
+  },
+  {
+   "color": 0,
+   "reason": "unreachable_now",
+   "kind": "goal_deferred",
+   "n": 0
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -8,
+    -11
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    18,
+    30
+   ],
+   "kind": "anomaly",
+   "n": 2
+  },
+  {
+   "group": [
+    "action",
+    "ACTION2"
+   ],
+   "feature": "outcome",
+   "value": null,
+   "blocks_when": true,
+   "witnesses": 4,
+   "outcome": null,
+   "kind": "law_unknown",
+   "n": 5
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    0,
+    19
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    25,
+    19
+   ],
+   "kind": "anomaly",
+   "n": 8
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    3,
+    -22
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    25,
+    38
+   ],
+   "kind": "anomaly",
+   "n": 9
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    11,
+    8
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    37,
+    7
+   ],
+   "kind": "anomaly",
+   "n": 16
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    11,
+    -8
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    48,
+    15
+   ],
+   "kind": "anomaly",
+   "n": 17
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -11,
+    14
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    59,
+    7
+   ],
+   "kind": "anomaly",
+   "n": 18
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -10,
+    13
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    48,
+    30
+   ],
+   "kind": "anomaly",
+   "n": 22
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    13,
+    -10
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    38,
+    43
+   ],
+   "kind": "anomaly",
+   "n": 23
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    7,
+    -10
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    41,
+    49
+   ],
+   "kind": "anomaly",
+   "n": 26
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -13,
+    -10
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    45,
+    33
+   ],
+   "kind": "anomaly",
+   "n": 30
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -1,
+    -4
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    26,
+    23
+   ],
+   "kind": "anomaly",
+   "n": 33
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    14,
+    11
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    28,
+    16
+   ],
+   "kind": "anomaly",
+   "n": 36
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    1,
+    -2
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    45,
+    27
+   ],
+   "kind": "anomaly",
+   "n": 38
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -1,
+    2
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    46,
+    25
+   ],
+   "kind": "anomaly",
+   "n": 39
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -2,
+    1
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    45,
+    27
+   ],
+   "kind": "anomaly",
+   "n": 40
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -2,
+    1
+   ],
+   "at": [
+    43,
+    28
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 41
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -3,
+    0
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    41,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 42
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    13,
+    10
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    38,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 43
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    7,
+    10
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    38,
+    23
+   ],
+   "kind": "anomaly",
+   "n": 47
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -9,
+    -7
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    45,
+    33
+   ],
+   "kind": "anomaly",
+   "n": 48
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -1,
+    0
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    36,
+    26
+   ],
+   "kind": "anomaly",
+   "n": 49
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    19,
+    16
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    35,
+    26
+   ],
+   "kind": "anomaly",
+   "n": 53
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -1,
+    4
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    54,
+    42
+   ],
+   "kind": "anomaly",
+   "n": 54
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    0,
+    1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    53,
+    46
+   ],
+   "kind": "anomaly",
+   "n": 55
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -1,
+    2
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    53,
+    47
+   ],
+   "kind": "anomaly",
+   "n": 56
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -1,
+    2
+   ],
+   "at": [
+    52,
+    49
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 57
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    0,
+    3
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    51,
+    51
+   ],
+   "kind": "anomaly",
+   "n": 58
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "kind": "anomaly_dismissed",
+   "n": 62
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -2,
+    1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    49,
+    52
+   ],
+   "kind": "anomaly",
+   "n": 63
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -22,
+    -25
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    44,
+    53
+   ],
+   "kind": "anomaly",
+   "n": 65
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    8,
+    11
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    22,
+    28
+   ],
+   "kind": "anomaly",
+   "n": 66
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    10,
+    13
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    24,
+    39
+   ],
+   "kind": "anomaly",
+   "n": 69
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -1,
+    -1
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    34,
+    52
+   ],
+   "kind": "anomaly",
+   "n": 71
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -20,
+    -20
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    33,
+    51
+   ],
+   "kind": "anomaly",
+   "n": 75
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    0,
+    14
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    31,
+    35
+   ],
+   "kind": "anomaly",
+   "n": 77
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -4,
+    -10
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    31,
+    49
+   ],
+   "kind": "anomaly",
+   "n": 81
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    1,
+    -1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    27,
+    39
+   ],
+   "kind": "anomaly",
+   "n": 82
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -1,
+    1
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    28,
+    38
+   ],
+   "kind": "anomaly",
+   "n": 83
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    1,
+    -1
+   ],
+   "at": [
+    27,
+    39
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 84
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    15,
+    13
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    28,
+    38
+   ],
+   "kind": "anomaly",
+   "n": 85
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -14,
+    -11
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    21,
+    27
+   ],
+   "kind": "anomaly",
+   "n": 101
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    22,
+    22
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    4,
+    16
+   ],
+   "kind": "anomaly",
+   "n": 106
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    16,
+    8
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    26,
+    38
+   ],
+   "kind": "anomaly",
+   "n": 110
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    0,
+    5
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    48,
+    28
+   ],
+   "kind": "anomaly",
+   "n": 119
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -14,
+    -6
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    48,
+    33
+   ],
+   "kind": "anomaly",
+   "n": 123
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -3,
+    0
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    3,
+    27
+   ],
+   "kind": "anomaly",
+   "n": 148
+  },
+  {
+   "akind": "move",
+   "action": "ACTION5",
+   "vec": [
+    0,
+    -13
+   ],
+   "expected": [
+    36,
+    21
+   ],
+   "at": [
+    35,
+    27
+   ],
+   "kind": "anomaly",
+   "n": 163
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -32,
+    19
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    35,
+    14
+   ],
+   "kind": "anomaly",
+   "n": 167
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -1,
+    4
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    2,
+    37
+   ],
+   "kind": "anomaly",
+   "n": 169
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    0,
+    3
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    1,
+    41
+   ],
+   "kind": "anomaly",
+   "n": 170
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    14,
+    -11
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    1,
+    44
+   ],
+   "kind": "anomaly",
+   "n": 171
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    8,
+    -11
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    4,
+    47
+   ],
+   "kind": "anomaly",
+   "n": 173
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    29,
+    -22
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    6,
+    36
+   ],
+   "kind": "anomaly",
+   "n": 176
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -28,
+    30
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    35,
+    14
+   ],
+   "kind": "anomaly",
+   "n": 180
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -7,
+    4
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    7,
+    44
+   ],
+   "kind": "anomaly",
+   "n": 181
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    5,
+    -2
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    0,
+    48
+   ],
+   "kind": "anomaly",
+   "n": 182
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -2,
+    -1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    5,
+    46
+   ],
+   "kind": "anomaly",
+   "n": 183
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -1,
+    1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    3,
+    45
+   ],
+   "kind": "anomaly",
+   "n": 184
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    5,
+    2
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    1,
+    46
+   ],
+   "kind": "anomaly",
+   "n": 186
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -6,
+    -3
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    6,
+    48
+   ],
+   "kind": "anomaly",
+   "n": 187
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    6,
+    3
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    0,
+    45
+   ],
+   "kind": "anomaly",
+   "n": 188
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -6,
+    -3
+   ],
+   "at": [
+    6,
+    48
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 189
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    6,
+    3
+   ],
+   "at": [
+    0,
+    45
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 190
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    2,
+    -1
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    0,
+    45
+   ],
+   "kind": "anomaly",
+   "n": 194
+  },
+  {
+   "archetype": "carrier",
+   "allowance": 60,
+   "kind": "archetype_overspend",
+   "n": 195
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    6,
+    9
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    3,
+    42
+   ],
+   "kind": "anomaly",
+   "n": 196
+  },
+  {
+   "archetype": "overlay",
+   "allowance": 40,
+   "kind": "archetype_overspend",
+   "n": 198
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    3,
+    6
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    0,
+    21
+   ],
+   "kind": "anomaly",
+   "n": 203
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "kind": "anomaly_dismissed",
+   "n": 204
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    3,
+    -1
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    0,
+    21
+   ],
+   "kind": "anomaly",
+   "n": 205
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    9,
+    7
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    3,
+    20
+   ],
+   "kind": "anomaly",
+   "n": 206
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -1,
+    0
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    3,
+    20
+   ],
+   "kind": "anomaly",
+   "n": 208
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    13,
+    22
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    2,
+    20
+   ],
+   "kind": "anomaly",
+   "n": 212
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -8,
+    11
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    21,
+    48
+   ],
+   "kind": "anomaly",
+   "n": 217
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    8,
+    -5
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    13,
+    62
+   ],
+   "kind": "anomaly",
+   "n": 219
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -5,
+    -8
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    33,
+    63
+   ],
+   "kind": "anomaly",
+   "n": 226
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -11,
+    -20
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    42,
+    63
+   ],
+   "kind": "anomaly",
+   "n": 231
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    3,
+    22
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    34,
+    37
+   ],
+   "kind": "anomaly",
+   "n": 235
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    1,
+    -2
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    37,
+    34
+   ],
+   "kind": "anomaly",
+   "n": 237
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    1,
+    -2
+   ],
+   "at": [
+    37,
+    31
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 243
+  },
+  {
+   "akind": "move",
+   "action": "ACTION5",
+   "vec": [
+    -1,
+    -1
+   ],
+   "expected": [
+    36,
+    21
+   ],
+   "at": [
+    38,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 244
+  },
+  {
+   "akind": "move",
+   "action": "ACTION5",
+   "vec": [
+    -2,
+    -2
+   ],
+   "expected": [
+    36,
+    21
+   ],
+   "at": [
+    37,
+    28
+   ],
+   "kind": "anomaly",
+   "n": 245
+  },
+  {
+   "akind": "move",
+   "action": "ACTION5",
+   "vec": [
+    -1,
+    -1
+   ],
+   "at": [
+    35,
+    26
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 246
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -4,
+    -1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    48,
+    33
+   ],
+   "kind": "anomaly",
+   "n": 261
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    0,
+    -3
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    37,
+    28
+   ],
+   "kind": "anomaly",
+   "n": 267
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -10,
+    -7
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    54,
+    39
+   ],
+   "kind": "anomaly",
+   "n": 271
+  },
+  {
+   "akind": "move",
+   "action": "ACTION5",
+   "vec": [
+    -24,
+    -6
+   ],
+   "expected": [
+    36,
+    21
+   ],
+   "at": [
+    54,
+    45
+   ],
+   "kind": "anomaly",
+   "n": 273
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    11,
+    1
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    30,
+    39
+   ],
+   "kind": "anomaly",
+   "n": 274
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -2,
+    -4
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    41,
+    43
+   ],
+   "kind": "anomaly",
+   "n": 276
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    1,
+    7
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    39,
+    39
+   ],
+   "kind": "anomaly",
+   "n": 277
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    0,
+    -3
+   ],
+   "at": [
+    40,
+    55
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 281
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -37,
+    -31
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    40,
+    52
+   ],
+   "kind": "anomaly",
+   "n": 282
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    38,
+    26
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    3,
+    21
+   ],
+   "kind": "anomaly",
+   "n": 283
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    9,
+    5
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    41,
+    44
+   ],
+   "kind": "anomaly",
+   "n": 285
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    1,
+    2
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    50,
+    49
+   ],
+   "kind": "anomaly",
+   "n": 289
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    1,
+    2
+   ],
+   "at": [
+    51,
+    51
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 290
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    2,
+    1
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    52,
+    53
+   ],
+   "kind": "anomaly",
+   "n": 291
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -15,
+    -45
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    54,
+    54
+   ],
+   "kind": "anomaly",
+   "n": 292
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    5,
+    22
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    39,
+    9
+   ],
+   "kind": "anomaly",
+   "n": 295
+  },
+  {
+   "color": 12,
+   "kind": "collectible_adopted",
+   "n": 296
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -1,
+    1
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    44,
+    31
+   ],
+   "kind": "anomaly",
+   "n": 296
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -3,
+    3
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    43,
+    32
+   ],
+   "kind": "anomaly",
+   "n": 297
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    1,
+    4
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    22,
+    16
+   ],
+   "kind": "anomaly",
+   "n": 303
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    7,
+    5
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    28,
+    22
+   ],
+   "kind": "anomaly",
+   "n": 307
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    10,
+    6
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "at": [
+    35,
+    27
+   ],
+   "kind": "anomaly",
+   "n": 308
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    6,
+    5
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    56,
+    26
+   ],
+   "kind": "anomaly",
+   "n": 315
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -3,
+    0
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    62,
+    31
+   ],
+   "kind": "anomaly",
+   "n": 316
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -2,
+    -1
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    59,
+    31
+   ],
+   "kind": "anomaly",
+   "n": 317
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    23,
+    32
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    4,
+    7
+   ],
+   "kind": "anomaly",
+   "n": 481
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -17,
+    -32
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    21,
+    39
+   ],
+   "kind": "anomaly",
+   "n": 484
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    9,
+    13
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    4,
+    7
+   ],
+   "kind": "anomaly",
+   "n": 487
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    1,
+    -3
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    13,
+    20
+   ],
+   "kind": "anomaly",
+   "n": 488
+  },
+  {
+   "akind": "move",
+   "action": "ACTION5",
+   "vec": [
+    -10,
+    -10
+   ],
+   "expected": [
+    36,
+    21
+   ],
+   "at": [
+    14,
+    17
+   ],
+   "kind": "anomaly",
+   "n": 492
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    10,
+    10
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    4,
+    7
+   ],
+   "kind": "anomaly",
+   "n": 493
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -5,
+    7
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    14,
+    17
+   ],
+   "kind": "anomaly",
+   "n": 497
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    5,
+    -7
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    9,
+    24
+   ],
+   "kind": "anomaly",
+   "n": 501
+  },
+  {
+   "akind": "move",
+   "action": "ACTION5",
+   "vec": [
+    -4,
+    6
+   ],
+   "expected": [
+    36,
+    21
+   ],
+   "at": [
+    14,
+    17
+   ],
+   "kind": "anomaly",
+   "n": 505
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -2,
+    -1
+   ],
+   "at": [
+    10,
+    23
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 506
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    1,
+    2
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    2,
+    22
+   ],
+   "kind": "anomaly",
+   "n": 509
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    1,
+    0
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    1,
+    26
+   ],
+   "kind": "anomaly",
+   "n": 512
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -1,
+    -2
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    1,
+    26
+   ],
+   "kind": "anomaly",
+   "n": 514
+  },
+  {
+   "akind": "move",
+   "action": "ACTION5",
+   "vec": [
+    -10,
+    10
+   ],
+   "expected": [
+    36,
+    21
+   ],
+   "at": [
+    12,
+    15
+   ],
+   "kind": "anomaly",
+   "n": 521
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -1,
+    0
+   ],
+   "at": [
+    2,
+    25
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 522
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    2,
+    5
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    1,
+    25
+   ],
+   "kind": "anomaly",
+   "n": 523
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    1,
+    1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    3,
+    30
+   ],
+   "kind": "anomaly",
+   "n": 526
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    2,
+    2
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    4,
+    31
+   ],
+   "kind": "anomaly",
+   "n": 529
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    1,
+    1
+   ],
+   "at": [
+    6,
+    33
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 530
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -1,
+    -1
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    9,
+    36
+   ],
+   "kind": "anomaly",
+   "n": 536
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -9,
+    12
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    9,
+    36
+   ],
+   "kind": "anomaly",
+   "n": 544
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    3,
+    3
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    0,
+    48
+   ],
+   "kind": "anomaly",
+   "n": 545
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    0,
+    -10
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    0,
+    51
+   ],
+   "kind": "anomaly",
+   "n": 548
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -3,
+    -1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    6,
+    61
+   ],
+   "kind": "anomaly",
+   "n": 556
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    3,
+    0
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    3,
+    60
+   ],
+   "kind": "anomaly",
+   "n": 557
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    6,
+    12
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    0,
+    48
+   ],
+   "kind": "anomaly",
+   "n": 559
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -3,
+    -3
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    6,
+    54
+   ],
+   "kind": "anomaly",
+   "n": 565
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    3,
+    -15
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    3,
+    51
+   ],
+   "kind": "anomaly",
+   "n": 569
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -1,
+    -1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    6,
+    36
+   ],
+   "kind": "anomaly",
+   "n": 570
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -1,
+    -1
+   ],
+   "at": [
+    5,
+    35
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 571
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    23,
+    32
+   ],
+   "at": [
+    4,
+    7
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 580
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -17,
+    -32
+   ],
+   "at": [
+    21,
+    39
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 583
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    9,
+    13
+   ],
+   "at": [
+    4,
+    7
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 586
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    1,
+    -3
+   ],
+   "at": [
+    13,
+    20
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 587
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -28,
+    -31
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    42,
+    48
+   ],
+   "kind": "anomaly",
+   "n": 592
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -5,
+    7
+   ],
+   "at": [
+    14,
+    17
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 596
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    5,
+    -7
+   ],
+   "at": [
+    9,
+    24
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 600
+  },
+  {
+   "akind": "move",
+   "action": "ACTION5",
+   "vec": [
+    -4,
+    6
+   ],
+   "at": [
+    14,
+    17
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 604
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    1,
+    2
+   ],
+   "at": [
+    2,
+    22
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 608
+  },
+  {
+   "archetype": "docking",
+   "allowance": 170,
+   "kind": "archetype_overspend",
+   "n": 608
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -1,
+    -2
+   ],
+   "at": [
+    3,
+    24
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 609
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    3,
+    0
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    1,
+    22
+   ],
+   "kind": "anomaly",
+   "n": 612
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -4,
+    16
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    4,
+    22
+   ],
+   "kind": "anomaly",
+   "n": 613
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    10,
+    -19
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    0,
+    38
+   ],
+   "kind": "anomaly",
+   "n": 617
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -4,
+    -16
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    10,
+    19
+   ],
+   "kind": "anomaly",
+   "n": 621
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    4,
+    16
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    6,
+    3
+   ],
+   "kind": "anomaly",
+   "n": 625
+  },
+  {
+   "akind": "move",
+   "action": "ACTION5",
+   "vec": [
+    -7,
+    -13
+   ],
+   "expected": [
+    -1,
+    0
+   ],
+   "at": [
+    10,
+    19
+   ],
+   "kind": "anomaly",
+   "n": 629
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    7,
+    13
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    3,
+    6
+   ],
+   "kind": "anomaly",
+   "n": 634
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -10,
+    42
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    10,
+    19
+   ],
+   "kind": "anomaly",
+   "n": 639
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    2,
+    -57
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    1,
+    63
+   ],
+   "kind": "anomaly",
+   "n": 649
+  },
+  {
+   "color": 13,
+   "kind": "collectible_adopted",
+   "n": 651
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -3,
+    45
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    3,
+    6
+   ],
+   "kind": "anomaly",
+   "n": 654
+  },
+  {
+   "akind": "move",
+   "action": "ACTION5",
+   "vec": [
+    0,
+    13
+   ],
+   "expected": [
+    -1,
+    0
+   ],
+   "at": [
+    0,
+    38
+   ],
+   "kind": "anomaly",
+   "n": 658
+  },
+  {
+   "akind": "move",
+   "action": "ACTION5",
+   "vec": [
+    0,
+    -42
+   ],
+   "expected": [
+    -1,
+    0
+   ],
+   "at": [
+    0,
+    51
+   ],
+   "kind": "anomaly",
+   "n": 659
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    5,
+    2
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    0,
+    12
+   ],
+   "kind": "anomaly",
+   "n": 669
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -5,
+    -2
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    5,
+    14
+   ],
+   "kind": "anomaly",
+   "n": 670
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    3,
+    0
+   ],
+   "at": [
+    0,
+    12
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 671
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -3,
+    22
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    7,
+    19
+   ],
+   "kind": "anomaly",
+   "n": 675
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    11,
+    -14
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    1,
+    41
+   ],
+   "kind": "anomaly",
+   "n": 677
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -8,
+    11
+   ],
+   "at": [
+    9,
+    30
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 680
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -1,
+    -14
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    1,
+    41
+   ],
+   "kind": "anomaly",
+   "n": 681
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    0,
+    -9
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    0,
+    42
+   ],
+   "kind": "anomaly",
+   "n": 683
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    4,
+    -1
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    0,
+    42
+   ],
+   "kind": "anomaly",
+   "n": 689
+  },
+  {
+   "akind": "move",
+   "action": "ACTION5",
+   "vec": [
+    4,
+    -4
+   ],
+   "expected": [
+    -1,
+    0
+   ],
+   "at": [
+    4,
+    41
+   ],
+   "kind": "anomaly",
+   "n": 691
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    2,
+    -2
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    8,
+    37
+   ],
+   "kind": "anomaly",
+   "n": 692
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    5,
+    4
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    10,
+    35
+   ],
+   "kind": "anomaly",
+   "n": 696
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -13,
+    8
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    15,
+    39
+   ],
+   "kind": "anomaly",
+   "n": 697
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -1,
+    -5
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    3,
+    48
+   ],
+   "kind": "anomaly",
+   "n": 699
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -2,
+    11
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    2,
+    43
+   ],
+   "kind": "anomaly",
+   "n": 703
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    1,
+    2
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    0,
+    54
+   ],
+   "kind": "anomaly",
+   "n": 704
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -1,
+    1
+   ],
+   "at": [
+    1,
+    56
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 705
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    0,
+    -18
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    0,
+    60
+   ],
+   "kind": "anomaly",
+   "n": 707
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    0,
+    -18
+   ],
+   "at": [
+    0,
+    63
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 709
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    8,
+    2
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    0,
+    57
+   ],
+   "kind": "anomaly",
+   "n": 712
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    0,
+    2
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    8,
+    59
+   ],
+   "kind": "anomaly",
+   "n": 713
+  },
+  {
+   "akind": "move",
+   "action": "ACTION5",
+   "vec": [
+    -1,
+    1
+   ],
+   "expected": [
+    -1,
+    0
+   ],
+   "at": [
+    7,
+    62
+   ],
+   "kind": "anomaly",
+   "n": 715
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -3,
+    -15
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    6,
+    63
+   ],
+   "kind": "anomaly",
+   "n": 719
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    3,
+    15
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    3,
+    48
+   ],
+   "kind": "anomaly",
+   "n": 723
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -3,
+    -15
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    6,
+    63
+   ],
+   "kind": "anomaly",
+   "n": 727
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -6,
+    -9
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "at": [
+    6,
+    48
+   ],
+   "kind": "anomaly",
+   "n": 732
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    8,
+    11
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    0,
+    36
+   ],
+   "kind": "anomaly",
+   "n": 734
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    0,
+    -5
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    4,
+    46
+   ],
+   "kind": "anomaly",
+   "n": 739
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -2,
+    2
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    4,
+    41
+   ],
+   "kind": "anomaly",
+   "n": 740
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    4,
+    6
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    1,
+    47
+   ],
+   "kind": "anomaly",
+   "n": 742
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -4,
+    -3
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    5,
+    53
+   ],
+   "kind": "anomaly",
+   "n": 743
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    3,
+    8
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "at": [
+    1,
+    50
+   ],
+   "kind": "anomaly",
+   "n": 746
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -3,
+    -5
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "at": [
+    4,
+    58
+   ],
+   "kind": "anomaly",
+   "n": 747
+  }
+ ],
+ "gov": {
+  "goals": {
+   "spent": 0,
+   "dead": false
+  },
+  "refassembly": {
+   "spent": 0,
+   "dead": false
+  },
+  "actuators": {
+   "spent": 0,
+   "dead": false
+  },
+  "glyphs": {
+   "spent": 0,
+   "dead": false
+  },
+  "aligner": {
+   "spent": 0,
+   "dead": false
+  },
+  "multibody": {
+   "spent": 0,
+   "dead": false
+  },
+  "overlay": {
+   "spent": 41,
+   "dead": true
+  },
+  "edgemaze": {
+   "spent": 0,
+   "dead": false
+  },
+  "permuter": {
+   "spent": 0,
+   "dead": false
+  },
+  "carrier": {
+   "spent": 61,
+   "dead": true
+  },
+  "docking": {
+   "spent": 171,
+   "dead": true
+  }
+ },
+ "anomalies": [
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    18,
+    30
+   ],
+   "vec": [
+    -8,
+    -11
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 2
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    25,
+    19
+   ],
+   "vec": [
+    0,
+    19
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 8
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    25,
+    38
+   ],
+   "vec": [
+    3,
+    -22
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 9
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    37,
+    7
+   ],
+   "vec": [
+    11,
+    8
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 16
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    48,
+    15
+   ],
+   "vec": [
+    11,
+    -8
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 17
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    59,
+    7
+   ],
+   "vec": [
+    -11,
+    14
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 18
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    48,
+    30
+   ],
+   "vec": [
+    -10,
+    13
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 22
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    38,
+    43
+   ],
+   "vec": [
+    13,
+    -10
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 23
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    41,
+    49
+   ],
+   "vec": [
+    7,
+    -10
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 26
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    45,
+    33
+   ],
+   "vec": [
+    -13,
+    -10
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 30
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    26,
+    23
+   ],
+   "vec": [
+    -1,
+    -4
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 33
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    28,
+    16
+   ],
+   "vec": [
+    14,
+    11
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 36
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    45,
+    27
+   ],
+   "vec": [
+    1,
+    -2
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 38
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    46,
+    25
+   ],
+   "vec": [
+    -1,
+    2
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 39
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    45,
+    27
+   ],
+   "vec": [
+    -2,
+    1
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 40
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    41,
+    29
+   ],
+   "vec": [
+    -3,
+    0
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 42
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    38,
+    29
+   ],
+   "vec": [
+    13,
+    10
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 43
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    38,
+    23
+   ],
+   "vec": [
+    7,
+    10
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 47
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    45,
+    33
+   ],
+   "vec": [
+    -9,
+    -7
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 48
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    36,
+    26
+   ],
+   "vec": [
+    -1,
+    0
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 49
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    35,
+    26
+   ],
+   "vec": [
+    19,
+    16
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 53
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    54,
+    42
+   ],
+   "vec": [
+    -1,
+    4
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 54
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    53,
+    46
+   ],
+   "vec": [
+    0,
+    1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 55
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    53,
+    47
+   ],
+   "vec": [
+    -1,
+    2
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 56
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    51,
+    51
+   ],
+   "vec": [
+    0,
+    3
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 1,
+   "reproduced": 0,
+   "closed": true,
+   "n": 58
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    49,
+    52
+   ],
+   "vec": [
+    -2,
+    1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 63
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    44,
+    53
+   ],
+   "vec": [
+    -22,
+    -25
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 65
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    22,
+    28
+   ],
+   "vec": [
+    8,
+    11
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 66
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    24,
+    39
+   ],
+   "vec": [
+    10,
+    13
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 69
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    34,
+    52
+   ],
+   "vec": [
+    -1,
+    -1
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 71
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    33,
+    51
+   ],
+   "vec": [
+    -20,
+    -20
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 75
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    31,
+    35
+   ],
+   "vec": [
+    0,
+    14
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 77
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    31,
+    49
+   ],
+   "vec": [
+    -4,
+    -10
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 81
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    27,
+    39
+   ],
+   "vec": [
+    1,
+    -1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 82
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    28,
+    38
+   ],
+   "vec": [
+    -1,
+    1
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 83
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    28,
+    38
+   ],
+   "vec": [
+    15,
+    13
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 85
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    21,
+    27
+   ],
+   "vec": [
+    -14,
+    -11
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 101
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    4,
+    16
+   ],
+   "vec": [
+    22,
+    22
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 106
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    26,
+    38
+   ],
+   "vec": [
+    16,
+    8
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 110
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    48,
+    28
+   ],
+   "vec": [
+    0,
+    5
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 119
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    48,
+    33
+   ],
+   "vec": [
+    -14,
+    -6
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 123
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    3,
+    27
+   ],
+   "vec": [
+    -3,
+    0
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 1,
+   "reproduced": 0,
+   "closed": true,
+   "n": 148
+  },
+  {
+   "kind": "move",
+   "action": "ACTION5",
+   "pos_before": [
+    35,
+    27
+   ],
+   "vec": [
+    0,
+    -13
+   ],
+   "expected": [
+    36,
+    21
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 163
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    35,
+    14
+   ],
+   "vec": [
+    -32,
+    19
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 167
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    2,
+    37
+   ],
+   "vec": [
+    -1,
+    4
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 169
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    1,
+    41
+   ],
+   "vec": [
+    0,
+    3
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 170
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    1,
+    44
+   ],
+   "vec": [
+    14,
+    -11
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 171
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    4,
+    47
+   ],
+   "vec": [
+    8,
+    -11
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 173
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    6,
+    36
+   ],
+   "vec": [
+    29,
+    -22
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 176
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    35,
+    14
+   ],
+   "vec": [
+    -28,
+    30
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 180
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    7,
+    44
+   ],
+   "vec": [
+    -7,
+    4
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 181
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    0,
+    48
+   ],
+   "vec": [
+    5,
+    -2
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 182
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    5,
+    46
+   ],
+   "vec": [
+    -2,
+    -1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 183
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    3,
+    45
+   ],
+   "vec": [
+    -1,
+    1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 184
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    1,
+    46
+   ],
+   "vec": [
+    5,
+    2
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 186
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    6,
+    48
+   ],
+   "vec": [
+    -6,
+    -3
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 187
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    0,
+    45
+   ],
+   "vec": [
+    6,
+    3
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 188
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    0,
+    45
+   ],
+   "vec": [
+    2,
+    -1
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 194
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    3,
+    42
+   ],
+   "vec": [
+    6,
+    9
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 196
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    0,
+    21
+   ],
+   "vec": [
+    3,
+    6
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 203
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    0,
+    21
+   ],
+   "vec": [
+    3,
+    -1
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 205
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    3,
+    20
+   ],
+   "vec": [
+    9,
+    7
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 206
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    3,
+    20
+   ],
+   "vec": [
+    -1,
+    0
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 208
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    2,
+    20
+   ],
+   "vec": [
+    13,
+    22
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 212
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    21,
+    48
+   ],
+   "vec": [
+    -8,
+    11
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 217
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    13,
+    62
+   ],
+   "vec": [
+    8,
+    -5
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 219
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    33,
+    63
+   ],
+   "vec": [
+    -5,
+    -8
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 226
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    42,
+    63
+   ],
+   "vec": [
+    -11,
+    -20
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 231
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    34,
+    37
+   ],
+   "vec": [
+    3,
+    22
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 235
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    37,
+    34
+   ],
+   "vec": [
+    1,
+    -2
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 237
+  },
+  {
+   "kind": "move",
+   "action": "ACTION5",
+   "pos_before": [
+    38,
+    29
+   ],
+   "vec": [
+    -1,
+    -1
+   ],
+   "expected": [
+    36,
+    21
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 244
+  },
+  {
+   "kind": "move",
+   "action": "ACTION5",
+   "pos_before": [
+    37,
+    28
+   ],
+   "vec": [
+    -2,
+    -2
+   ],
+   "expected": [
+    36,
+    21
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 245
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    48,
+    33
+   ],
+   "vec": [
+    -4,
+    -1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 261
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    37,
+    28
+   ],
+   "vec": [
+    0,
+    -3
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 267
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    54,
+    39
+   ],
+   "vec": [
+    -10,
+    -7
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 271
+  },
+  {
+   "kind": "move",
+   "action": "ACTION5",
+   "pos_before": [
+    54,
+    45
+   ],
+   "vec": [
+    -24,
+    -6
+   ],
+   "expected": [
+    36,
+    21
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 273
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    30,
+    39
+   ],
+   "vec": [
+    11,
+    1
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 274
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    41,
+    43
+   ],
+   "vec": [
+    -2,
+    -4
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 276
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    39,
+    39
+   ],
+   "vec": [
+    1,
+    7
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 277
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    40,
+    52
+   ],
+   "vec": [
+    -37,
+    -31
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 282
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    3,
+    21
+   ],
+   "vec": [
+    38,
+    26
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 283
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    41,
+    44
+   ],
+   "vec": [
+    9,
+    5
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 285
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    50,
+    49
+   ],
+   "vec": [
+    1,
+    2
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 289
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    52,
+    53
+   ],
+   "vec": [
+    2,
+    1
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 291
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    54,
+    54
+   ],
+   "vec": [
+    -15,
+    -45
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 292
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    39,
+    9
+   ],
+   "vec": [
+    5,
+    22
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 295
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    44,
+    31
+   ],
+   "vec": [
+    -1,
+    1
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 296
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    43,
+    32
+   ],
+   "vec": [
+    -3,
+    3
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 297
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    22,
+    16
+   ],
+   "vec": [
+    1,
+    4
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 303
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    28,
+    22
+   ],
+   "vec": [
+    7,
+    5
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 307
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    35,
+    27
+   ],
+   "vec": [
+    10,
+    6
+   ],
+   "expected": [
+    3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 308
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    56,
+    26
+   ],
+   "vec": [
+    6,
+    5
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 315
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    62,
+    31
+   ],
+   "vec": [
+    -3,
+    0
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 316
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    59,
+    31
+   ],
+   "vec": [
+    -2,
+    -1
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 317
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    4,
+    7
+   ],
+   "vec": [
+    23,
+    32
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 481
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    21,
+    39
+   ],
+   "vec": [
+    -17,
+    -32
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 484
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    4,
+    7
+   ],
+   "vec": [
+    9,
+    13
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 487
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    13,
+    20
+   ],
+   "vec": [
+    1,
+    -3
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 488
+  },
+  {
+   "kind": "move",
+   "action": "ACTION5",
+   "pos_before": [
+    14,
+    17
+   ],
+   "vec": [
+    -10,
+    -10
+   ],
+   "expected": [
+    36,
+    21
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 492
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    4,
+    7
+   ],
+   "vec": [
+    10,
+    10
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 493
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    14,
+    17
+   ],
+   "vec": [
+    -5,
+    7
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 497
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    9,
+    24
+   ],
+   "vec": [
+    5,
+    -7
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 501
+  },
+  {
+   "kind": "move",
+   "action": "ACTION5",
+   "pos_before": [
+    14,
+    17
+   ],
+   "vec": [
+    -4,
+    6
+   ],
+   "expected": [
+    36,
+    21
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 505
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    2,
+    22
+   ],
+   "vec": [
+    1,
+    2
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 509
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    1,
+    26
+   ],
+   "vec": [
+    1,
+    0
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 512
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    1,
+    26
+   ],
+   "vec": [
+    -1,
+    -2
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 514
+  },
+  {
+   "kind": "move",
+   "action": "ACTION5",
+   "pos_before": [
+    12,
+    15
+   ],
+   "vec": [
+    -10,
+    10
+   ],
+   "expected": [
+    36,
+    21
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 521
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    1,
+    25
+   ],
+   "vec": [
+    2,
+    5
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 523
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    3,
+    30
+   ],
+   "vec": [
+    1,
+    1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 526
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    4,
+    31
+   ],
+   "vec": [
+    2,
+    2
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 529
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    9,
+    36
+   ],
+   "vec": [
+    -1,
+    -1
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 536
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    9,
+    36
+   ],
+   "vec": [
+    -9,
+    12
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 544
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    0,
+    48
+   ],
+   "vec": [
+    3,
+    3
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 545
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    0,
+    51
+   ],
+   "vec": [
+    0,
+    -10
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 548
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    6,
+    61
+   ],
+   "vec": [
+    -3,
+    -1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 556
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    3,
+    60
+   ],
+   "vec": [
+    3,
+    0
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 557
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    0,
+    48
+   ],
+   "vec": [
+    6,
+    12
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 559
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    6,
+    54
+   ],
+   "vec": [
+    -3,
+    -3
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 565
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    3,
+    51
+   ],
+   "vec": [
+    3,
+    -15
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 569
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    6,
+    36
+   ],
+   "vec": [
+    -1,
+    -1
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 570
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    42,
+    48
+   ],
+   "vec": [
+    -28,
+    -31
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 592
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    1,
+    22
+   ],
+   "vec": [
+    3,
+    0
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 612
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    4,
+    22
+   ],
+   "vec": [
+    -4,
+    16
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 613
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    0,
+    38
+   ],
+   "vec": [
+    10,
+    -19
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 617
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    10,
+    19
+   ],
+   "vec": [
+    -4,
+    -16
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 621
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    6,
+    3
+   ],
+   "vec": [
+    4,
+    16
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 625
+  },
+  {
+   "kind": "move",
+   "action": "ACTION5",
+   "pos_before": [
+    10,
+    19
+   ],
+   "vec": [
+    -7,
+    -13
+   ],
+   "expected": [
+    -1,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 629
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    3,
+    6
+   ],
+   "vec": [
+    7,
+    13
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 634
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    10,
+    19
+   ],
+   "vec": [
+    -10,
+    42
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 639
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    1,
+    63
+   ],
+   "vec": [
+    2,
+    -57
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 649
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    3,
+    6
+   ],
+   "vec": [
+    -3,
+    45
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 654
+  },
+  {
+   "kind": "move",
+   "action": "ACTION5",
+   "pos_before": [
+    0,
+    38
+   ],
+   "vec": [
+    0,
+    13
+   ],
+   "expected": [
+    -1,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 658
+  },
+  {
+   "kind": "move",
+   "action": "ACTION5",
+   "pos_before": [
+    0,
+    51
+   ],
+   "vec": [
+    0,
+    -42
+   ],
+   "expected": [
+    -1,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 659
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    0,
+    12
+   ],
+   "vec": [
+    5,
+    2
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 669
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    5,
+    14
+   ],
+   "vec": [
+    -5,
+    -2
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 670
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    7,
+    19
+   ],
+   "vec": [
+    -3,
+    22
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 675
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    1,
+    41
+   ],
+   "vec": [
+    11,
+    -14
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 677
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    1,
+    41
+   ],
+   "vec": [
+    -1,
+    -14
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 681
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    0,
+    42
+   ],
+   "vec": [
+    0,
+    -9
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 683
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    0,
+    42
+   ],
+   "vec": [
+    4,
+    -1
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 689
+  },
+  {
+   "kind": "move",
+   "action": "ACTION5",
+   "pos_before": [
+    4,
+    41
+   ],
+   "vec": [
+    4,
+    -4
+   ],
+   "expected": [
+    -1,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 691
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    8,
+    37
+   ],
+   "vec": [
+    2,
+    -2
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 692
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    10,
+    35
+   ],
+   "vec": [
+    5,
+    4
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 696
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    15,
+    39
+   ],
+   "vec": [
+    -13,
+    8
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 697
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    3,
+    48
+   ],
+   "vec": [
+    -1,
+    -5
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 699
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    2,
+    43
+   ],
+   "vec": [
+    -2,
+    11
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 703
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    0,
+    54
+   ],
+   "vec": [
+    1,
+    2
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 704
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    0,
+    60
+   ],
+   "vec": [
+    0,
+    -18
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 707
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    0,
+    57
+   ],
+   "vec": [
+    8,
+    2
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 712
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    8,
+    59
+   ],
+   "vec": [
+    0,
+    2
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 713
+  },
+  {
+   "kind": "move",
+   "action": "ACTION5",
+   "pos_before": [
+    7,
+    62
+   ],
+   "vec": [
+    -1,
+    1
+   ],
+   "expected": [
+    -1,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 715
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    6,
+    63
+   ],
+   "vec": [
+    -3,
+    -15
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 719
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    3,
+    48
+   ],
+   "vec": [
+    3,
+    15
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 723
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    6,
+    63
+   ],
+   "vec": [
+    -3,
+    -15
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 727
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    6,
+    48
+   ],
+   "vec": [
+    -6,
+    -9
+   ],
+   "expected": [
+    0,
+    -3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 732
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    0,
+    36
+   ],
+   "vec": [
+    8,
+    11
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 734
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    4,
+    46
+   ],
+   "vec": [
+    0,
+    -5
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 739
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    4,
+    41
+   ],
+   "vec": [
+    -2,
+    2
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 740
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    1,
+    47
+   ],
+   "vec": [
+    4,
+    6
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 742
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    5,
+    53
+   ],
+   "vec": [
+    -4,
+    -3
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 743
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    1,
+    50
+   ],
+   "vec": [
+    3,
+    8
+   ],
+   "expected": [
+    0,
+    3
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 746
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    4,
+    58
+   ],
+   "vec": [
+    -3,
+    -5
+   ],
+   "expected": [
+    -3,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 747
+  }
+ ],
+ "tail": [
+  {
+   "n": 708,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    0,
+    63
+   ],
+   "seek": null,
+   "plan": 29
+  },
+  {
+   "n": 709,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    0,
+    45
+   ],
+   "seek": null,
+   "plan": 28
+  },
+  {
+   "n": 710,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    0,
+    57
+   ],
+   "seek": null,
+   "plan": 27
+  },
+  {
+   "n": 711,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    0,
+    57
+   ],
+   "seek": null,
+   "plan": 26
+  },
+  {
+   "n": 712,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    8,
+    59
+   ],
+   "seek": null,
+   "plan": 25
+  },
+  {
+   "n": 713,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    8,
+    61
+   ],
+   "seek": null,
+   "plan": 24
+  },
+  {
+   "n": 714,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    7,
+    62
+   ],
+   "seek": null,
+   "plan": 23
+  },
+  {
+   "n": 715,
+   "a": "ACTION5",
+   "lv": 1,
+   "pos": [
+    6,
+    63
+   ],
+   "seek": null,
+   "plan": 22
+  },
+  {
+   "n": 716,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    6,
+    63
+   ],
+   "seek": null,
+   "plan": 21
+  },
+  {
+   "n": 717,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    6,
+    63
+   ],
+   "seek": null,
+   "plan": 20
+  },
+  {
+   "n": 718,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    6,
+    63
+   ],
+   "seek": null,
+   "plan": 19
+  },
+  {
+   "n": 719,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    3,
+    48
+   ],
+   "seek": null,
+   "plan": 18
+  },
+  {
+   "n": 720,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    3,
+    48
+   ],
+   "seek": null,
+   "plan": 17
+  },
+  {
+   "n": 721,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    3,
+    48
+   ],
+   "seek": null,
+   "plan": 16
+  },
+  {
+   "n": 722,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    3,
+    48
+   ],
+   "seek": null,
+   "plan": 15
+  },
+  {
+   "n": 723,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    6,
+    63
+   ],
+   "seek": null,
+   "plan": 14
+  },
+  {
+   "n": 724,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    6,
+    63
+   ],
+   "seek": null,
+   "plan": 13
+  },
+  {
+   "n": 725,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    6,
+    63
+   ],
+   "seek": null,
+   "plan": 12
+  },
+  {
+   "n": 726,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    6,
+    63
+   ],
+   "seek": null,
+   "plan": 11
+  },
+  {
+   "n": 727,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    3,
+    48
+   ],
+   "seek": null,
+   "plan": 10
+  },
+  {
+   "n": 728,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    3,
+    48
+   ],
+   "seek": null,
+   "plan": 9
+  },
+  {
+   "n": 729,
+   "a": "ACTION5",
+   "lv": 1,
+   "pos": [
+    3,
+    48
+   ],
+   "seek": null,
+   "plan": 8
+  },
+  {
+   "n": 730,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    3,
+    48
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 731,
+   "a": "ACTION3",
+   "lv": 1,
+   "pos": [
+    6,
+    48
+   ],
+   "seek": null,
+   "plan": 53
+  },
+  {
+   "n": 732,
+   "a": "ACTION3",
+   "lv": 1,
+   "pos": [
+    0,
+    39
+   ],
+   "seek": null,
+   "plan": 52
+  },
+  {
+   "n": 733,
+   "a": "ACTION3",
+   "lv": 1,
+   "pos": [
+    0,
+    36
+   ],
+   "seek": null,
+   "plan": 51
+  },
+  {
+   "n": 734,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    8,
+    47
+   ],
+   "seek": null,
+   "plan": 50
+  },
+  {
+   "n": 735,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    8,
+    47
+   ],
+   "seek": null,
+   "plan": 49
+  },
+  {
+   "n": 736,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    8,
+    47
+   ],
+   "seek": null,
+   "plan": 48
+  },
+  {
+   "n": 737,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    5,
+    47
+   ],
+   "seek": null,
+   "plan": 47
+  },
+  {
+   "n": 738,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    4,
+    46
+   ],
+   "seek": null,
+   "plan": 46
+  },
+  {
+   "n": 739,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    4,
+    41
+   ],
+   "seek": null,
+   "plan": 45
+  },
+  {
+   "n": 740,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    2,
+    43
+   ],
+   "seek": null,
+   "plan": 44
+  },
+  {
+   "n": 741,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    1,
+    47
+   ],
+   "seek": null,
+   "plan": 43
+  },
+  {
+   "n": 742,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    5,
+    53
+   ],
+   "seek": null,
+   "plan": 42
+  },
+  {
+   "n": 743,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    1,
+    50
+   ],
+   "seek": null,
+   "plan": 41
+  },
+  {
+   "n": 744,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    1,
+    50
+   ],
+   "seek": null,
+   "plan": 40
+  },
+  {
+   "n": 745,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    1,
+    50
+   ],
+   "seek": null,
+   "plan": 39
+  },
+  {
+   "n": 746,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    4,
+    58
+   ],
+   "seek": null,
+   "plan": 38
+  },
+  {
+   "n": 747,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    1,
+    53
+   ],
+   "seek": null,
+   "plan": 37
+  }
+ ],
+ "unresolved": {}
+}

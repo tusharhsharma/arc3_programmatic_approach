@@ -1,0 +1,121 @@
+{
+ "game": "m0r0",
+ "levels": 1,
+ "per_level": {
+  "1": 49
+ },
+ "score": {
+  "entities": 1.0,
+  "rules": 0.5,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [],
+  "missed_rules": [
+   "ACTION1:nothing:None",
+   "ACTION1:merge:dot10",
+   "ACTION5:nothing:None",
+   "ACTION6:nothing:None"
+  ],
+  "reported_goal": null,
+  "truth_goal": "merge(dot10->dot10)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     10
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     10
+    ]
+   },
+   {
+    "role": "wall",
+    "colors": [
+     11
+    ]
+   },
+   {
+    "role": "wall",
+    "colors": [
+     12
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     0
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     10
+    ],
+    "by": [
+     -5,
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     10
+    ],
+    "by": [
+     5,
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     10
+    ],
+    "by": [
+     0,
+     -5
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     10
+    ],
+    "by": [
+     0,
+     5
+    ],
+    "when": "always"
+   }
+  ],
+  "goal": null
+ },
+ "secs": 2.6,
+ "error": null
+}

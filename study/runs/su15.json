@@ -1,0 +1,1027 @@
+{
+ "game": "su15",
+ "levels": 1,
+ "win_levels": 9,
+ "baseline": [
+  22,
+  42,
+  26,
+  115,
+  36,
+  31,
+  8,
+  40,
+  41
+ ],
+ "per_level": {
+  "1": 10
+ },
+ "actions": 800,
+ "secs": 18.1,
+ "error": null,
+ "deaths": [],
+ "action_use": {
+  "ACTION7": 613,
+  "ACTION6": 171,
+  "RESET": 16
+ },
+ "final": {
+  "motions": {
+   "ACTION7": [
+    -2,
+    -2
+   ]
+  },
+  "slides": [],
+  "shape_ops": {},
+  "inert": [],
+  "walls": [
+   5
+  ],
+  "collect": [
+   6
+  ],
+  "lethal": [],
+  "laws": [],
+  "click_laws": {},
+  "pushable": [],
+  "avatar_color": 10,
+  "avatar_size": 1,
+  "goal_refuted": [],
+  "timer": true,
+  "playfield": [
+   0,
+   64,
+   0,
+   64
+  ]
+ },
+ "level_marks": [
+  {
+   "level": 1,
+   "n": 9,
+   "beliefs": {
+    "motions": {},
+    "slides": [],
+    "shape_ops": {},
+    "inert": [],
+    "walls": [],
+    "collect": [],
+    "lethal": [],
+    "laws": [],
+    "click_laws": {},
+    "pushable": [],
+    "avatar_color": null,
+    "avatar_size": null,
+    "goal_refuted": [],
+    "timer": true,
+    "playfield": [
+     10,
+     63,
+     0,
+     64
+    ]
+   }
+  }
+ ],
+ "hlog": [
+  {
+   "candidates": [
+    "align(M=15/9@(59.0, 4.0) -> HUD twin -> ring C9[59@(11, 44, 19, 52)])",
+    "cover(M=3/9@(15.0, 48.0) -> own-colour constellation C3[20@(17, 6, 57, 46)])"
+   ],
+   "kind": "goal_hypotheses",
+   "n": 0
+  },
+  {
+   "gkind": "align",
+   "mover": 15,
+   "note": "HUD twin -> ring C9[59@(11, 44, 19, 52)]",
+   "kind": "goal_adopted",
+   "n": 0
+  },
+  {
+   "gkind": "align",
+   "mover": 15,
+   "note": "HUD twin -> ring C9[59@(11, 44, 19, 52)]",
+   "spent": 10,
+   "kind": "goal_confirmed",
+   "n": 9
+  },
+  {
+   "old": [
+    10,
+    63,
+    0,
+    64
+   ],
+   "body_at": [
+    1,
+    5
+   ],
+   "kind": "playfield_refuted",
+   "n": 3
+  },
+  {
+   "chosen": 10,
+   "alternatives": [
+    6,
+    15
+   ],
+   "kind": "goal_choice",
+   "n": 6
+  },
+  {
+   "akind": "move",
+   "action": "ACTION7",
+   "vec": [
+    0,
+    -23
+   ],
+   "expected": [
+    -3,
+    -19
+   ],
+   "at": [
+    37,
+    41
+   ],
+   "kind": "anomaly",
+   "n": 20
+  },
+  {
+   "color": 10,
+   "reason": "unreachable_now",
+   "kind": "goal_deferred",
+   "n": 20
+  },
+  {
+   "akind": "move",
+   "action": "ACTION7",
+   "vec": [
+    5,
+    0
+   ],
+   "expected": [
+    -3,
+    -19
+   ],
+   "at": [
+    32,
+    18
+   ],
+   "kind": "anomaly",
+   "n": 159
+  },
+  {
+   "akind": "move",
+   "action": "ACTION7",
+   "vec": [
+    0,
+    -8
+   ],
+   "expected": [
+    -3,
+    -19
+   ],
+   "at": [
+    37,
+    49
+   ],
+   "kind": "anomaly",
+   "n": 195
+  },
+  {
+   "akind": "move",
+   "action": "ACTION7",
+   "vec": [
+    6,
+    -22
+   ],
+   "expected": [
+    -3,
+    -19
+   ],
+   "at": [
+    31,
+    40
+   ],
+   "kind": "anomaly",
+   "n": 225
+  },
+  {
+   "chosen": 15,
+   "alternatives": [
+    0
+   ],
+   "kind": "goal_choice",
+   "n": 261
+  },
+  {
+   "color": 15,
+   "reason": "unreachable_now",
+   "kind": "goal_deferred",
+   "n": 261
+  },
+  {
+   "akind": "move",
+   "action": "ACTION7",
+   "vec": [
+    54,
+    9
+   ],
+   "expected": [
+    -2,
+    -2
+   ],
+   "at": [
+    1,
+    5
+   ],
+   "kind": "anomaly",
+   "n": 285
+  },
+  {
+   "color": 6,
+   "kind": "collectible_adopted",
+   "n": 286
+  },
+  {
+   "akind": "move",
+   "action": "ACTION7",
+   "vec": [
+    -18,
+    27
+   ],
+   "expected": [
+    -2,
+    -2
+   ],
+   "at": [
+    55,
+    14
+   ],
+   "kind": "anomaly",
+   "n": 287
+  },
+  {
+   "akind": "move",
+   "action": "ACTION7",
+   "vec": [
+    3,
+    5
+   ],
+   "expected": [
+    -2,
+    -2
+   ],
+   "at": [
+    37,
+    32
+   ],
+   "kind": "anomaly",
+   "n": 422
+  },
+  {
+   "akind": "move",
+   "action": "ACTION7",
+   "vec": [
+    -17,
+    10
+   ],
+   "expected": [
+    -2,
+    -2
+   ],
+   "at": [
+    54,
+    8
+   ],
+   "kind": "anomaly",
+   "n": 434
+  },
+  {
+   "akind": "move",
+   "action": "ACTION7",
+   "vec": [
+    3,
+    19
+   ],
+   "expected": [
+    -2,
+    -2
+   ],
+   "at": [
+    37,
+    18
+   ],
+   "kind": "anomaly",
+   "n": 464
+  },
+  {
+   "akind": "move",
+   "action": "ACTION7",
+   "vec": [
+    1,
+    1
+   ],
+   "expected": [
+    -2,
+    -2
+   ],
+   "at": [
+    55,
+    46
+   ],
+   "kind": "anomaly",
+   "n": 512
+  }
+ ],
+ "gov": {
+  "goals": {
+   "spent": 0,
+   "dead": false
+  },
+  "refassembly": {
+   "spent": 0,
+   "dead": false
+  },
+  "actuators": {
+   "spent": 0,
+   "dead": false
+  },
+  "glyphs": {
+   "spent": 0,
+   "dead": false
+  },
+  "multibody": {
+   "spent": 0,
+   "dead": false
+  },
+  "overlay": {
+   "spent": 0,
+   "dead": false
+  },
+  "edgemaze": {
+   "spent": 0,
+   "dead": false
+  },
+  "permuter": {
+   "spent": 0,
+   "dead": false
+  },
+  "pegs": {
+   "spent": 0,
+   "dead": false
+  },
+  "aligner": {
+   "spent": 0,
+   "dead": false
+  }
+ },
+ "anomalies": [
+  {
+   "kind": "move",
+   "action": "ACTION7",
+   "pos_before": [
+    37,
+    41
+   ],
+   "vec": [
+    0,
+    -23
+   ],
+   "expected": [
+    -3,
+    -19
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 20
+  },
+  {
+   "kind": "move",
+   "action": "ACTION7",
+   "pos_before": [
+    32,
+    18
+   ],
+   "vec": [
+    5,
+    0
+   ],
+   "expected": [
+    -3,
+    -19
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 159
+  },
+  {
+   "kind": "move",
+   "action": "ACTION7",
+   "pos_before": [
+    37,
+    49
+   ],
+   "vec": [
+    0,
+    -8
+   ],
+   "expected": [
+    -3,
+    -19
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 195
+  },
+  {
+   "kind": "move",
+   "action": "ACTION7",
+   "pos_before": [
+    31,
+    40
+   ],
+   "vec": [
+    6,
+    -22
+   ],
+   "expected": [
+    -3,
+    -19
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 225
+  },
+  {
+   "kind": "move",
+   "action": "ACTION7",
+   "pos_before": [
+    1,
+    5
+   ],
+   "vec": [
+    54,
+    9
+   ],
+   "expected": [
+    -2,
+    -2
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 285
+  },
+  {
+   "kind": "move",
+   "action": "ACTION7",
+   "pos_before": [
+    55,
+    14
+   ],
+   "vec": [
+    -18,
+    27
+   ],
+   "expected": [
+    -2,
+    -2
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 287
+  },
+  {
+   "kind": "move",
+   "action": "ACTION7",
+   "pos_before": [
+    37,
+    32
+   ],
+   "vec": [
+    3,
+    5
+   ],
+   "expected": [
+    -2,
+    -2
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 422
+  },
+  {
+   "kind": "move",
+   "action": "ACTION7",
+   "pos_before": [
+    54,
+    8
+   ],
+   "vec": [
+    -17,
+    10
+   ],
+   "expected": [
+    -2,
+    -2
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 434
+  },
+  {
+   "kind": "move",
+   "action": "ACTION7",
+   "pos_before": [
+    37,
+    18
+   ],
+   "vec": [
+    3,
+    19
+   ],
+   "expected": [
+    -2,
+    -2
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 464
+  },
+  {
+   "kind": "move",
+   "action": "ACTION7",
+   "pos_before": [
+    55,
+    46
+   ],
+   "vec": [
+    1,
+    1
+   ],
+   "expected": [
+    -2,
+    -2
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 512
+  }
+ ],
+ "tail": [
+  {
+   "n": 735,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 736,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 737,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 738,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 739,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 740,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 741,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 742,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 743,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 744,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 745,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 746,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 747,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 748,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 749,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 750,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 751,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 752,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 753,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 754,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 755,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 756,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 757,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 758,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 759,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 760,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 761,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 762,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 763,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 764,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 765,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 766,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 767,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 768,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 769,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 770,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 771,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 772,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 773,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 774,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": [
+    56,
+    47
+   ],
+   "seek": null,
+   "plan": 0
+  }
+ ],
+ "unresolved": {}
+}

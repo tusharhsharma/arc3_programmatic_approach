@@ -1,0 +1,330 @@
+{
+  "game_id": "sk48-d8078629",
+  "title": "SK48",
+  "tags": [
+    "keyboard_click"
+  ],
+  "baseline_actions": [
+    61,
+    177,
+    101,
+    103,
+    230,
+    181,
+    125,
+    92
+  ],
+  "win_levels": 8,
+  "available_actions": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+  ],
+  "raw_subframes": 1,
+  "bg_color": 5,
+  "cell_size": 1,
+  "logical_shape": [
+    64,
+    64
+  ],
+  "colors_present": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    14
+  ],
+  "n_objects": 45,
+  "object_summary": [
+    [
+      [
+        2,
+        1
+      ],
+      12
+    ],
+    [
+      [
+        1,
+        1
+      ],
+      8
+    ],
+    [
+      [
+        2,
+        4
+      ],
+      4
+    ],
+    [
+      [
+        3,
+        8
+      ],
+      3
+    ],
+    [
+      [
+        8,
+        16
+      ],
+      2
+    ],
+    [
+      [
+        9,
+        16
+      ],
+      2
+    ],
+    [
+      [
+        14,
+        16
+      ],
+      2
+    ],
+    [
+      [
+        6,
+        18
+      ],
+      2
+    ],
+    [
+      [
+        0,
+        12
+      ],
+      2
+    ],
+    [
+      [
+        6,
+        4
+      ],
+      2
+    ],
+    [
+      [
+        1,
+        4
+      ],
+      2
+    ],
+    [
+      [
+        4,
+        840
+      ],
+      1
+    ]
+  ],
+  "action_effects": {
+    "ACTION1": {
+      "changed_cells": 96,
+      "moved": [
+        [
+          3,
+          4,
+          [
+            -6,
+            0
+          ]
+        ],
+        [
+          6,
+          18,
+          [
+            -6,
+            0
+          ]
+        ],
+        [
+          0,
+          12,
+          [
+            -6,
+            0
+          ]
+        ],
+        [
+          6,
+          4,
+          [
+            -6,
+            0
+          ]
+        ],
+        [
+          1,
+          1,
+          [
+            -6,
+            0
+          ]
+        ],
+        [
+          2,
+          1,
+          [
+            -6,
+            0
+          ]
+        ]
+      ],
+      "appeared": 2,
+      "vanished": 1,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION2": {
+      "changed_cells": 96,
+      "moved": [
+        [
+          2,
+          4,
+          [
+            -6,
+            0
+          ]
+        ],
+        [
+          3,
+          4,
+          [
+            -2,
+            0
+          ]
+        ],
+        [
+          6,
+          18,
+          [
+            6,
+            0
+          ]
+        ],
+        [
+          0,
+          12,
+          [
+            6,
+            0
+          ]
+        ],
+        [
+          6,
+          4,
+          [
+            6,
+            0
+          ]
+        ],
+        [
+          1,
+          1,
+          [
+            6,
+            0
+          ]
+        ]
+      ],
+      "appeared": 2,
+      "vanished": 1,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION3": {
+      "changed_cells": 12,
+      "moved": [],
+      "appeared": 1,
+      "vanished": 3,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION4": {
+      "changed_cells": 13,
+      "moved": [
+        [
+          2,
+          1,
+          [
+            -1,
+            1
+          ]
+        ],
+        [
+          2,
+          1,
+          [
+            -20,
+            -6
+          ]
+        ],
+        [
+          2,
+          1,
+          [
+            -20,
+            -9
+          ]
+        ],
+        [
+          2,
+          1,
+          [
+            -19,
+            -13
+          ]
+        ],
+        [
+          2,
+          1,
+          [
+            -20,
+            -9
+          ]
+        ],
+        [
+          2,
+          1,
+          [
+            0,
+            -12
+          ]
+        ]
+      ],
+      "appeared": 9,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION6": {
+      "changed_cells": 0,
+      "moved": [],
+      "appeared": 0,
+      "vanished": 0,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION7": {
+      "changed_cells": 12,
+      "moved": [],
+      "appeared": 1,
+      "vanished": 3,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    }
+  },
+  "png": "survey/sk48.png"
+}

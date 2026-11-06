@@ -1,0 +1,41 @@
+{
+  "game": "lf52",
+  "level": 1,
+  "actions": ["ACTION1", "ACTION2", "ACTION3", "ACTION4", "ACTION6", "ACTION7"],
+  "entities": [
+    {"id": "peg14", "role": "controlled", "colors": [14], "count": 5, "size": [12, 12],
+     "note": "green diamonds (4x4 minus the corners) on floor cells, moved by clicks: rows 18-21 at cols 17-20, 23-26 and 35-38 (board cells (1,2),(2,2),(4,2)), rows 24-27 cols 41-44 (cell (5,3)) and rows 36-39 cols 41-44 (cell (5,5)); a peg jumps 2 cells (12 px) over a neighbour"},
+    {"id": "floor1", "role": "floor", "colors": [1, 0], "count": 33, "size": [16, 16],
+     "note": "4x4 colour-1 squares on a 6-px pitch separated by black(0) gutters: a T-shaped board of 7x3 cells (rows 11-28, cols 10-52; cell (gx,gy) at rows 6+6gy..9+6gy, cols 11+6gx..14+6gx) plus a 3-wide stem of 4 more rows (rows 29-52, cols 34-52, cells gx 4-6); pegs may only land on empty floor cells"},
+    {"id": "frame5", "role": "decor", "colors": [5, 9], "count": 1, "size": [250, 260],
+     "note": "1-px colour-5 border around the board with a colour-9 drop shadow one pixel right and below; not interactive"},
+    {"id": "bg10", "role": "decor", "colors": [10], "count": 1, "size": [2500, 2600],
+     "note": "colour-10 background outside the board (rows 1-63); clicking it only deselects and plays a hint pointer"},
+    {"id": "ring3", "role": "hud", "colors": [3], "count": 0, "size": [20, 20],
+     "note": "none at start; a 6x6 hollow colour-3 ring drawn around the currently selected peg's cell"},
+    {"id": "arrow2", "role": "button", "colors": [2], "count": 0, "size": [8, 8],
+     "note": "none at start; after a peg is selected, a small 4-px colour-2 diamond outline is drawn on every floor cell exactly 2 cells away (up/down/left/right) whose intermediate cell holds a peg and which is itself empty; clicking one performs the jump"},
+    {"id": "actionbar", "role": "budget", "colors": [0, 1], "count": 1, "size": [64, 64],
+     "note": "row 0: black at start, fills with colour 1 from the LEFT one pixel per action (clicks, arrows and undos all advance the visible bar); the hidden budget is 64 actions, undo gives them back"}
+  ],
+  "rules": [
+    {"action": "ACTION6", "when": "click_on(peg14)", "effect": "select", "of": "peg14",
+     "note": "the clicked peg becomes the selected one (colour-3 ring appears around it); costs 1"},
+    {"action": "ACTION6", "when": "click_on(peg14)", "effect": "appear", "of": "arrow2",
+     "note": "colour-2 markers appear on each legal landing cell two cells away over an adjacent peg; a peg with no legal jump only wiggles"},
+    {"action": "ACTION6", "when": "click_on(arrow2)", "effect": "translate", "of": "peg14", "by": 12,
+     "note": "the selected peg jumps two cells (12 px) to the clicked marker; ring and markers are cleared; costs 1"},
+    {"action": "ACTION6", "when": "click_on(arrow2)", "effect": "vanish", "of": "peg14",
+     "note": "the peg that was jumped over is removed (capture); landing on cells (0,2), (2,2) or (5,1) puts the board in a 'stuck' state (pegs greyed, a restart tab appears bottom-left) that must be cleared by clicking the bottom-left 16x16 corner"},
+    {"action": "ACTION6", "when": "always", "effect": "nothing",
+     "note": "clicking empty floor, the frame or the background clears the selection and its markers (in L1 it also plays a pointing-hand hint); costs 1"},
+    {"action": "ACTION1", "when": "always", "effect": "nothing",
+     "note": "the arrows move sliding rail tiles, and L1 has none, so ACTION1/2/3/4 change nothing but each costs 1"},
+    {"action": "ACTION7", "when": "previous_action", "effect": "teleport", "of": "peg14",
+     "note": "undo: restores the board (pegs, selection, markers) to before the previous action AND refunds that action's budget; the visible row-0 bar still advances"}
+  ],
+  "goal": {"kind": "count", "mover": "peg14", "target": null, "all": false,
+           "note": "peg solitaire: capture until exactly ONE green peg remains (5 pegs -> 4 capturing jumps, each a select click plus a marker click = 8 clicks); the level ends on the jump that leaves one peg"},
+  "budget": {"entity": "actionbar", "kind": "steps", "n": 64, "on_zero": "lose"},
+  "hazards": []
+}

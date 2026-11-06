@@ -1,0 +1,116 @@
+{
+ "game": "sp80",
+ "levels": 1,
+ "per_level": {
+  "1": 10
+ },
+ "score": {
+  "entities": 0.4,
+  "rules": 0.36,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "mover:drop6",
+   "socket:cup11",
+   "hazard:floor1"
+  ],
+  "missed_rules": [
+   "ACTION1:nothing:None",
+   "ACTION2:nothing:None",
+   "ACTION5:slide:drop6",
+   "ACTION5:recolour:cup11",
+   "ACTION5:recolour:floor1",
+   "ACTION6:select:bar9",
+   "ACTION6:nothing:None"
+  ],
+  "reported_goal": null,
+  "truth_goal": "inside(drop6->cup11)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     12
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     14
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     0
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "by": [
+     -4,
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "by": [
+     4,
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "by": [
+     0,
+     -4
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "by": [
+     0,
+     4
+    ],
+    "when": "always"
+   }
+  ],
+  "goal": null
+ },
+ "secs": 0.2,
+ "error": null
+}

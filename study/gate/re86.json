@@ -1,0 +1,213 @@
+{
+ "game": "re86",
+ "levels": 1,
+ "per_level": {
+  "1": 40
+ },
+ "score": {
+  "entities": 0.8,
+  "rules": 0.67,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "marker:dot9"
+  ],
+  "missed_rules": [
+   "ACTION1:nothing:None",
+   "ACTION5:select:cross11"
+  ],
+  "reported_goal": {
+   "kind": "cover",
+   "mover": [
+    11
+   ],
+   "target": [
+    11
+   ]
+  },
+  "truth_goal": "cover(cross9->dot9)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     11
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     11
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     11
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "by": [
+     -3,
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "by": [
+     3,
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "by": [
+     0,
+     -3
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "by": [
+     0,
+     3
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION5",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "by": [
+     36,
+     21
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     4
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   }
+  ],
+  "goal": {
+   "kind": "cover",
+   "mover": [
+    11
+   ],
+   "target": [
+    11
+   ]
+  }
+ },
+ "secs": 0.8,
+ "error": null
+}

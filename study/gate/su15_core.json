@@ -1,0 +1,115 @@
+{
+ "game": "su15",
+ "levels": 1,
+ "per_level": {
+  "1": 14
+ },
+ "score": {
+  "entities": 0.75,
+  "rules": 0.67,
+  "goal": true,
+  "pass": false,
+  "missed_entities": [
+   "hud:hud4"
+  ],
+  "missed_rules": [
+   "ACTION7:teleport:blob15"
+  ],
+  "reported_goal": {
+   "kind": "inside",
+   "mover": [
+    15
+   ],
+   "target": [
+    9
+   ]
+  },
+  "truth_goal": "inside(blob15->disc9)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "floor",
+    "colors": [
+     3
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "controlled",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "socket",
+    "colors": [
+     9
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION6",
+    "effect": "teleport",
+    "of": [
+     15
+    ],
+    "when": "click_near"
+   },
+   {
+    "action": "ACTION7",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   }
+  ],
+  "goal": {
+   "kind": "inside",
+   "mover": [
+    15
+   ],
+   "target": [
+    9
+   ]
+  }
+ },
+ "secs": 0.4,
+ "error": null,
+ "how": "plan:8/9"
+}

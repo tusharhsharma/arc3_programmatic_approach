@@ -1,0 +1,39 @@
+{
+  "game": "r11l",
+  "level": 1,
+  "actions": ["ACTION6"],
+  "entities": [
+    {"id": "handle15", "role": "controlled", "colors": [0, 15], "count": 1, "size": [13, 13],
+     "note": "the SELECTED plus sign: a fat 5x5 plus (13 px) with BLACK(0) arms and a colour-15 centre at rows 34-38, cols 5-9 (centre (36,7)); a click on empty ground teleports it so its centre is under the click"},
+    {"id": "handle15b", "role": "selector", "colors": [3, 15], "count": 1, "size": [13, 13],
+     "note": "the other plus sign, same shape with GREY(3) arms and a colour-15 centre, at rows 57-61, cols 25-29 (centre (59,27)); clicking inside its 5x5 box makes it the selected one (arms turn 0, the other's turn 3)"},
+    {"id": "disc15", "role": "mover", "colors": [15, 6], "count": 1, "size": [20, 21],
+     "note": "5x5 rounded colour-15 disc (20 px) with a single colour-6 centre pixel, at rows 45-49, cols 15-19; it is never clicked: it always sits at the integer midpoint of the two handle centres and jumps there after every handle move"},
+    {"id": "diamond15", "role": "marker", "colors": [15], "count": 1, "size": [12, 12],
+     "note": "hollow 7x7 colour-15 diamond outline (12 px, apexes open) at rows 18-24, cols 36-42; the whole 7x7 area counts as the target: the disc must overlap it"},
+    {"id": "line1", "role": "decor", "colors": [1], "count": 2, "size": [7, 12],
+     "note": "thin colour-1 lines joining each handle centre to the disc, redrawn after every move; they only reveal the handle->disc dependency"},
+    {"id": "wall2", "role": "wall", "colors": [2], "count": 1, "size": [630, 640],
+     "note": "colour-2 (red) wall: the band across the top (rows 0-17, thickest at the top-right corner cols 52-63), a block at the lower right (rows 48-61, cols 40-63) and slivers at the lower left; handles can NOT be placed on it (the click is refused), the disc may cross it"},
+    {"id": "floor5", "role": "floor", "colors": [5], "count": 1, "size": [3300, 3320],
+     "note": "grey(5) background: anywhere a handle's 5x5 box does not touch the wall is a legal drop point"},
+    {"id": "stepbar0", "role": "budget", "colors": [0, 5], "count": 1, "size": [64, 64],
+     "note": "COLUMN 0: black(0) from the bottom = remaining actions (64 px = 60), grey(5) eats in from the TOP about 1 px per click; every click of any kind costs 1"}
+  ],
+  "rules": [
+    {"action": "ACTION6", "when": "always", "effect": "teleport", "of": "handle15",
+     "note": "a click on ground moves the selected plus sign instantly so its centre is at the click point (top-left = click-2); costs 1 step"},
+    {"action": "ACTION6", "when": "always", "effect": "teleport", "of": "disc15",
+     "note": "after every handle move the disc jumps to the midpoint of the two handle centres, i.e. it moves half as far as the handle, in the same direction"},
+    {"action": "ACTION6", "when": "click_on(handle15b)", "effect": "select", "of": "handle15b",
+     "note": "a click inside the 5x5 box of the non-selected plus sign selects it: its arms turn black(0), the previously selected handle's arms turn grey(3); nothing moves; costs 1 step"},
+    {"action": "ACTION6", "when": "blocked_by(wall2)", "effect": "nothing",
+     "note": "if the selected handle's 5x5 pixels would overlap the red wall at the click point nothing moves; the step is still spent"},
+    {"action": "ACTION6", "when": "always", "effect": "nothing",
+     "note": "every click (move, select, refused move, click on the already selected handle) costs one unit of the column-0 bar"}
+  ],
+  "goal": {"kind": "inside", "mover": "disc15", "target": "diamond15", "all": true,
+           "note": "the colour-15 disc must overlap the colour-15 diamond (engine: any pixel overlap with the 7x7 diamond area, so the disc centre roughly in rows 16-26, cols 34-44); because the disc sits at the midpoint of the two handles and the wall keeps one handle from reaching far enough, BOTH handles must be moved (move A, click B to select it, move B): minimum 3 clicks"},
+  "budget": {"entity": "stepbar0", "kind": "steps", "n": 60, "on_zero": "lose"},
+  "hazards": []
+}

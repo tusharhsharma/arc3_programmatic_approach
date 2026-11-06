@@ -1,0 +1,490 @@
+{
+ "game": "m0r0",
+ "levels": 1,
+ "win_levels": 6,
+ "baseline": [
+  30,
+  111,
+  203,
+  26,
+  500,
+  237
+ ],
+ "per_level": {
+  "1": 50
+ },
+ "actions": 800,
+ "secs": 39.2,
+ "error": null,
+ "deaths": [
+  150,
+  300,
+  450,
+  600
+ ],
+ "action_use": {
+  "ACTION1": 19,
+  "ACTION2": 2,
+  "ACTION3": 4,
+  "ACTION4": 9,
+  "ACTION5": 13,
+  "ACTION6": 749
+ },
+ "final": {
+  "motions": {
+   "ACTION1": [
+    -5,
+    0
+   ],
+   "ACTION2": [
+    5,
+    0
+   ],
+   "ACTION3": [
+    0,
+    -5
+   ],
+   "ACTION4": [
+    0,
+    5
+   ]
+  },
+  "slides": [],
+  "shape_ops": {},
+  "inert": [],
+  "walls": [
+   11,
+   12
+  ],
+  "collect": [],
+  "lethal": [],
+  "laws": [],
+  "click_laws": {},
+  "pushable": [],
+  "avatar_color": 10,
+  "avatar_size": 50,
+  "goal_refuted": [],
+  "timer": true,
+  "playfield": [
+   0,
+   64,
+   0,
+   64
+  ]
+ },
+ "level_marks": [
+  {
+   "level": 1,
+   "n": 49,
+   "beliefs": {
+    "motions": {
+     "ACTION1": [
+      -5,
+      0
+     ],
+     "ACTION2": [
+      5,
+      0
+     ],
+     "ACTION3": [
+      0,
+      -5
+     ],
+     "ACTION4": [
+      0,
+      5
+     ]
+    },
+    "slides": [],
+    "shape_ops": {},
+    "inert": [
+     "ACTION5"
+    ],
+    "walls": [
+     11,
+     12
+    ],
+    "collect": [],
+    "lethal": [],
+    "laws": [],
+    "click_laws": {},
+    "pushable": [],
+    "avatar_color": 10,
+    "avatar_size": 50,
+    "goal_refuted": [],
+    "timer": true,
+    "playfield": [
+     0,
+     64,
+     0,
+     64
+    ]
+   }
+  }
+ ],
+ "hlog": [],
+ "gov": {
+  "refassembly": {
+   "spent": 0,
+   "dead": false
+  },
+  "actuators": {
+   "spent": 0,
+   "dead": false
+  },
+  "glyphs": {
+   "spent": 0,
+   "dead": false
+  },
+  "aligner": {
+   "spent": 0,
+   "dead": false
+  },
+  "multibody": {
+   "spent": 0,
+   "dead": false
+  },
+  "overlay": {
+   "spent": 0,
+   "dead": false
+  },
+  "edgemaze": {
+   "spent": 0,
+   "dead": false
+  },
+  "permuter": {
+   "spent": 0,
+   "dead": false
+  },
+  "pegs": {
+   "spent": 0,
+   "dead": false
+  }
+ },
+ "anomalies": [],
+ "tail": [
+  {
+   "n": 703,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 704,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 705,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 706,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 707,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 708,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 709,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 710,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 711,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 712,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 713,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 714,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 715,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 716,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 717,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 718,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 719,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 720,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 721,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 722,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 723,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 724,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 725,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 726,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 727,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 728,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 729,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 730,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 731,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 732,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 733,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 734,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 735,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 736,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 737,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 738,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 739,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 740,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 741,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 742,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  }
+ ],
+ "unresolved": {
+  "ACTION5": 5
+ }
+}

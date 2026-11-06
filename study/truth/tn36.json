@@ -1,0 +1,33 @@
+{
+  "game": "tn36",
+  "level": 1,
+  "actions": ["ACTION6"],
+  "entities": [
+    {"id": "avatar11", "role": "mover", "colors": [11], "count": 1, "size": [14, 16],
+     "note": "4x4 colour-11 square at rows 13-16, cols 30-33 whose two bottom-middle pixels are transparent ('feet'); it is moved only by running the program, never by direct clicks"},
+    {"id": "ghost11", "role": "socket", "colors": [11], "count": 1, "size": [16, 20],
+     "note": "hollow colour-11 outline at rows 33-37, cols 29-34 (open at the top, with two 'feet' pixels at row 36) directly below the avatar in the same column; its 4x4 cavity rows 33-36, cols 30-33 is where the avatar must stop = 20 px below its start"},
+    {"id": "toggle15", "role": "button", "colors": [5, 1], "count": 10, "size": [3, 3],
+     "note": "ten 3-px bars in the black program strip (rows 41-47, cols 19-43), five columns of two: a horizontal bar on row 42 (cols 20-22, 25-27, 30-32, 35-37, 40-42) and a vertical bar on rows 44-46 (cols 21, 26, 31, 36, 41); grey(5) = ON, colour 1 = OFF; initially columns 1 and 3 are ON/ON, the rest OFF/OFF. Clicking anywhere in a bar's 5x3 slot cell flips it"},
+    {"id": "run9", "role": "button", "colors": [9, 10], "count": 1, "size": [69, 69],
+     "note": "9x9 colour-9 disc at rows 51-59, cols 32-40 below the strip, joined to it by a black line; turns colour 10 for one frame when pressed and runs the program"},
+    {"id": "board5", "role": "floor", "colors": [5, 4], "count": 1, "size": [1152, 1152],
+     "note": "9x8-cell checkerboard of 4-px cells (colours 5/4) at rows 9-40, cols 14-49 inside a black-bordered panel (rows 8-47, cols 13-50): the avatar moves on this 4-px lattice"},
+    {"id": "panel0", "role": "decor", "colors": [0], "count": 1, "size": [300, 400],
+     "note": "black frame around the panel, the black program strip background (rows 41-47) and the black connector line to the run button; clicking them does nothing"},
+    {"id": "stepbar", "role": "budget", "colors": [9, 3], "count": 1, "size": [61, 61],
+     "note": "row 1, cols 1-61: colour-9 bar that loses 1 px from its RIGHT end (revealing colour 3) per processed click; 61 clicks total"}
+  ],
+  "rules": [
+    {"action": "ACTION6", "when": "click_on(toggle15)", "effect": "toggle", "of": "toggle15",
+     "note": "flips that one bar between grey(5)=ON and colour 1=OFF; each column encodes an instruction: horizontal ON only = move left 4, vertical ON only = move right 4, both ON = move down 4, both OFF = do nothing; costs 1 click"},
+    {"action": "ACTION6", "when": "click_on(run9)", "effect": "translate", "of": "avatar11", "by": 4,
+     "note": "runs the program: avatar reset to its start, then columns 1..5 execute one per frame (4 px per move instruction); if it does not finish exactly in the ghost's cavity it snaps back to its start (rows 13-16); the run button flashes colour 10; costs 1 click"},
+    {"action": "ACTION6", "when": "always", "effect": "nothing",
+     "note": "clicks on the checkerboard, the avatar, the ghost, the panel or outside it change nothing but still cost 1 click"}
+  ],
+  "goal": {"kind": "inside", "mover": "avatar11", "target": "ghost11", "all": true,
+           "note": "a run must leave the colour-11 avatar exactly filling the ghost outline (rows 33-36, cols 30-33) with the same size/rotation/colour: net displacement (+20 rows, 0 cols) = all five columns set to both-ON (down 4); then avatar and ghost flash colour 14 and the level ends. Initial program = down, nop, down, nop, nop -> 6 toggle clicks + 1 run"},
+  "budget": {"entity": "stepbar", "kind": "steps", "n": 61, "on_zero": "lose"},
+  "hazards": []
+}

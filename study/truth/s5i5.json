@@ -1,0 +1,37 @@
+{
+  "game": "s5i5",
+  "level": 1,
+  "actions": ["ACTION6"],
+  "entities": [
+    {"id": "arm11", "role": "mover", "colors": [11, 3], "count": 1, "size": [24, 30],
+     "note": "vertical colour-11 bar (rows 27-35, cols 9-11) with a 3-px grey(3) base at its top; grows downward"},
+    {"id": "arm14", "role": "mover", "colors": [14, 3], "count": 1, "size": [15, 20],
+     "note": "horizontal colour-14 bar (rows 9-11, cols 27-32) with a grey base at its left; grows rightward"},
+    {"id": "tip13", "role": "mover", "colors": [13], "count": 2, "size": [1, 1],
+     "note": "a colour-13 dot riding the far end of each arm (inside a 3x3 tip sprite of the arm's colour)"},
+    {"id": "diamond13", "role": "socket", "colors": [13], "count": 2, "size": [4, 4],
+     "note": "hollow 4-px colour-13 diamonds at (51-53, 9-11) and (9-11, 51-53); cavity 1 px"},
+    {"id": "slider11", "role": "button", "colors": [2, 4, 11], "count": 1, "size": [80, 100],
+     "note": "vertical 7x13 panel (rows 35-47, cols 21-27): two colour-11 bracket glyphs separated by a grey bar; the far (bottom) half grows arm11, the near (top) half shrinks it"},
+    {"id": "slider14", "role": "button", "colors": [2, 4, 14], "count": 1, "size": [80, 100],
+     "note": "horizontal 13x7 panel (rows 18-24, cols 36-48): far (right) half grows arm14, near (left) half shrinks it"},
+    {"id": "stepbar", "role": "budget", "colors": [3, 4], "count": 1, "size": [64, 64],
+     "note": "row 63: colour 3 for the remaining steps, colour 4 for the spent ones"}
+  ],
+  "rules": [
+    {"action": "ACTION6", "when": "click_on(slider11_far)", "effect": "grow", "of": "arm11", "by": 3,
+     "note": "one 3-px unit away from the base; the tip dot moves with it"},
+    {"action": "ACTION6", "when": "click_on(slider11_near)", "effect": "shrink", "of": "arm11", "by": 3,
+     "note": "not below one unit"},
+    {"action": "ACTION6", "when": "click_on(slider14_far)", "effect": "grow", "of": "arm14", "by": 3},
+    {"action": "ACTION6", "when": "click_on(slider14_near)", "effect": "shrink", "of": "arm14", "by": 3},
+    {"action": "ACTION6", "when": "blocked_by(arm)", "effect": "nothing",
+     "note": "a change that makes an arm overlap another arm or the off-screen stoppers is reverted"},
+    {"action": "ACTION6", "when": "always", "effect": "nothing",
+     "note": "any click, wherever it lands, costs one step"}
+  ],
+  "goal": {"kind": "inside", "mover": "tip13", "target": "diamond13", "all": true,
+           "note": "every tip dot sits inside a diamond at the same time: arm11 at 9 units, arm14 at 9 units"},
+  "budget": {"entity": "stepbar", "kind": "steps", "n": 50, "on_zero": "lose"},
+  "hazards": []
+}

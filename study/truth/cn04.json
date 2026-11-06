@@ -1,0 +1,41 @@
+{
+  "game": "cn04",
+  "level": 1,
+  "actions": ["ACTION1", "ACTION2", "ACTION3", "ACTION4", "ACTION5", "ACTION6"],
+  "entities": [
+    {"id": "pieceA", "role": "controlled", "colors": [0, 8], "count": 1, "size": [135, 160],
+     "note": "the selected piece, drawn BLACK(0): a hollow outline at rows 11-25, cols 11-25 (3-px strokes on a 3-px lattice) with two grey(8) 3x3 stubs hanging below at rows 26-28, cols 14-16 and cols 20-22; its own colour (12) shows once it is deselected"},
+    {"id": "pieceB", "role": "mover", "colors": [14, 8], "count": 1, "size": [140, 165],
+     "note": "orange(14) hollow rectangle outline at rows 29-49, cols 41-49 with two grey(8) 3x3 stubs sticking out to its LEFT at rows 35-37 and rows 41-43, cols 38-40; clicking it makes it the black controlled piece"},
+    {"id": "stub8", "role": "marker", "colors": [8, 3], "count": 4, "size": [9, 9],
+     "note": "the grey 3x3 connector stubs (two per piece); when a stub of one piece lands exactly on a stub of the other both turn green(3). Hidden: each stub is one of two kinds drawn identically, and only same-kind pairs count for the win"},
+    {"id": "stepbar", "role": "budget", "colors": [4, 0], "count": 1, "size": [32, 32],
+     "note": "row 0, cols 16-47: colour 4 = remaining, black(0) grows from the left as steps are spent (75 steps at L1, ~2.3 steps per pixel)"}
+  ],
+  "rules": [
+    {"action": "ACTION1", "when": "always", "effect": "translate", "of": "pieceA", "by": 3,
+     "note": "the black (selected) piece moves up one cell (3 px); costs 1 step"},
+    {"action": "ACTION2", "when": "always", "effect": "translate", "of": "pieceA", "by": 3,
+     "note": "down 3 px"},
+    {"action": "ACTION3", "when": "always", "effect": "translate", "of": "pieceA", "by": 3,
+     "note": "left 3 px"},
+    {"action": "ACTION4", "when": "always", "effect": "translate", "of": "pieceA", "by": 3,
+     "note": "right 3 px"},
+    {"action": "ACTION1", "when": "at_edge", "effect": "nothing",
+     "note": "a move that would leave the 20x20 grid (display 2-61) is ignored but still costs a step (same for ACTION2/3/4); pieces pass through each other freely"},
+    {"action": "ACTION5", "when": "always", "effect": "rotate", "of": "pieceA",
+     "note": "the selected piece turns 90 degrees clockwise about its top-left corner (clamped back inside the grid); costs 1 step"},
+    {"action": "ACTION6", "when": "click_on(pieceB)", "effect": "select", "of": "pieceB",
+     "note": "the clicked piece becomes black and answers the keys; the previously selected piece regains its own colour (A becomes 12)"},
+    {"action": "ACTION6", "when": "click_on(pieceA)", "effect": "select", "of": "pieceA",
+     "note": "clicking the already-selected piece DEselects it (it turns colour 12 and no piece answers the keys until one is clicked)"},
+    {"action": "ACTION6", "when": "always", "effect": "nothing",
+     "note": "clicking empty background does nothing but costs a step"},
+    {"action": "ACTION1", "when": "adjacent(stub8)", "effect": "recolour", "of": "stub8",
+     "note": "after any move or rotation (ACTION1-5), stubs that coincide exactly with a stub of the other piece turn green(3); they revert to grey when separated"}
+  ],
+  "goal": {"kind": "align", "mover": "pieceA", "target": "pieceB", "all": true,
+           "note": "both stubs of one piece must sit exactly on both stubs of the other so all four stubs are green AND each pair is of the same hidden kind (A's pair is horizontal, B's vertical, so one piece must be rotated; e.g. click B, ACTION5, ACTION3 x10, ACTION1); the level advances on the following action"},
+  "budget": {"entity": "stepbar", "kind": "steps", "n": 75, "on_zero": "lose"},
+  "hazards": []
+}

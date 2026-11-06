@@ -1,0 +1,35 @@
+{
+  "game": "vc33",
+  "level": 1,
+  "actions": ["ACTION6"],
+  "entities": [
+    {"id": "piston0", "role": "mover", "colors": [0], "count": 2, "size": [384, 896],
+     "note": "two solid black rectangles growing from the right edge (2 display px per cell): piston A rows 1-27, cols 32-63 (upper lane) and piston B rows 32-63, cols 52-63 (lower lane); their LEFT edge (the 'top', against gravity which points right) moves 4 px per pump; total length of the pair is conserved"},
+    {"id": "button9", "role": "button", "colors": [9], "count": 2, "size": [16, 16],
+     "note": "4x4 colour-9 squares embedded in the right end of each piston: rows 24-27, cols 60-63 (in A) and rows 32-35, cols 60-63 (in B); a button grows the piston it sits in and shrinks the other"},
+    {"id": "wall5", "role": "wall", "colors": [5], "count": 1, "size": [168, 176],
+     "note": "grey 4-px-high bar at rows 28-31, cols 20-63 separating the two lanes; pistons cannot grow past its far (left) end"},
+    {"id": "mark11", "role": "marker", "colors": [11], "count": 1, "size": [8, 8],
+     "note": "2x4 colour-11 patch on the wall at rows 28-31, cols 38-39: the column where the marker's colour-11 base must come to rest"},
+    {"id": "marker4", "role": "mover", "colors": [4, 11], "count": 1, "size": [24, 24],
+     "note": "6x6 sprite at rows 44-49, cols 46-51: a colour-4 arrow pointing left with a 2-px colour-11 column on its right edge (cols 50-51), pressed against piston B's left face; it rides B's left edge whenever B changes length"},
+    {"id": "stepbar", "role": "budget", "colors": [7, 4], "count": 1, "size": [64, 64],
+     "note": "row 0: colour 7 = remaining clicks, colour 4 fills in from the RIGHT (64 px = 50 clicks); every click costs 1"}
+  ],
+  "rules": [
+    {"action": "ACTION6", "when": "click_on(button9)", "effect": "grow", "of": "piston0", "by": 4,
+     "note": "the piston containing the clicked button extends 4 px (2 cells) leftward, instantly; the lower button (rows 32-35) grows B, the upper one (rows 24-27) grows A"},
+    {"action": "ACTION6", "when": "click_on(button9)", "effect": "shrink", "of": "piston0", "by": 4,
+     "note": "at the same time the OTHER piston retreats 4 px rightward (length is pumped from one to the other); pumping is fully reversible via the other button"},
+    {"action": "ACTION6", "when": "click_on(button9)", "effect": "translate", "of": "marker4", "by": 4,
+     "note": "the arrow standing on piston B moves with B's left edge: 4 px left when the lower button is clicked, 4 px right when the upper one is"},
+    {"action": "ACTION6", "when": "blocked_by(wall5)", "effect": "nothing",
+     "note": "a pump is refused (only the click is spent) when the shrinking piston has no length left or the growing piston would pass the wall's far end (minus room for the marker)"},
+    {"action": "ACTION6", "when": "always", "effect": "nothing",
+     "note": "clicking the background, a piston body, the wall or the marker changes nothing but costs 1 click"}
+  ],
+  "goal": {"kind": "align", "mover": "marker4", "target": "mark11", "all": true,
+           "note": "the marker's colour-11 base column must equal the colour-11 mark's column on the wall beside its piston (cols 38-39, i.e. 12 px left of its start): 3 clicks on the lower button; checked after every click"},
+  "budget": {"entity": "stepbar", "kind": "steps", "n": 50, "on_zero": "lose"},
+  "hazards": []
+}

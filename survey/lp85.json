@@ -1,0 +1,139 @@
+{
+  "game_id": "lp85-305b61c3",
+  "title": "LP85",
+  "tags": [
+    "click"
+  ],
+  "baseline_actions": [
+    17,
+    38,
+    31,
+    16,
+    41,
+    60,
+    26,
+    159
+  ],
+  "win_levels": 8,
+  "available_actions": [
+    6
+  ],
+  "raw_subframes": 1,
+  "bg_color": 4,
+  "cell_size": 1,
+  "logical_shape": [
+    64,
+    64
+  ],
+  "colors_present": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    14,
+    15
+  ],
+  "n_objects": 37,
+  "object_summary": [
+    [
+      [
+        5,
+        4
+      ],
+      8
+    ],
+    [
+      [
+        11,
+        4
+      ],
+      4
+    ],
+    [
+      [
+        2,
+        16
+      ],
+      4
+    ],
+    [
+      [
+        10,
+        16
+      ],
+      4
+    ],
+    [
+      [
+        9,
+        16
+      ],
+      4
+    ],
+    [
+      [
+        15,
+        16
+      ],
+      4
+    ],
+    [
+      [
+        1,
+        16
+      ],
+      3
+    ],
+    [
+      [
+        14,
+        64
+      ],
+      1
+    ],
+    [
+      [
+        3,
+        787
+      ],
+      1
+    ],
+    [
+      [
+        11,
+        16
+      ],
+      1
+    ],
+    [
+      [
+        8,
+        40
+      ],
+      1
+    ],
+    [
+      [
+        14,
+        40
+      ],
+      1
+    ]
+  ],
+  "action_effects": {
+    "ACTION6": {
+      "changed_cells": 0,
+      "moved": [],
+      "appeared": 0,
+      "vanished": 0,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    }
+  },
+  "png": "survey/lp85.png"
+}

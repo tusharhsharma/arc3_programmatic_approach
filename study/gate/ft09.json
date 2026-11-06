@@ -1,0 +1,32 @@
+{
+ "game": "ft09",
+ "levels": 1,
+ "per_level": {
+  "1": 12
+ },
+ "score": {
+  "entities": 0.0,
+  "rules": 0.0,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "canvas:tile9",
+   "reference:card8",
+   "budget:energy12"
+  ],
+  "missed_rules": [
+   "ACTION6:recolour:tile9",
+   "ACTION6:nothing:None",
+   "ACTION6:nothing:None"
+  ],
+  "reported_goal": null,
+  "truth_goal": "mapping(tile9->card8)"
+ },
+ "report": {
+  "entities": [],
+  "rules": [],
+  "goal": null
+ },
+ "secs": 0.5,
+ "error": null
+}

@@ -1,0 +1,204 @@
+{
+  "game_id": "g50t-5849a774",
+  "title": "G50T",
+  "tags": [
+    "keyboard"
+  ],
+  "baseline_actions": [
+    78,
+    175,
+    179,
+    230,
+    96,
+    54,
+    67
+  ],
+  "win_levels": 7,
+  "available_actions": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "raw_subframes": 1,
+  "bg_color": 0,
+  "cell_size": 1,
+  "logical_shape": [
+    64,
+    64
+  ],
+  "colors_present": [
+    0,
+    1,
+    5,
+    8,
+    9
+  ],
+  "n_objects": 10,
+  "object_summary": [
+    [
+      [
+        9,
+        8
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        9
+      ],
+      1
+    ],
+    [
+      [
+        9,
+        3
+      ],
+      1
+    ],
+    [
+      [
+        5,
+        879
+      ],
+      1
+    ],
+    [
+      [
+        9,
+        24
+      ],
+      1
+    ],
+    [
+      [
+        8,
+        82
+      ],
+      1
+    ],
+    [
+      [
+        5,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        9,
+        19
+      ],
+      1
+    ],
+    [
+      [
+        9,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        9,
+        64
+      ],
+      1
+    ]
+  ],
+  "action_effects": {
+    "ACTION1": {
+      "changed_cells": 0,
+      "moved": [],
+      "appeared": 0,
+      "vanished": 0,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION2": {
+      "changed_cells": 49,
+      "moved": [
+        [
+          9,
+          24,
+          [
+            6,
+            0
+          ]
+        ],
+        [
+          5,
+          1,
+          [
+            6,
+            0
+          ]
+        ]
+      ],
+      "appeared": 3,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION3": {
+      "changed_cells": 0,
+      "moved": [],
+      "appeared": 0,
+      "vanished": 0,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION4": {
+      "changed_cells": 1,
+      "moved": [],
+      "appeared": 2,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION5": {
+      "changed_cells": 71,
+      "moved": [
+        [
+          9,
+          8,
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          9,
+          3,
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          9,
+          24,
+          [
+            -6,
+            0
+          ]
+        ],
+        [
+          5,
+          1,
+          [
+            -6,
+            0
+          ]
+        ]
+      ],
+      "appeared": 2,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    }
+  },
+  "png": "survey/g50t.png"
+}

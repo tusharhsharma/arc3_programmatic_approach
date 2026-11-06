@@ -1,0 +1,180 @@
+{
+  "game_id": "m0r0-492f87ba",
+  "title": "M0R0",
+  "tags": [
+    "keyboard_click"
+  ],
+  "baseline_actions": [
+    30,
+    111,
+    203,
+    26,
+    500,
+    237
+  ],
+  "win_levels": 6,
+  "available_actions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "raw_subframes": 1,
+  "bg_color": 5,
+  "cell_size": 1,
+  "logical_shape": [
+    64,
+    64
+  ],
+  "colors_present": [
+    5,
+    10,
+    11,
+    12
+  ],
+  "n_objects": 4,
+  "object_summary": [
+    [
+      [
+        10,
+        25
+      ],
+      2
+    ],
+    [
+      [
+        11,
+        1294
+      ],
+      1
+    ],
+    [
+      [
+        12,
+        1299
+      ],
+      1
+    ]
+  ],
+  "action_effects": {
+    "ACTION1": {
+      "changed_cells": 100,
+      "moved": [
+        [
+          10,
+          25,
+          [
+            -5,
+            0
+          ]
+        ],
+        [
+          10,
+          25,
+          [
+            -5,
+            0
+          ]
+        ]
+      ],
+      "appeared": 0,
+      "vanished": 0,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION2": {
+      "changed_cells": 102,
+      "moved": [
+        [
+          10,
+          25,
+          [
+            5,
+            0
+          ]
+        ],
+        [
+          10,
+          25,
+          [
+            5,
+            0
+          ]
+        ]
+      ],
+      "appeared": 2,
+      "vanished": 0,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION3": {
+      "changed_cells": 100,
+      "moved": [
+        [
+          10,
+          25,
+          [
+            0,
+            -5
+          ]
+        ],
+        [
+          10,
+          25,
+          [
+            0,
+            5
+          ]
+        ]
+      ],
+      "appeared": 0,
+      "vanished": 0,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION4": {
+      "changed_cells": 102,
+      "moved": [
+        [
+          10,
+          25,
+          [
+            0,
+            5
+          ]
+        ],
+        [
+          10,
+          25,
+          [
+            0,
+            -5
+          ]
+        ]
+      ],
+      "appeared": 2,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION5": {
+      "changed_cells": 0,
+      "moved": [],
+      "appeared": 0,
+      "vanished": 0,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION6": {
+      "changed_cells": 2,
+      "moved": [],
+      "appeared": 2,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    }
+  },
+  "png": "survey/m0r0.png"
+}

@@ -1,0 +1,106 @@
+{
+ "game": "s5i5",
+ "levels": 1,
+ "per_level": {
+  "1": 28
+ },
+ "score": {
+  "entities": 0.43,
+  "rules": 0.0,
+  "goal": true,
+  "pass": false,
+  "missed_entities": [
+   "mover:arm11",
+   "mover:arm14",
+   "button:slider11",
+   "button:slider14"
+  ],
+  "missed_rules": [
+   "ACTION6:grow:arm11",
+   "ACTION6:shrink:arm11",
+   "ACTION6:grow:arm14",
+   "ACTION6:shrink:arm14",
+   "ACTION6:nothing:None",
+   "ACTION6:nothing:None"
+  ],
+  "reported_goal": {
+   "kind": "inside",
+   "mover": [
+    13
+   ],
+   "target": [
+    13
+   ]
+  },
+  "truth_goal": "inside(tip13->diamond13)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "budget",
+    "colors": [
+     3
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     13
+    ]
+   },
+   {
+    "role": "socket",
+    "colors": [
+     13
+    ]
+   },
+   {
+    "role": "button",
+    "colors": []
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     14
+    ],
+    "when": "click_on"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     13
+    ],
+    "when": "click_on"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     11
+    ],
+    "when": "click_on"
+   }
+  ],
+  "goal": {
+   "kind": "inside",
+   "mover": [
+    13
+   ],
+   "target": [
+    13
+   ]
+  }
+ },
+ "secs": 0.4,
+ "error": null
+}

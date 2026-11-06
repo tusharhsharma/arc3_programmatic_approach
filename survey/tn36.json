@@ -1,0 +1,112 @@
+{
+  "game_id": "tn36-ef4dde99",
+  "title": "TN36",
+  "tags": [
+    "click"
+  ],
+  "baseline_actions": [
+    32,
+    72,
+    26,
+    40,
+    30,
+    55,
+    62
+  ],
+  "win_levels": 7,
+  "available_actions": [
+    6
+  ],
+  "raw_subframes": 1,
+  "bg_color": 5,
+  "cell_size": 1,
+  "logical_shape": [
+    64,
+    64
+  ],
+  "colors_present": [
+    0,
+    1,
+    4,
+    5,
+    9,
+    11
+  ],
+  "n_objects": 47,
+  "object_summary": [
+    [
+      [
+        4,
+        16
+      ],
+      32
+    ],
+    [
+      [
+        1,
+        3
+      ],
+      6
+    ],
+    [
+      [
+        4,
+        12
+      ],
+      3
+    ],
+    [
+      [
+        9,
+        61
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        353
+      ],
+      1
+    ],
+    [
+      [
+        11,
+        14
+      ],
+      1
+    ],
+    [
+      [
+        4,
+        2
+      ],
+      1
+    ],
+    [
+      [
+        11,
+        16
+      ],
+      1
+    ],
+    [
+      [
+        9,
+        69
+      ],
+      1
+    ]
+  ],
+  "action_effects": {
+    "ACTION6": {
+      "changed_cells": 1,
+      "moved": [],
+      "appeared": 2,
+      "vanished": 1,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    }
+  },
+  "png": "survey/tn36.png"
+}

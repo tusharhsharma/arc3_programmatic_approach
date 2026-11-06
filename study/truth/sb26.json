@@ -1,0 +1,37 @@
+{
+  "game": "sb26",
+  "level": 1,
+  "actions": ["ACTION5", "ACTION6", "ACTION7"],
+  "entities": [
+    {"id": "targets", "role": "reference", "colors": [9, 14, 11, 15], "count": 4, "size": [20, 20],
+     "note": "rows 1-6: four hollow 6x6 squares, left to right colour 9 (cols 18-23), 14 (25-30), 11 (32-37), 15 (39-44), on a grey(5) backing strip rows 0-7 cols 17-45; they are the required OUTPUT sequence: a run fills them one by one (a filled square becomes solid)"},
+    {"id": "backing5", "role": "decor", "colors": [5], "count": 1, "size": [150, 155],
+     "note": "grey strip rows 0-7, cols 17-45 behind the four target squares"},
+    {"id": "frame8", "role": "canvas", "colors": [8, 0], "count": 1, "size": [90, 95],
+     "note": "hollow colour-8 rectangle rows 25-34, cols 18-45 with black(0) corner brackets = the PROGRAM (main frame) holding 4 slots at cols 20-23, 26-29, 32-35, 38-41 (rows 27-30); its contents are read left to right on RUN"},
+    {"id": "spot2", "role": "socket", "colors": [2], "count": 4, "size": [4, 4],
+     "note": "2x2 red(2) dots at rows 29-30, cols 22-23 / 28-29 / 34-35 / 40-41 = the empty slots; clicking one with a block selected moves the block there; a dot reappears wherever a block leaves"},
+    {"id": "block", "role": "controlled", "colors": [14, 15, 9, 11], "count": 4, "size": [16, 16],
+     "note": "solid 4x4 blocks in the inventory row 57-60: 14 at cols 18-21, 15 at 26-29, 9 at 34-37, 11 at 42-45 (same colours as the targets, different order); a clicked block gets a 1-px BLACK(0) outline = selected"},
+    {"id": "energybar2", "role": "budget", "colors": [2, 3], "count": 1, "size": [64, 64],
+     "note": "row 53: colour 2 from the left = remaining energy (64 px = 64), colour 3 eats in from the right 1 px per move/swap click and per RUN; select/deselect/undo/misclick are free"}
+  ],
+  "rules": [
+    {"action": "ACTION6", "when": "click_on(block)", "effect": "select", "of": "block",
+     "note": "click a block (its 4x4 interior): it gets a black outline = selected; clicking the selected block again deselects; clicking another INVENTORY block moves the selection; free"},
+    {"action": "ACTION6", "when": "click_on(spot2)", "effect": "teleport", "of": "block",
+     "note": "with a block selected, clicking a red dot moves the block onto that slot (the dot vanishes there and a dot appears in the block's old place); selection cleared; costs 1 energy"},
+    {"action": "ACTION6", "when": "click_on(block)", "effect": "swap", "of": "block",
+     "note": "with a block selected, clicking a block that is inside the frame (or clicking an inventory block while the selected one is in the frame) swaps the two positions; costs 1 energy"},
+    {"action": "ACTION6", "when": "always", "effect": "nothing",
+     "note": "a click on the frame border, the target squares, the bars or empty ground does nothing and is free"},
+    {"action": "ACTION5", "when": "always", "effect": "recolour", "of": "targets",
+     "note": "RUN (costs 1 energy): a black 6x6 cursor walks the slots left to right while an 8x8 cursor walks the target squares; a block whose colour equals the current target FILLS that square (solid) and both advance; a colour mismatch, an empty red dot or running out of slots before the last square is filled = FAIL: cursors flash colour 8, all fills are cleared, blocks stay where they are"},
+    {"action": "ACTION7", "when": "always", "effect": "teleport", "of": "block",
+     "note": "UNDO: blocks and red dots return to their positions before the last energy-costing click; free, energy not refunded"}
+  ],
+  "goal": {"kind": "sequence", "mover": "block", "target": "targets", "all": true,
+           "note": "the four slots of the frame must read, left to right, exactly the target colours 9, 14, 11, 15 and then ACTION5 must be pressed; the level ends when the last target square fills; minimum 9 actions (4 x select+place, then RUN)"},
+  "budget": {"entity": "energybar2", "kind": "steps", "n": 64, "on_zero": "lose"},
+  "hazards": []
+}

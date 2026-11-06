@@ -1,0 +1,35 @@
+{
+  "game": "re86",
+  "level": 1,
+  "actions": ["ACTION1", "ACTION2", "ACTION3", "ACTION4", "ACTION5"],
+  "entities": [
+    {"id": "cross9", "role": "controlled", "colors": [9, 0], "count": 1, "size": [52, 53],
+     "note": "large colour-9 plus: vertical bar col 36 rows 32-58 and horizontal bar row 45 cols 23-49 (27x27, 53 px) whose CENTRE pixel (45,36) is BLACK(0) = this is the piece the arrows move; the black centre is the only marker of the active piece"},
+    {"id": "cross11", "role": "mover", "colors": [11], "count": 1, "size": [45, 45],
+     "note": "colour-11 plus, 23x23: vertical bar col 21 rows 16-38, horizontal bar row 27 cols 10-32; idle (centre in its own colour) until ACTION5 makes it the active piece"},
+    {"id": "dot9", "role": "marker", "colors": [4, 9], "count": 4, "size": [9, 9],
+     "note": "3x3 colour-4 squares with a colour-9 centre pixel at (16,48), (24,40), (24,53), (35,48) (row,col): a plus-shaped constellation; each centre must be covered by a colour-9 bar"},
+    {"id": "dot11", "role": "marker", "colors": [4, 11], "count": 4, "size": [9, 9],
+     "note": "3x3 colour-4 squares with a colour-11 centre at (3,15), (9,6), (9,24), (17,15); each must be covered by a colour-11 bar"},
+    {"id": "stepbar15", "role": "budget", "colors": [15, 1], "count": 1, "size": [64, 64],
+     "note": "row 63: colour 15 from the left = remaining steps (64 px = 100), colour 1 eats in from the RIGHT (about 0.64 px per action); every action costs 1"}
+  ],
+  "rules": [
+    {"action": "ACTION1", "when": "always", "effect": "translate", "of": "cross9", "by": 3,
+     "note": "the ACTIVE piece (black centre) moves up 3 px; the other piece stays; costs 1 step"},
+    {"action": "ACTION2", "when": "always", "effect": "translate", "of": "cross9", "by": 3,
+     "note": "down 3 px"},
+    {"action": "ACTION3", "when": "always", "effect": "translate", "of": "cross9", "by": 3,
+     "note": "left 3 px"},
+    {"action": "ACTION4", "when": "always", "effect": "translate", "of": "cross9", "by": 3,
+     "note": "right 3 px"},
+    {"action": "ACTION1", "when": "at_edge", "effect": "nothing",
+     "note": "a move is refused only when the piece's CENTRE pixel would leave the 64x64 frame; the arms may hang off-screen; the step is still spent (same for ACTION2/3/4). Pieces never collide with each other or with the dots: overlaps are allowed"},
+    {"action": "ACTION5", "when": "always", "effect": "select", "of": "cross11",
+     "note": "the other piece becomes active: its centre pixel turns black(0) and the previously active piece's centre returns to its own colour (cycles through the pieces in order); nothing moves; costs 1 step"}
+  ],
+  "goal": {"kind": "cover", "mover": "cross9", "target": "dot9", "all": true,
+           "note": "every dot centre of colour c must be covered by a bar of colour c at the same time: cross9 must cover all four colour-9 dots (column at col 48, row at row 24) AND cross11 must cover all four colour-11 dots (column col 15, row row 9); checked after every action; minimum 20 actions (11 moves + ACTION5 + 8 moves)"},
+  "budget": {"entity": "stepbar15", "kind": "steps", "n": 100, "on_zero": "lose"},
+  "hazards": []
+}

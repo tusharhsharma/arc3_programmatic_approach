@@ -1,0 +1,71 @@
+{
+  "game_id": "sp80-589a99af",
+  "available_actions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "win_levels": 6,
+  "deaths": 25,
+  "level_ups": [],
+  "changed_count": 775,
+  "action_use": {
+    "ACTION1": 724,
+    "ACTION2": 5,
+    "ACTION3": 2,
+    "ACTION4": 38,
+    "ACTION5": 6
+  },
+  "distinct_frames": 177,
+  "levels_completed": 0,
+  "final_state": "NOT_FINISHED",
+  "avatar_pos": [
+    11,
+    12
+  ],
+  "motions": {
+    "ACTION1": {
+      "(-4, 0)": 30
+    },
+    "ACTION2": {
+      "(4, 0)": 5
+    },
+    "ACTION3": {
+      "(0, -4)": 2
+    },
+    "ACTION4": {
+      "(0, 4)": 38
+    }
+  },
+  "wall_colors": [],
+  "tracker_avatar": null,
+  "click_stats": {},
+  "effect_counts": {},
+  "probe_failed": [
+    "('ACTION1', (11, 12))",
+    "('ACTION1', (11, 16))",
+    "('ACTION1', (11, 20))",
+    "('ACTION1', (11, 24))",
+    "('ACTION1', (11, 28))",
+    "('ACTION1', (11, 32))",
+    "('ACTION1', None)",
+    "('ACTION5', (11, 12))",
+    "('ACTION5', (11, 16))",
+    "('ACTION5', (11, 20))",
+    "('ACTION5', (15, 12))",
+    "('ACTION5', (15, 16))",
+    "('ACTION5', (15, 20))"
+  ],
+  "death_tail": {
+    "(11, 12)": 7,
+    "(11, 16)": 8,
+    "(11, 20)": 4,
+    "(15, 20)": 1,
+    "(11, 24)": 3,
+    "(11, 28)": 1,
+    "(11, 32)": 1
+  }
+}

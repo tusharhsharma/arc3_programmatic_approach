@@ -1,0 +1,458 @@
+{
+ "game": "sb26",
+ "levels": 1,
+ "win_levels": 8,
+ "baseline": [
+  18,
+  28,
+  18,
+  19,
+  31,
+  23,
+  58,
+  18
+ ],
+ "per_level": {
+  "1": 9
+ },
+ "actions": 800,
+ "secs": 12.6,
+ "error": null,
+ "deaths": [
+  184,
+  342,
+  506,
+  688
+ ],
+ "action_use": {
+  "ACTION6": 266,
+  "ACTION5": 290,
+  "ACTION7": 240
+ },
+ "final": {
+  "motions": {},
+  "slides": [],
+  "shape_ops": {},
+  "inert": [],
+  "walls": [],
+  "collect": [],
+  "lethal": [],
+  "laws": [],
+  "click_laws": {},
+  "pushable": [],
+  "avatar_color": null,
+  "avatar_size": null,
+  "goal_refuted": [],
+  "timer": false,
+  "playfield": [
+   0,
+   53,
+   0,
+   64
+  ]
+ },
+ "level_marks": [
+  {
+   "level": 1,
+   "n": 8,
+   "beliefs": {
+    "motions": {},
+    "slides": [],
+    "shape_ops": {},
+    "inert": [],
+    "walls": [],
+    "collect": [],
+    "lethal": [],
+    "laws": [],
+    "click_laws": {},
+    "pushable": [],
+    "avatar_color": null,
+    "avatar_size": null,
+    "goal_refuted": [],
+    "timer": false,
+    "playfield": [
+     0,
+     53,
+     0,
+     64
+    ]
+   }
+  }
+ ],
+ "hlog": [
+  {
+   "chosen": 12,
+   "alternatives": [
+    15,
+    8,
+    9,
+    14,
+    11,
+    6
+   ],
+   "kind": "goal_choice",
+   "n": 2
+  }
+ ],
+ "gov": {
+  "refassembly": {
+   "spent": 0,
+   "dead": false
+  },
+  "actuators": {
+   "spent": 0,
+   "dead": false
+  },
+  "glyphs": {
+   "spent": 0,
+   "dead": false
+  },
+  "multibody": {
+   "spent": 0,
+   "dead": false
+  },
+  "overlay": {
+   "spent": 0,
+   "dead": false
+  },
+  "edgemaze": {
+   "spent": 0,
+   "dead": false
+  },
+  "permuter": {
+   "spent": 0,
+   "dead": false
+  },
+  "pegs": {
+   "spent": 0,
+   "dead": false
+  }
+ },
+ "anomalies": [],
+ "tail": [
+  {
+   "n": 744,
+   "a": "ACTION5",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 745,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 746,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 747,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 748,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 749,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 750,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 751,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 752,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 753,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 754,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 755,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 756,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 757,
+   "a": "ACTION5",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 758,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 759,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 760,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 761,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 762,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 763,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 764,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 765,
+   "a": "ACTION5",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 766,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 767,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 768,
+   "a": "ACTION5",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 769,
+   "a": "ACTION5",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 770,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 771,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 772,
+   "a": "ACTION5",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 773,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 774,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 775,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 776,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 777,
+   "a": "ACTION5",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 778,
+   "a": "ACTION5",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 779,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 780,
+   "a": "ACTION5",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 781,
+   "a": "ACTION6",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 782,
+   "a": "ACTION5",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 783,
+   "a": "ACTION7",
+   "lv": 1,
+   "pos": null,
+   "seek": null,
+   "plan": 0
+  }
+ ],
+ "unresolved": {
+  "ACTION5": 5,
+  "ACTION7": 5
+ }
+}

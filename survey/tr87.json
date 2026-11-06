@@ -1,0 +1,219 @@
+{
+  "game_id": "tr87-cd924810",
+  "title": "TR87",
+  "tags": [
+    "keyboard"
+  ],
+  "baseline_actions": [
+    54,
+    58,
+    40,
+    45,
+    71,
+    146
+  ],
+  "win_levels": 6,
+  "available_actions": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "raw_subframes": 1,
+  "bg_color": 2,
+  "cell_size": 1,
+  "logical_shape": [
+    64,
+    64
+  ],
+  "colors_present": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    7,
+    10
+  ],
+  "n_objects": 63,
+  "object_summary": [
+    [
+      [
+        5,
+        15
+      ],
+      9
+    ],
+    [
+      [
+        7,
+        1
+      ],
+      9
+    ],
+    [
+      [
+        3,
+        3
+      ],
+      6
+    ],
+    [
+      [
+        5,
+        11
+      ],
+      4
+    ],
+    [
+      [
+        10,
+        34
+      ],
+      3
+    ],
+    [
+      [
+        5,
+        16
+      ],
+      2
+    ],
+    [
+      [
+        7,
+        7
+      ],
+      2
+    ],
+    [
+      [
+        10,
+        38
+      ],
+      2
+    ],
+    [
+      [
+        7,
+        32
+      ],
+      2
+    ],
+    [
+      [
+        5,
+        14
+      ],
+      2
+    ],
+    [
+      [
+        5,
+        13
+      ],
+      2
+    ],
+    [
+      [
+        7,
+        4
+      ],
+      2
+    ]
+  ],
+  "action_effects": {
+    "ACTION1": {
+      "changed_cells": 13,
+      "moved": [
+        [
+          7,
+          1,
+          [
+            -1,
+            -8
+          ]
+        ],
+        [
+          7,
+          1,
+          [
+            -1,
+            -12
+          ]
+        ],
+        [
+          7,
+          1,
+          [
+            0,
+            -14
+          ]
+        ]
+      ],
+      "appeared": 4,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION2": {
+      "changed_cells": 14,
+      "moved": [],
+      "appeared": 5,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION3": {
+      "changed_cells": 28,
+      "moved": [
+        [
+          0,
+          7,
+          [
+            0,
+            28
+          ]
+        ],
+        [
+          0,
+          7,
+          [
+            0,
+            28
+          ]
+        ]
+      ],
+      "appeared": 1,
+      "vanished": 1,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION4": {
+      "changed_cells": 29,
+      "moved": [
+        [
+          0,
+          7,
+          [
+            0,
+            -28
+          ]
+        ],
+        [
+          0,
+          7,
+          [
+            0,
+            -28
+          ]
+        ]
+      ],
+      "appeared": 3,
+      "vanished": 3,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    }
+  },
+  "png": "survey/tr87.png"
+}

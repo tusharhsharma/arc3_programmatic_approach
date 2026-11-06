@@ -1,0 +1,42 @@
+{
+  "game": "wa30",
+  "level": 1,
+  "actions": ["ACTION1", "ACTION2", "ACTION3", "ACTION4", "ACTION5"],
+  "entities": [
+    {"id": "player14", "role": "controlled", "colors": [14, 0], "count": 1, "size": [16, 16],
+     "note": "4x4 colour-14 block with one black(0) edge row marking the side it faces, at rows 48-51, cols 32-35 (facing up, directly below the middle crate); moves on a 4-px lattice"},
+    {"id": "crate4", "role": "mover", "colors": [4, 9, 3, 0], "count": 3, "size": [16, 16],
+     "note": "4x4 crates: colour-4 border with a 2x2 colour-9 centre, at rows 24-27 cols 44-47, rows 28-31 cols 16-19 and rows 36-39 cols 32-35; the border colour is a state: 4 idle, 3 when directly in front of the player (grabbable), 0 while held"},
+    {"id": "pen9", "role": "socket", "colors": [9, 2], "count": 1, "size": [48, 48],
+     "note": "12x4 frame at rows 28-31, cols 28-39: colour-9 border, colour-2 interior; exactly three crate-widths wide (lattice cells at cols 28, 32, 36); crates and the player can walk over it"},
+    {"id": "floor1", "role": "floor", "colors": [1], "count": 1, "size": [3900, 4000],
+     "note": "colour-1 field on a 4-px lattice; the screen edge is impassable; no walls or spikes at L1"},
+    {"id": "stepbar", "role": "budget", "colors": [7, 4], "count": 1, "size": [64, 64],
+     "note": "row 63: colour 7 = remaining steps, colour 4 fills in from the RIGHT (64 px = 200 actions, about 0.3 px per action); every action costs 1"}
+  ],
+  "rules": [
+    {"action": "ACTION1", "when": "always", "effect": "translate", "of": "player14", "by": 4,
+     "note": "player moves 4 px up if the cell is free; costs 1 step (ACTION2 down, ACTION3 left, ACTION4 right)"},
+    {"action": "ACTION2", "when": "always", "effect": "translate", "of": "player14", "by": 4},
+    {"action": "ACTION3", "when": "always", "effect": "translate", "of": "player14", "by": 4},
+    {"action": "ACTION4", "when": "always", "effect": "translate", "of": "player14", "by": 4},
+    {"action": "ACTION1", "when": "always", "effect": "rotate", "of": "player14",
+     "note": "when not holding a crate the black edge row turns to the pressed direction FIRST, even if the move is then blocked (a blocked press is a pure turn); same for ACTION2/3/4"},
+    {"action": "ACTION1", "when": "blocked_by(crate4)", "effect": "nothing",
+     "note": "a move into a crate or off the screen edge is refused (only the turn happens); the step is still spent; same for ACTION2/3/4"},
+    {"action": "ACTION1", "when": "adjacent(crate4)", "effect": "recolour", "of": "crate4",
+     "note": "after every action the crate directly in front of the player gets a colour-3 border (grabbable), a held crate a black border, all others colour 4"},
+    {"action": "ACTION1", "when": "selected(crate4)", "effect": "push", "of": "crate4", "by": 4,
+     "note": "while holding, the player and the crate move together 4 px in ANY of the 4 directions keeping their offset (drag, pull or side-step); the player does not turn; refused if either destination cell is occupied; same for ACTION2/3/4"},
+    {"action": "ACTION5", "when": "adjacent(crate4)", "effect": "select", "of": "crate4",
+     "note": "grab: the crate in the cell the player faces (border 3) becomes held (border turns black) and will move with the player; costs 1 step"},
+    {"action": "ACTION5", "when": "selected(crate4)", "effect": "select", "of": "crate4",
+     "note": "release: a held crate is dropped where it is (border back to 3, then 4 once the player turns away); costs 1 step"},
+    {"action": "ACTION5", "when": "always", "effect": "nothing",
+     "note": "with nothing in front and nothing held, ACTION5 only spends a step"}
+  ],
+  "goal": {"kind": "inside", "mover": "crate4", "target": "pen9", "all": true,
+           "note": "all three crates must occupy the three cells of the colour-9 pen (rows 28-31, cols 28-31 / 32-35 / 36-39, which they cover exactly) and none may be held; checked after every action; 26 actions minimum, 200 budget"},
+  "budget": {"entity": "stepbar", "kind": "steps", "n": 200, "on_zero": "lose"},
+  "hazards": []
+}

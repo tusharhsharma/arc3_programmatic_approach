@@ -1,0 +1,39 @@
+{
+  "game": "lp85",
+  "level": 1,
+  "actions": ["ACTION6"],
+  "entities": [
+    {"id": "tiles", "role": "mover", "colors": [1, 2, 10, 9, 15], "count": 19, "size": [16, 16],
+     "note": "4x4 single-colour squares on a 6-px pitch occupying every slot of a rectangular loop of 20 slots: top row rows 19-22 (cols 12,18,24,30,36,42,48), right column cols 48-51 (rows 25,31,37), bottom row rows 43-46 (same 7 cols), left column cols 12-15 (rows 25,31,37); a button press moves every tile one slot along the loop"},
+    {"id": "goal11", "role": "mover", "colors": [11], "count": 1, "size": [16, 16],
+     "note": "the one colour-11 tile, at rows 19-22, cols 42-45 (6th slot of the top row) on the first frame; rides the loop with the others"},
+    {"id": "socket11", "role": "socket", "colors": [11], "count": 1, "size": [16, 16],
+     "note": "four 2x2 colour-11 corner marks at rows 17-18 and 23-24, cols 10-11 and 16-17, framing the top-left slot of the loop (rows 19-22, cols 12-15, which holds a colour-1 tile at the start); the goal tile must come to rest inside them"},
+    {"id": "btnL8", "role": "button", "colors": [8], "count": 1, "size": [40, 40],
+     "note": "left-pointing colour-8 arrow at rows 29-36, cols 2-7, on the left edge of the board: rotates the loop one slot counter-clockwise (top row moves left)"},
+    {"id": "btnR14", "role": "button", "colors": [14], "count": 1, "size": [40, 40],
+     "note": "right-pointing colour-14 arrow at rows 29-36, cols 56-61, on the right edge: rotates the loop one slot clockwise (top row moves right)"},
+    {"id": "stepbar", "role": "budget", "colors": [14, 5], "count": 1, "size": [64, 64],
+     "note": "column 0: colour 14 = remaining presses, colour 5 fills from the TOP about 5 px per press (13 presses at L1); only button presses cost"},
+    {"id": "pips5", "role": "hud", "colors": [5, 14], "count": 8, "size": [4, 4],
+     "note": "eight 4x1 level pips on row 1 at cols 10-13, 15-18, ..., 45-48, all colour 5 on the first frame (a pip turns colour 14 for a level reached); not interactive"},
+    {"id": "board4", "role": "decor", "colors": [4, 3], "count": 1, "size": [3500, 3600],
+     "note": "colour-4 board rows 13-50, cols 1-63 between colour-3 letterbox bands (rows 0-12 and 51-63); clicking either does nothing"}
+  ],
+  "rules": [
+    {"action": "ACTION6", "when": "click_on(btnL8)", "effect": "translate", "of": "tiles", "by": 6,
+     "note": "every tile on the loop moves one slot (6 px) counter-clockwise: top row leftwards, left column downwards, bottom row rightwards, right column upwards; costs 1 press"},
+    {"action": "ACTION6", "when": "click_on(btnL8)", "effect": "translate", "of": "goal11", "by": 6,
+     "note": "the colour-11 tile moves with the loop: from its start it needs 5 L presses to reach the socket slot"},
+    {"action": "ACTION6", "when": "click_on(btnR14)", "effect": "translate", "of": "tiles", "by": 6,
+     "note": "every tile moves one slot clockwise (top row rightwards); costs 1 press"},
+    {"action": "ACTION6", "when": "click_on(btnR14)", "effect": "translate", "of": "goal11", "by": 6,
+     "note": "15 R presses would also bring the goal tile round to the socket, more than the budget"},
+    {"action": "ACTION6", "when": "always", "effect": "nothing",
+     "note": "a click anywhere except on the two arrows (tiles, socket marks, board, letterbox) does nothing and costs nothing; ACTION1-5/7 are not offered and also do nothing at no cost"}
+  ],
+  "goal": {"kind": "inside", "mover": "goal11", "target": "socket11", "all": false,
+           "note": "the colour-11 tile must sit in the slot framed by the four colour-11 corner marks (rows 19-22, cols 12-15); checked right after each press; minimal 5 clicks on the left arrow"},
+  "budget": {"entity": "stepbar", "kind": "steps", "n": 13, "on_zero": "lose"},
+  "hazards": []
+}

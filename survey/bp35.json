@@ -1,0 +1,137 @@
+{
+  "game_id": "bp35-0a0ad940",
+  "title": "BP35",
+  "tags": [
+    "keyboard_click"
+  ],
+  "baseline_actions": [
+    21,
+    48,
+    44,
+    38,
+    33,
+    87,
+    86,
+    131,
+    163
+  ],
+  "win_levels": 9,
+  "available_actions": [
+    3,
+    4,
+    6,
+    7
+  ],
+  "raw_subframes": 2,
+  "bg_color": 5,
+  "cell_size": 1,
+  "logical_shape": [
+    64,
+    64
+  ],
+  "colors_present": [
+    0,
+    3,
+    5,
+    9,
+    10,
+    11,
+    14
+  ],
+  "n_objects": 190,
+  "object_summary": [
+    [
+      [
+        3,
+        1
+      ],
+      178
+    ],
+    [
+      [
+        14,
+        21
+      ],
+      7
+    ],
+    [
+      [
+        10,
+        276
+      ],
+      1
+    ],
+    [
+      [
+        10,
+        1529
+      ],
+      1
+    ],
+    [
+      [
+        9,
+        6
+      ],
+      1
+    ],
+    [
+      [
+        11,
+        2
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        64
+      ],
+      1
+    ]
+  ],
+  "action_effects": {
+    "ACTION3": {
+      "changed_cells": 64,
+      "moved": [],
+      "appeared": 3,
+      "vanished": 1,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION4": {
+      "changed_cells": 47,
+      "moved": [
+        [
+          11,
+          2,
+          [
+            0,
+            8
+          ]
+        ]
+      ],
+      "appeared": 4,
+      "vanished": 4,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION6": {
+      "changed_cells": 1,
+      "moved": [],
+      "appeared": 2,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION7": {
+      "changed_cells": 0,
+      "moved": [],
+      "appeared": 0,
+      "vanished": 0,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    }
+  },
+  "png": "survey/bp35.png"
+}

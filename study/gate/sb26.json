@@ -1,0 +1,37 @@
+{
+ "game": "sb26",
+ "levels": 1,
+ "per_level": {
+  "1": 8
+ },
+ "score": {
+  "entities": 0.0,
+  "rules": 0.0,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "reference:targets",
+   "canvas:frame8",
+   "socket:spot2",
+   "controlled:block",
+   "budget:energybar2"
+  ],
+  "missed_rules": [
+   "ACTION6:select:block",
+   "ACTION6:teleport:block",
+   "ACTION6:swap:block",
+   "ACTION6:nothing:None",
+   "ACTION5:recolour:targets",
+   "ACTION7:teleport:block"
+  ],
+  "reported_goal": null,
+  "truth_goal": "sequence(block->targets)"
+ },
+ "report": {
+  "entities": [],
+  "rules": [],
+  "goal": null
+ },
+ "secs": 0.2,
+ "error": null
+}

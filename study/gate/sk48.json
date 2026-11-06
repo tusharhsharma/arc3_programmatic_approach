@@ -1,0 +1,248 @@
+{
+ "game": "sk48",
+ "levels": 0,
+ "per_level": {},
+ "score": {
+  "entities": 0.57,
+  "rules": 0.22,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "mover:cargo",
+   "reference:refrow",
+   "budget:energybar2"
+  ],
+  "missed_rules": [
+   "ACTION4:grow:track",
+   "ACTION4:push:cargo",
+   "ACTION3:shrink:track",
+   "ACTION3:translate:cargo",
+   "ACTION1:nothing:None",
+   "ACTION6:nothing:None",
+   "ACTION7:teleport:head6"
+  ],
+  "reported_goal": null,
+  "truth_goal": "sequence(cargo->refrow)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     6
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     3
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     6
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "collectible",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "collectible",
+    "colors": [
+     2
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     6
+    ],
+    "by": [
+     -6,
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     6
+    ],
+    "by": [
+     6,
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     6
+    ],
+    "by": [
+     -1,
+     -1
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     6
+    ],
+    "by": [
+     -1,
+     1
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION7",
+    "effect": "translate",
+    "of": [
+     6
+    ],
+    "by": [
+     -1,
+     1
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     2
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     3
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     1
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     1
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     2
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     3
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     2
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION7",
+    "effect": "translate",
+    "of": [
+     2
+    ],
+    "when": "always"
+   }
+  ],
+  "goal": null
+ },
+ "secs": 20.5,
+ "error": null
+}

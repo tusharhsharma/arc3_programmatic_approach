@@ -1,0 +1,188 @@
+{
+  "game_id": "wa30-ee6fef47",
+  "title": "WA30",
+  "tags": [
+    "keyboard"
+  ],
+  "baseline_actions": [
+    71,
+    119,
+    183,
+    98,
+    368,
+    68,
+    79,
+    442,
+    415
+  ],
+  "win_levels": 9,
+  "available_actions": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "raw_subframes": 1,
+  "bg_color": 1,
+  "cell_size": 1,
+  "logical_shape": [
+    64,
+    64
+  ],
+  "colors_present": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    9,
+    14
+  ],
+  "n_objects": 11,
+  "object_summary": [
+    [
+      [
+        4,
+        12
+      ],
+      3
+    ],
+    [
+      [
+        9,
+        4
+      ],
+      3
+    ],
+    [
+      [
+        9,
+        28
+      ],
+      1
+    ],
+    [
+      [
+        2,
+        20
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        4
+      ],
+      1
+    ],
+    [
+      [
+        14,
+        12
+      ],
+      1
+    ],
+    [
+      [
+        7,
+        64
+      ],
+      1
+    ]
+  ],
+  "action_effects": {
+    "ACTION1": {
+      "changed_cells": 32,
+      "moved": [
+        [
+          0,
+          4,
+          [
+            -4,
+            0
+          ]
+        ],
+        [
+          14,
+          12,
+          [
+            -4,
+            0
+          ]
+        ]
+      ],
+      "appeared": 0,
+      "vanished": 0,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION2": {
+      "changed_cells": 33,
+      "moved": [
+        [
+          14,
+          12,
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          0,
+          4,
+          [
+            7,
+            0
+          ]
+        ]
+      ],
+      "appeared": 2,
+      "vanished": 1,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION3": {
+      "changed_cells": 32,
+      "moved": [],
+      "appeared": 2,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION4": {
+      "changed_cells": 32,
+      "moved": [
+        [
+          14,
+          12,
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          0,
+          4,
+          [
+            0,
+            7
+          ]
+        ]
+      ],
+      "appeared": 0,
+      "vanished": 0,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION5": {
+      "changed_cells": 1,
+      "moved": [],
+      "appeared": 2,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    }
+  },
+  "png": "survey/wa30.png"
+}

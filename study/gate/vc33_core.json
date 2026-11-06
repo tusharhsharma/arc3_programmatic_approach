@@ -1,0 +1,139 @@
+{
+ "game": "vc33",
+ "levels": 1,
+ "per_level": {
+  "1": 26
+ },
+ "score": {
+  "entities": 0.83,
+  "rules": 0.8,
+  "goal": true,
+  "pass": true,
+  "missed_entities": [
+   "wall:wall5"
+  ],
+  "missed_rules": [
+   "ACTION6:grow:piston0"
+  ],
+  "reported_goal": {
+   "kind": "align",
+   "mover": [
+    11
+   ],
+   "target": [
+    11
+   ]
+  },
+  "truth_goal": "align(marker4->mark11)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "budget",
+    "colors": [
+     7
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     4,
+     7
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     4,
+     7
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "button",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     11
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     11
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     11
+    ],
+    "when": "click_on(9)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     4
+    ],
+    "when": "click_on(9)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "shrink",
+    "of": [
+     0
+    ],
+    "when": "click_on(9)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   }
+  ],
+  "goal": {
+   "kind": "align",
+   "mover": [
+    11
+   ],
+   "target": [
+    11
+   ]
+  }
+ },
+ "secs": 1.4,
+ "error": null,
+ "how": "plan:3/3"
+}

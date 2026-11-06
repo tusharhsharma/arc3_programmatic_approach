@@ -1,0 +1,312 @@
+{
+ "game": "dc22",
+ "levels": 0,
+ "per_level": {
+  "1": 70
+ },
+ "score": {
+  "entities": 0.6,
+  "rules": 0.7,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "controlled:player14",
+   "marker:goal11",
+   "wall:checker9",
+   "wall:panel5"
+  ],
+  "missed_rules": [
+   "ACTION6:toggle:checker9",
+   "ACTION6:toggle:tile9",
+   "ACTION6:toggle:strip8"
+  ],
+  "reported_goal": {
+   "kind": "inside",
+   "mover": [
+    14
+   ],
+   "target": [
+    2
+   ]
+  },
+  "truth_goal": "reach(player14->goal11)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "floor",
+    "colors": [
+     8
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     13
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     3
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     0,
+     3
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     0,
+     3
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     8
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     13,
+     14
+    ]
+   },
+   {
+    "role": "tool",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "tool",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     14
+    ]
+   },
+   {
+    "role": "button",
+    "colors": [
+     8
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     8
+    ]
+   },
+   {
+    "role": "button",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "canvas",
+    "colors": [
+     8
+    ]
+   },
+   {
+    "role": "canvas",
+    "colors": [
+     13
+    ]
+   },
+   {
+    "role": "button",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "socket",
+    "colors": [
+     2
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     14
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     14
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     14
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     14
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     2,
+     9
+    ],
+    "when": "click_on(8)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     2,
+     13
+    ],
+    "when": "click_on(8)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "rotate",
+    "of": [
+     8
+    ],
+    "when": "click_on(8)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     2,
+     9
+    ],
+    "when": "click_on(9)"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "recolour",
+    "of": [
+     8
+    ],
+    "when": "adjacent(9)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "recolour",
+    "of": [
+     13
+    ],
+    "when": "adjacent(2)"
+   }
+  ],
+  "goal": {
+   "kind": "inside",
+   "mover": [
+    14
+   ],
+   "target": [
+    2
+   ]
+  }
+ },
+ "secs": 6.6,
+ "error": null,
+ "how": "no_plan"
+}

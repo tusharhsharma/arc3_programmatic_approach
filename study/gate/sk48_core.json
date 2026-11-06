@@ -1,0 +1,318 @@
+{
+ "game": "sk48",
+ "levels": 0,
+ "per_level": {
+  "1": 70
+ },
+ "score": {
+  "entities": 0.71,
+  "rules": 0.44,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "mover:cargo",
+   "reference:refrow"
+  ],
+  "missed_rules": [
+   "ACTION4:grow:track",
+   "ACTION4:push:cargo",
+   "ACTION3:shrink:track",
+   "ACTION3:translate:cargo",
+   "ACTION7:teleport:head6"
+  ],
+  "reported_goal": {
+   "kind": "inside",
+   "mover": [
+    3
+   ],
+   "target": [
+    0
+   ]
+  },
+  "truth_goal": "sequence(cargo->refrow)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "controlled",
+    "colors": [
+     6
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     3
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     3
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     6
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     2,
+     3
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     2,
+     3
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     3
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     3
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "socket",
+    "colors": [
+     0
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     2
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     6
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     2
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     6
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "push",
+    "of": [
+     2
+    ],
+    "when": "blocked_by(2)"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "push",
+    "of": [
+     2
+    ],
+    "when": "blocked_by(2)"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "push",
+    "of": [
+     3
+    ],
+    "when": "blocked_by(3)"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "push",
+    "of": [
+     3
+    ],
+    "when": "blocked_by(3)"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     3
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     1
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     3
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     1
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     2
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION7",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   }
+  ],
+  "goal": {
+   "kind": "inside",
+   "mover": [
+    3
+   ],
+   "target": [
+    0
+   ]
+  }
+ },
+ "secs": 4.5,
+ "error": null,
+ "how": "no_plan"
+}

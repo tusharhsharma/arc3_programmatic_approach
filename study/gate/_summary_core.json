@@ -1,0 +1,5873 @@
+[
+ {
+  "game": "lp85",
+  "levels": 1,
+  "per_level": {
+   "1": 10
+  },
+  "score": {
+   "entities": 0.86,
+   "rules": 1.0,
+   "goal": true,
+   "pass": true,
+   "missed_entities": [
+    "button:btnR14"
+   ],
+   "missed_rules": [],
+   "reported_goal": {
+    "kind": "inside",
+    "mover": [
+     11
+    ],
+    "target": [
+     11
+    ]
+   },
+   "truth_goal": "inside(goal11->socket11)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "hud",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      5,
+      14
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      5,
+      14
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      8
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      15
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      10
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "socket",
+     "colors": [
+      11
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      1
+     ],
+     "when": "click_on(8)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "click_on(8)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      15
+     ],
+     "when": "click_on(8)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      11
+     ],
+     "when": "click_on(8)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      2
+     ],
+     "when": "click_on(8)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      10
+     ],
+     "when": "click_on(8)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      1,
+      2,
+      15
+     ],
+     "when": "click_on(8)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      1,
+      9
+     ],
+     "when": "click_on(8)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      9,
+      10,
+      15
+     ],
+     "when": "click_on(8)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    }
+   ],
+   "goal": {
+    "kind": "inside",
+    "mover": [
+     11
+    ],
+    "target": [
+     11
+    ]
+   }
+  },
+  "secs": 1.4,
+  "error": null,
+  "how": "plan:4/4"
+ },
+ {
+  "game": "cd82",
+  "levels": 1,
+  "per_level": {
+   "1": 66
+  },
+  "score": {
+   "entities": 0.83,
+   "rules": 1.0,
+   "goal": false,
+   "pass": false,
+   "missed_entities": [
+    "hud:marker0"
+   ],
+   "missed_rules": [],
+   "reported_goal": {
+    "kind": "align",
+    "mover": [
+     0
+    ],
+    "target": [
+     0
+    ]
+   },
+   "truth_goal": "equal(canvas0->target)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "controlled",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      15
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      15
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      15
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      15
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      4,
+      15
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      0,
+      4
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      15
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      0,
+      15
+     ]
+    },
+    {
+     "role": "reference",
+     "colors": [
+      0,
+      15
+     ]
+    },
+    {
+     "role": "controlled",
+     "colors": [
+      0,
+      2
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      2
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      2
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "push",
+     "of": [
+      0
+     ],
+     "when": "blocked_by(0)"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "push",
+     "of": [
+      0
+     ],
+     "when": "blocked_by(0)"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "push",
+     "of": [
+      2
+     ],
+     "when": "blocked_by(2)"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "push",
+     "of": [
+      2
+     ],
+     "when": "blocked_by(2)"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "push",
+     "of": [
+      15
+     ],
+     "when": "blocked_by(15)"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "push",
+     "of": [
+      15
+     ],
+     "when": "blocked_by(15)"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      2
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      2,
+      15
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "click_on(15)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "click_on(0)"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION5",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "recolour",
+     "of": [
+      2
+     ],
+     "when": "adjacent(15)"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "recolour",
+     "of": [
+      0
+     ],
+     "when": "adjacent(0)"
+    },
+    {
+     "action": "ACTION5",
+     "effect": "recolour",
+     "of": [
+      0,
+      15
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      0,
+      2
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      0,
+      2
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      0,
+      2
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      0,
+      2
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "recolour",
+     "of": [
+      0
+     ],
+     "when": "click_on(0)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "recolour",
+     "of": [
+      0
+     ],
+     "when": "click_on(4)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "recolour",
+     "of": [
+      2
+     ],
+     "when": "click_on(4)"
+    }
+   ],
+   "goal": {
+    "kind": "align",
+    "mover": [
+     0
+    ],
+    "target": [
+     0
+    ]
+   }
+  },
+  "secs": 5.4,
+  "error": null,
+  "how": "paint"
+ },
+ {
+  "game": "sp80",
+  "levels": 0,
+  "per_level": {
+   "1": 30
+  },
+  "score": {
+   "entities": 0.4,
+   "rules": 0.45,
+   "goal": false,
+   "pass": false,
+   "missed_entities": [
+    "mover:drop6",
+    "socket:cup11",
+    "hazard:floor1"
+   ],
+   "missed_rules": [
+    "ACTION2:nothing:None",
+    "ACTION5:slide:drop6",
+    "ACTION5:recolour:cup11",
+    "ACTION5:recolour:floor1",
+    "ACTION6:select:bar9",
+    "ACTION6:nothing:None"
+   ],
+   "reported_goal": {
+    "kind": "align",
+    "mover": [
+     4
+    ],
+    "target": [
+     6
+    ]
+   },
+   "truth_goal": "inside(drop6->cup11)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "controlled",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      12
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      14
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      0,
+      14
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0,
+      14
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      14
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      6
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION5",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    }
+   ],
+   "goal": {
+    "kind": "align",
+    "mover": [
+     4
+    ],
+    "target": [
+     6
+    ]
+   }
+  },
+  "secs": 1.6,
+  "error": null,
+  "how": "died"
+ },
+ {
+  "game": "re86",
+  "levels": 1,
+  "per_level": {
+   "1": 28
+  },
+  "score": {
+   "entities": 0.6,
+   "rules": 0.83,
+   "goal": false,
+   "pass": false,
+   "missed_entities": [
+    "controlled:cross9",
+    "marker:dot9"
+   ],
+   "missed_rules": [
+    "ACTION5:select:cross11"
+   ],
+   "reported_goal": {
+    "kind": "inside",
+    "mover": [
+     11
+    ],
+    "target": [
+     11
+    ]
+   },
+   "truth_goal": "cover(cross9->dot9)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "controlled",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      15
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      1,
+      15
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      1,
+      15
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      4,
+      9
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      4,
+      11
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "socket",
+     "colors": [
+      11
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      11
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      11
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      11
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      11
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      4
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      4
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION5",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "recolour",
+     "of": [
+      4
+     ],
+     "when": "adjacent(4)"
+    }
+   ],
+   "goal": {
+    "kind": "inside",
+    "mover": [
+     11
+    ],
+    "target": [
+     11
+    ]
+   }
+  },
+  "secs": 96.7,
+  "error": null,
+  "how": "plan:8/8"
+ },
+ {
+  "game": "dc22",
+  "levels": 0,
+  "per_level": {
+   "1": 70
+  },
+  "score": {
+   "entities": 0.6,
+   "rules": 0.7,
+   "goal": false,
+   "pass": false,
+   "missed_entities": [
+    "controlled:player14",
+    "marker:goal11",
+    "wall:checker9",
+    "wall:panel5"
+   ],
+   "missed_rules": [
+    "ACTION6:toggle:checker9",
+    "ACTION6:toggle:tile9",
+    "ACTION6:toggle:strip8"
+   ],
+   "reported_goal": {
+    "kind": "inside",
+    "mover": [
+     14
+    ],
+    "target": [
+     2
+    ]
+   },
+   "truth_goal": "reach(player14->goal11)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "floor",
+     "colors": [
+      8
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      13
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      0,
+      3
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0,
+      3
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      8
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      13,
+      14
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      14
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      8
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      8
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      8
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      13
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "socket",
+     "colors": [
+      2
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      14
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      14
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      14
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      14
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      2,
+      9
+     ],
+     "when": "click_on(8)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      2,
+      13
+     ],
+     "when": "click_on(8)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "rotate",
+     "of": [
+      8
+     ],
+     "when": "click_on(8)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      2,
+      9
+     ],
+     "when": "click_on(9)"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "recolour",
+     "of": [
+      8
+     ],
+     "when": "adjacent(9)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "recolour",
+     "of": [
+      13
+     ],
+     "when": "adjacent(2)"
+    }
+   ],
+   "goal": {
+    "kind": "inside",
+    "mover": [
+     14
+    ],
+    "target": [
+     2
+    ]
+   }
+  },
+  "secs": 6.6,
+  "error": null,
+  "how": "no_plan"
+ },
+ {
+  "game": "sc25",
+  "levels": 0,
+  "per_level": {
+   "1": 32
+  },
+  "score": {
+   "entities": 0.71,
+   "rules": 0.6,
+   "goal": false,
+   "pass": false,
+   "missed_entities": [
+    "marker:door",
+    "wall:wall5"
+   ],
+   "missed_rules": [
+    "ACTION1:translate:player",
+    "ACTION4:translate:player",
+    "ACTION6:toggle:spellgrid",
+    "ACTION6:shrink:player"
+   ],
+   "reported_goal": {
+    "kind": "align",
+    "mover": [
+     2
+    ],
+    "target": [
+     2
+    ]
+   },
+   "truth_goal": "reach(player->door)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "controlled",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "controlled",
+     "colors": [
+      10
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      10
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      14
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      0,
+      14
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0,
+      14
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      10
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      10
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      14
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      10
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      2
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      2,
+      9,
+      10
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      10
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      2
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      9,
+      10
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      2
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "recolour",
+     "of": [
+      14
+     ],
+     "when": "adjacent(2)"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "recolour",
+     "of": [
+      0
+     ],
+     "when": "adjacent(9)"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "recolour",
+     "of": [
+      0
+     ],
+     "when": "adjacent(10)"
+    }
+   ],
+   "goal": {
+    "kind": "align",
+    "mover": [
+     2
+    ],
+    "target": [
+     2
+    ]
+   }
+  },
+  "secs": 71.1,
+  "error": null,
+  "how": "no_plan"
+ },
+ {
+  "game": "cn04",
+  "levels": 1,
+  "per_level": {
+   "1": 18
+  },
+  "score": {
+   "entities": 1.0,
+   "rules": 0.5,
+   "goal": true,
+   "pass": false,
+   "missed_entities": [],
+   "missed_rules": [
+    "ACTION1:nothing:None",
+    "ACTION6:select:pieceB",
+    "ACTION6:select:pieceA",
+    "ACTION6:nothing:None",
+    "ACTION1:recolour:stub8"
+   ],
+   "reported_goal": {
+    "kind": "align",
+    "mover": [
+     8
+    ],
+    "target": [
+     8
+    ]
+   },
+   "truth_goal": "align(pieceA->pieceB)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "controlled",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "controlled",
+     "colors": [
+      8
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      8
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      10
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      0,
+      4
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0,
+      4
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      8
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      8
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION5",
+     "effect": "rotate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION5",
+     "effect": "rotate",
+     "of": [
+      8
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      3,
+      8
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      8
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      3,
+      8
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      8
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      3,
+      8
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      8
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      3,
+      8
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      8
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    }
+   ],
+   "goal": {
+    "kind": "align",
+    "mover": [
+     8
+    ],
+    "target": [
+     8
+    ]
+   }
+  },
+  "secs": 2.4,
+  "error": null,
+  "how": "plan:4/4"
+ },
+ {
+  "game": "vc33",
+  "levels": 1,
+  "per_level": {
+   "1": 26
+  },
+  "score": {
+   "entities": 0.83,
+   "rules": 0.8,
+   "goal": true,
+   "pass": true,
+   "missed_entities": [
+    "wall:wall5"
+   ],
+   "missed_rules": [
+    "ACTION6:grow:piston0"
+   ],
+   "reported_goal": {
+    "kind": "align",
+    "mover": [
+     11
+    ],
+    "target": [
+     11
+    ]
+   },
+   "truth_goal": "align(marker4->mark11)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "budget",
+     "colors": [
+      7
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      4,
+      7
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      4,
+      7
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      11
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      11
+     ],
+     "when": "click_on(9)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      4
+     ],
+     "when": "click_on(9)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "shrink",
+     "of": [
+      0
+     ],
+     "when": "click_on(9)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    }
+   ],
+   "goal": {
+    "kind": "align",
+    "mover": [
+     11
+    ],
+    "target": [
+     11
+    ]
+   }
+  },
+  "secs": 1.4,
+  "error": null,
+  "how": "plan:3/3"
+ },
+ {
+  "game": "m0r0",
+  "levels": 1,
+  "per_level": {
+   "1": 41
+  },
+  "score": {
+   "entities": 1.0,
+   "rules": 0.88,
+   "goal": false,
+   "pass": false,
+   "missed_entities": [],
+   "missed_rules": [
+    "ACTION1:merge:dot10"
+   ],
+   "reported_goal": {
+    "kind": "cover",
+    "mover": [
+     10
+    ],
+    "target": [
+     10
+    ]
+   },
+   "truth_goal": "merge(dot10->dot10)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "controlled",
+     "colors": [
+      10
+     ]
+    },
+    {
+     "role": "wall",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "wall",
+     "colors": [
+      12
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      10
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      10
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      10
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      10
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      10
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      10
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION5",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    }
+   ],
+   "goal": {
+    "kind": "cover",
+    "mover": [
+     10
+    ],
+    "target": [
+     10
+    ]
+   }
+  },
+  "secs": 1.2,
+  "error": null,
+  "how": "plan:16/16"
+ },
+ {
+  "game": "su15",
+  "levels": 1,
+  "per_level": {
+   "1": 14
+  },
+  "score": {
+   "entities": 0.75,
+   "rules": 0.67,
+   "goal": true,
+   "pass": false,
+   "missed_entities": [
+    "hud:hud4"
+   ],
+   "missed_rules": [
+    "ACTION7:teleport:blob15"
+   ],
+   "reported_goal": {
+    "kind": "inside",
+    "mover": [
+     15
+    ],
+    "target": [
+     9
+    ]
+   },
+   "truth_goal": "inside(blob15->disc9)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "floor",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "controlled",
+     "colors": [
+      15
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      15
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "socket",
+     "colors": [
+      9
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION6",
+     "effect": "teleport",
+     "of": [
+      15
+     ],
+     "when": "click_near"
+    },
+    {
+     "action": "ACTION7",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    }
+   ],
+   "goal": {
+    "kind": "inside",
+    "mover": [
+     15
+    ],
+    "target": [
+     9
+    ]
+   }
+  },
+  "secs": 0.4,
+  "error": null,
+  "how": "plan:8/9"
+ },
+ {
+  "game": "sk48",
+  "levels": 0,
+  "per_level": {
+   "1": 70
+  },
+  "score": {
+   "entities": 0.71,
+   "rules": 0.44,
+   "goal": false,
+   "pass": false,
+   "missed_entities": [
+    "mover:cargo",
+    "reference:refrow"
+   ],
+   "missed_rules": [
+    "ACTION4:grow:track",
+    "ACTION4:push:cargo",
+    "ACTION3:shrink:track",
+    "ACTION3:translate:cargo",
+    "ACTION7:teleport:head6"
+   ],
+   "reported_goal": {
+    "kind": "inside",
+    "mover": [
+     3
+    ],
+    "target": [
+     0
+    ]
+   },
+   "truth_goal": "sequence(cargo->refrow)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "controlled",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "controlled",
+     "colors": [
+      6
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      6
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      2,
+      3
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      2,
+      3
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "socket",
+     "colors": [
+      0
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      2
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      6
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      2
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      6
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "push",
+     "of": [
+      2
+     ],
+     "when": "blocked_by(2)"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "push",
+     "of": [
+      2
+     ],
+     "when": "blocked_by(2)"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "push",
+     "of": [
+      3
+     ],
+     "when": "blocked_by(3)"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "push",
+     "of": [
+      3
+     ],
+     "when": "blocked_by(3)"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      3
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      1
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      3
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      1
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      2
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION7",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    }
+   ],
+   "goal": {
+    "kind": "inside",
+    "mover": [
+     3
+    ],
+    "target": [
+     0
+    ]
+   }
+  },
+  "secs": 4.5,
+  "error": null,
+  "how": "no_plan"
+ },
+ {
+  "game": "tn36",
+  "levels": 1,
+  "per_level": {
+   "1": 41
+  },
+  "score": {
+   "entities": 0.33,
+   "rules": 0.33,
+   "goal": false,
+   "pass": false,
+   "missed_entities": [
+    "socket:ghost11",
+    "button:toggle15",
+    "button:run9",
+    "floor:board5"
+   ],
+   "missed_rules": [
+    "ACTION6:toggle:toggle15",
+    "ACTION6:translate:avatar11"
+   ],
+   "reported_goal": {
+    "kind": "align",
+    "mover": [
+     11
+    ],
+    "target": [
+     11
+    ]
+   },
+   "truth_goal": "inside(avatar11->ghost11)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "budget",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      3,
+      9
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      3,
+      9
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      11
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    }
+   ],
+   "goal": {
+    "kind": "align",
+    "mover": [
+     11
+    ],
+    "target": [
+     11
+    ]
+   }
+  },
+  "secs": 6.4,
+  "error": null,
+  "how": "program"
+ },
+ {
+  "game": "sb26",
+  "levels": 0,
+  "per_level": {
+   "1": 28
+  },
+  "score": {
+   "entities": 0.2,
+   "rules": 0.17,
+   "goal": false,
+   "pass": false,
+   "missed_entities": [
+    "reference:targets",
+    "canvas:frame8",
+    "socket:spot2",
+    "controlled:block"
+   ],
+   "missed_rules": [
+    "ACTION6:select:block",
+    "ACTION6:teleport:block",
+    "ACTION6:swap:block",
+    "ACTION5:recolour:targets",
+    "ACTION7:teleport:block"
+   ],
+   "reported_goal": null,
+   "truth_goal": "sequence(block->targets)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "hud",
+     "colors": [
+      2,
+      3
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      2,
+      3
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      3
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION5",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION7",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    }
+   ],
+   "goal": null
+  },
+  "secs": 0.8,
+  "error": null,
+  "how": "no_plan"
+ },
+ {
+  "game": "ft09",
+  "levels": 1,
+  "per_level": {
+   "1": 4
+  },
+  "score": {
+   "entities": 0.33,
+   "rules": 0.67,
+   "goal": false,
+   "pass": false,
+   "missed_entities": [
+    "canvas:tile9",
+    "reference:card8"
+   ],
+   "missed_rules": [
+    "ACTION6:recolour:tile9"
+   ],
+   "reported_goal": {
+    "kind": "inside",
+    "mover": [
+     0
+    ],
+    "target": [
+     0
+    ]
+   },
+   "truth_goal": "mapping(tile9->card8)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "hud",
+     "colors": [
+      11,
+      12
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      11,
+      12
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "socket",
+     "colors": [
+      0
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    }
+   ],
+   "goal": {
+    "kind": "inside",
+    "mover": [
+     0
+    ],
+    "target": [
+     0
+    ]
+   }
+  },
+  "secs": 1.3,
+  "error": null,
+  "how": "legend"
+ },
+ {
+  "game": "tu93",
+  "levels": 1,
+  "per_level": {
+   "1": 28
+  },
+  "score": {
+   "entities": 1.0,
+   "rules": 1.0,
+   "goal": true,
+   "pass": true,
+   "missed_entities": [],
+   "missed_rules": [],
+   "reported_goal": {
+    "kind": "reach",
+    "mover": [
+     9
+    ],
+    "target": [
+     14
+    ]
+   },
+   "truth_goal": "reach(player9->exit14)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "controlled",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "wall",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      6
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      0,
+      6
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0,
+      6
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      6
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      14
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      4
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      4
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      4
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      4
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "recolour",
+     "of": [
+      0
+     ],
+     "when": "adjacent(0)"
+    }
+   ],
+   "goal": {
+    "kind": "reach",
+    "mover": [
+     9
+    ],
+    "target": [
+     14
+    ]
+   }
+  },
+  "secs": 4.2,
+  "error": null,
+  "how": "plan:16/16"
+ },
+ {
+  "game": "lf52",
+  "levels": 1,
+  "per_level": {
+   "1": 53
+  },
+  "score": {
+   "entities": 0.4,
+   "rules": 0.43,
+   "goal": false,
+   "pass": false,
+   "missed_entities": [
+    "controlled:peg14",
+    "floor:floor1",
+    "hud:ring3"
+   ],
+   "missed_rules": [
+    "ACTION6:select:peg14",
+    "ACTION6:appear:arrow2",
+    "ACTION6:vanish:peg14",
+    "ACTION7:teleport:peg14"
+   ],
+   "reported_goal": {
+    "kind": "cover",
+    "mover": [
+     1
+    ],
+    "target": [
+     1
+    ]
+   },
+   "truth_goal": "count(peg14->None)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "hud",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      1,
+      5,
+      9
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      1,
+      5,
+      9,
+      14
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      14
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      1,
+      2
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      1,
+      14
+     ],
+     "when": "click_on(1)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      1
+     ],
+     "when": "click_on(1)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      1,
+      2
+     ],
+     "when": "click_on(1)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      14
+     ],
+     "when": "click_on(1)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      2
+     ],
+     "when": "click_on(1)"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION7",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "recolour",
+     "of": [
+      1
+     ],
+     "when": "adjacent(2)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "recolour",
+     "of": [
+      1
+     ],
+     "when": "click_on(1)"
+    }
+   ],
+   "goal": {
+    "kind": "cover",
+    "mover": [
+     1
+    ],
+    "target": [
+     1
+    ]
+   }
+  },
+  "secs": 13.1,
+  "error": null,
+  "how": "leap"
+ },
+ {
+  "game": "wa30",
+  "levels": 1,
+  "per_level": {
+   "1": 66
+  },
+  "score": {
+   "entities": 0.8,
+   "rules": 0.73,
+   "goal": false,
+   "pass": false,
+   "missed_entities": [
+    "socket:pen9"
+   ],
+   "missed_rules": [
+    "ACTION1:recolour:crate4",
+    "ACTION5:select:crate4",
+    "ACTION5:select:crate4"
+   ],
+   "reported_goal": {
+    "kind": "reach",
+    "mover": [
+     9
+    ],
+    "target": [
+     9
+    ]
+   },
+   "truth_goal": "inside(crate4->pen9)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "controlled",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "controlled",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "controlled",
+     "colors": [
+      14
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "wall",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      14
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      4,
+      7
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      4,
+      7
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      2,
+      9
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      9
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      14
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      14
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      14
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      14
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "rotate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "rotate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "rotate",
+     "of": [
+      14
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "rotate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "rotate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "rotate",
+     "of": [
+      14
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "rotate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "rotate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "rotate",
+     "of": [
+      14
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "push",
+     "of": [
+      0
+     ],
+     "when": "blocked_by(0)"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "push",
+     "of": [
+      0
+     ],
+     "when": "blocked_by(0)"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "push",
+     "of": [
+      0
+     ],
+     "when": "blocked_by(0)"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "push",
+     "of": [
+      0
+     ],
+     "when": "blocked_by(0)"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "push",
+     "of": [
+      9
+     ],
+     "when": "blocked_by(9)"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "push",
+     "of": [
+      9
+     ],
+     "when": "blocked_by(9)"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "push",
+     "of": [
+      9
+     ],
+     "when": "blocked_by(9)"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "push",
+     "of": [
+      9
+     ],
+     "when": "blocked_by(9)"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "push",
+     "of": [
+      2
+     ],
+     "when": "blocked_by(2)"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "push",
+     "of": [
+      2
+     ],
+     "when": "blocked_by(2)"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "push",
+     "of": [
+      2
+     ],
+     "when": "blocked_by(2)"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "push",
+     "of": [
+      2
+     ],
+     "when": "blocked_by(2)"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      0,
+      3,
+      4
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION5",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "recolour",
+     "of": [
+      2
+     ],
+     "when": "adjacent(2)"
+    }
+   ],
+   "goal": {
+    "kind": "reach",
+    "mover": [
+     9
+    ],
+    "target": [
+     9
+    ]
+   }
+  },
+  "secs": 5.5,
+  "error": null,
+  "how": "carry"
+ },
+ {
+  "game": "ls20",
+  "levels": 1,
+  "per_level": {
+   "1": 28
+  },
+  "score": {
+   "entities": 1.0,
+   "rules": 0.75,
+   "goal": true,
+   "pass": false,
+   "missed_entities": [],
+   "missed_rules": [
+    "ACTION1:rotate:hudbox",
+    "ACTION5:nothing:None"
+   ],
+   "reported_goal": {
+    "kind": "reach",
+    "mover": [
+     9,
+     12
+    ],
+    "target": [
+     9
+    ]
+   },
+   "truth_goal": "reach(player12->pad5)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "controlled",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "controlled",
+     "colors": [
+      12
+     ]
+    },
+    {
+     "role": "wall",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      8
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      8
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      3,
+      11
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      3,
+      11
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      5,
+      9
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      9
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      12
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      12
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      12
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      12
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "recolour",
+     "of": [
+      9
+     ],
+     "when": "adjacent(0)"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "recolour",
+     "of": [
+      9
+     ],
+     "when": "adjacent(1)"
+    }
+   ],
+   "goal": {
+    "kind": "reach",
+    "mover": [
+     9,
+     12
+    ],
+    "target": [
+     9
+    ]
+   }
+  },
+  "secs": 2.5,
+  "error": null,
+  "how": "display"
+ },
+ {
+  "game": "ar25",
+  "levels": 1,
+  "per_level": {
+   "1": 20
+  },
+  "score": {
+   "entities": 0.8,
+   "rules": 0.77,
+   "goal": true,
+   "pass": false,
+   "missed_entities": [
+    "tool:axis10"
+   ],
+   "missed_rules": [
+    "ACTION1:nothing:None",
+    "ACTION6:select:shape5",
+    "ACTION6:nothing:None"
+   ],
+   "reported_goal": {
+    "kind": "cover",
+    "mover": [
+     4
+    ],
+    "target": [
+     11
+    ]
+   },
+   "truth_goal": "cover(mirror4->target11)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "controlled",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "controlled",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      5,
+      11
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      5,
+      11
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      10
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      10
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      11
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      5
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      4
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      5
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      4
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      5
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      4
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      5
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      4
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION7",
+     "effect": "translate",
+     "of": [
+      5
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION7",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION7",
+     "effect": "translate",
+     "of": [
+      4
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION5",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "recolour",
+     "of": [
+      11
+     ],
+     "when": "adjacent(11)"
+    }
+   ],
+   "goal": {
+    "kind": "cover",
+    "mover": [
+     4
+    ],
+    "target": [
+     11
+    ]
+   }
+  },
+  "secs": 2.5,
+  "error": null,
+  "how": "plan:14/14"
+ },
+ {
+  "game": "g50t",
+  "levels": 0,
+  "per_level": {
+   "1": 45
+  },
+  "score": {
+   "entities": 0.67,
+   "rules": 0.5,
+   "goal": true,
+   "pass": false,
+   "missed_entities": [
+    "wall:void0",
+    "button:pad8",
+    "mover:door8"
+   ],
+   "missed_rules": [
+    "ACTION1:translate:ghost2",
+    "ACTION1:translate:door8",
+    "ACTION5:teleport:player9",
+    "ACTION5:appear:ghost2",
+    "ACTION5:recolour:slots",
+    "ACTION5:vanish:ghost2"
+   ],
+   "reported_goal": {
+    "kind": "reach",
+    "mover": [
+     9
+    ],
+    "target": [
+     9
+    ]
+   },
+   "truth_goal": "reach(player9->goal9)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "controlled",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      1,
+      9
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      1,
+      9
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      9
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      1,
+      2,
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      2
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      1,
+      2,
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION5",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION5",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    }
+   ],
+   "goal": {
+    "kind": "reach",
+    "mover": [
+     9
+    ],
+    "target": [
+     9
+    ]
+   }
+  },
+  "secs": 6.3,
+  "error": null,
+  "how": "no_plan"
+ },
+ {
+  "game": "ka59",
+  "levels": 1,
+  "per_level": {
+   "1": 86
+  },
+  "score": {
+   "entities": 0.86,
+   "rules": 1.0,
+   "goal": true,
+   "pass": true,
+   "missed_entities": [
+    "wall:pit15"
+   ],
+   "missed_rules": [],
+   "reported_goal": {
+    "kind": "inside",
+    "mover": [
+     14
+    ],
+    "target": [
+     4
+    ]
+   },
+   "truth_goal": "inside(block14->socket4)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "controlled",
+     "colors": [
+      14
+     ]
+    },
+    {
+     "role": "selector",
+     "colors": [
+      14
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      14
+     ]
+    },
+    {
+     "role": "wall",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      0,
+      4
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0,
+      4
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "socket",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      4,
+      14
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      0,
+      14
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      14
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "translate",
+     "of": [
+      14
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      14
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      14
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "select",
+     "of": [
+      14
+     ],
+     "when": "click_on(14)"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "push",
+     "of": [
+      4
+     ],
+     "when": "blocked_by(4)"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "push",
+     "of": [
+      4
+     ],
+     "when": "blocked_by(4)"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "push",
+     "of": [
+      4
+     ],
+     "when": "blocked_by(4)"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "push",
+     "of": [
+      4
+     ],
+     "when": "blocked_by(4)"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "push",
+     "of": [
+      14
+     ],
+     "when": "blocked_by(14)"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "push",
+     "of": [
+      14
+     ],
+     "when": "blocked_by(14)"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "push",
+     "of": [
+      14
+     ],
+     "when": "blocked_by(14)"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "push",
+     "of": [
+      14
+     ],
+     "when": "blocked_by(14)"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION2",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "recolour",
+     "of": [
+      0
+     ],
+     "when": "adjacent(4)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "recolour",
+     "of": [
+      14
+     ],
+     "when": "click_on(4)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "recolour",
+     "of": [
+      14
+     ],
+     "when": "click_on(0)"
+    }
+   ],
+   "goal": {
+    "kind": "inside",
+    "mover": [
+     14
+    ],
+    "target": [
+     4
+    ]
+   }
+  },
+  "secs": 191.9,
+  "error": null,
+  "how": "joint"
+ },
+ {
+  "game": "tr87",
+  "levels": 1,
+  "per_level": {
+   "1": 32
+  },
+  "score": {
+   "entities": 0.4,
+   "rules": 0.5,
+   "goal": false,
+   "pass": false,
+   "missed_entities": [
+    "canvas:target7",
+    "reference:source10",
+    "reference:table10"
+   ],
+   "missed_rules": [
+    "ACTION1:toggle:target7",
+    "ACTION2:toggle:target7"
+   ],
+   "reported_goal": {
+    "kind": "inside",
+    "mover": [
+     5
+    ],
+    "target": [
+     7
+    ]
+   },
+   "truth_goal": "mapping(target7->source10)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "controlled",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "controlled",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "wall",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "wall",
+     "colors": [
+      7
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      7
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      1,
+      4
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      1,
+      4
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      7
+     ]
+    },
+    {
+     "role": "socket",
+     "colors": [
+      7
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "translate",
+     "of": [
+      5
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      5
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      0
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION1",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    }
+   ],
+   "goal": {
+    "kind": "inside",
+    "mover": [
+     5
+    ],
+    "target": [
+     7
+    ]
+   }
+  },
+  "secs": 3.4,
+  "error": null,
+  "how": "table"
+ },
+ {
+  "game": "s5i5",
+  "levels": 1,
+  "per_level": {
+   "1": 47
+  },
+  "score": {
+   "entities": 1.0,
+   "rules": 1.0,
+   "goal": true,
+   "pass": true,
+   "missed_entities": [],
+   "missed_rules": [],
+   "reported_goal": {
+    "kind": "inside",
+    "mover": [
+     13
+    ],
+    "target": [
+     13
+    ]
+   },
+   "truth_goal": "inside(tip13->diamond13)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "budget",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      4
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      3,
+      4
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      3,
+      4
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      2,
+      3,
+      4,
+      14
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      14
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      13
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      2,
+      3,
+      4,
+      11
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      13
+     ]
+    },
+    {
+     "role": "socket",
+     "colors": [
+      13
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION6",
+     "effect": "grow",
+     "of": [
+      14
+     ],
+     "when": "click_on(14)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      13
+     ],
+     "when": "click_on(14)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "shrink",
+     "of": [
+      14
+     ],
+     "when": "click_on(14)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "grow",
+     "of": [
+      11
+     ],
+     "when": "click_on(11)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      13
+     ],
+     "when": "click_on(11)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "shrink",
+     "of": [
+      11
+     ],
+     "when": "click_on(11)"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    }
+   ],
+   "goal": {
+    "kind": "inside",
+    "mover": [
+     13
+    ],
+    "target": [
+     13
+    ]
+   }
+  },
+  "secs": 1.3,
+  "error": null,
+  "how": "plan:6/6"
+ },
+ {
+  "game": "r11l",
+  "levels": 1,
+  "per_level": {
+   "1": 7
+  },
+  "score": {
+   "entities": 0.86,
+   "rules": 0.8,
+   "goal": true,
+   "pass": true,
+   "missed_entities": [
+    "selector:handle15b"
+   ],
+   "missed_rules": [
+    "ACTION6:select:handle15b"
+   ],
+   "reported_goal": {
+    "kind": "inside",
+    "mover": [
+     15
+    ],
+    "target": [
+     15
+    ]
+   },
+   "truth_goal": "inside(disc15->diamond15)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "wall",
+     "colors": [
+      2
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      6
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      15
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "controlled",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "controlled",
+     "colors": [
+      15
+     ]
+    },
+    {
+     "role": "controlled",
+     "colors": [
+      6
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      1
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      15
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      15
+     ]
+    },
+    {
+     "role": "socket",
+     "colors": [
+      15
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION6",
+     "effect": "teleport",
+     "of": [
+      0
+     ],
+     "when": "click_near"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "teleport",
+     "of": [
+      15
+     ],
+     "when": "click_near"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      6
+     ],
+     "when": "click_near"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "recolour",
+     "of": [
+      0
+     ],
+     "when": "adjacent(1)"
+    }
+   ],
+   "goal": {
+    "kind": "inside",
+    "mover": [
+     15
+    ],
+    "target": [
+     15
+    ]
+   }
+  },
+  "secs": 0.6,
+  "error": null,
+  "how": "plan:3/3"
+ },
+ {
+  "game": "bp35",
+  "levels": 1,
+  "per_level": {
+   "1": 28
+  },
+  "score": {
+   "entities": 0.71,
+   "rules": 0.44,
+   "goal": true,
+   "pass": false,
+   "missed_entities": [
+    "wall:block14",
+    "hazard:hunter15"
+   ],
+   "missed_rules": [
+    "ACTION3:slide:player9",
+    "ACTION3:translate:hunter15",
+    "ACTION6:vanish:block14",
+    "ACTION6:slide:player9",
+    "ACTION7:teleport:player9"
+   ],
+   "reported_goal": {
+    "kind": "reach",
+    "mover": [
+     9
+    ],
+    "target": [
+     7
+    ]
+   },
+   "truth_goal": "reach(player9->gem7)"
+  },
+  "report": {
+   "entities": [
+    {
+     "role": "controlled",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "controlled",
+     "colors": [
+      11
+     ]
+    },
+    {
+     "role": "wall",
+     "colors": [
+      5
+     ]
+    },
+    {
+     "role": "floor",
+     "colors": [
+      10
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      15
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      0,
+      15
+     ]
+    },
+    {
+     "role": "budget",
+     "colors": [
+      0,
+      15
+     ]
+    },
+    {
+     "role": "hud",
+     "colors": [
+      15
+     ]
+    },
+    {
+     "role": "tool",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      14
+     ]
+    },
+    {
+     "role": "canvas",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "button",
+     "colors": [
+      3
+     ]
+    },
+    {
+     "role": "mover",
+     "colors": [
+      9
+     ]
+    },
+    {
+     "role": "marker",
+     "colors": [
+      7
+     ]
+    }
+   ],
+   "rules": [
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      11
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      11
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION7",
+     "effect": "translate",
+     "of": [
+      11
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION7",
+     "effect": "translate",
+     "of": [
+      9
+     ],
+     "when": "always"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "translate",
+     "of": [
+      14
+     ],
+     "when": "click_on"
+    },
+    {
+     "action": "ACTION3",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION4",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION7",
+     "effect": "nothing",
+     "of": [],
+     "when": "blocked_by"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "nothing",
+     "of": [],
+     "when": "always"
+    },
+    {
+     "action": "ACTION6",
+     "effect": "recolour",
+     "of": [
+      3
+     ],
+     "when": "adjacent(3)"
+    }
+   ],
+   "goal": {
+    "kind": "reach",
+    "mover": [
+     9
+    ],
+    "target": [
+     7
+    ]
+   }
+  },
+  "secs": 64.7,
+  "error": null,
+  "how": "plan:2/2"
+ }
+]

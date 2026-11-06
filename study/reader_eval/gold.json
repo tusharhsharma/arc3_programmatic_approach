@@ -1,0 +1,13 @@
+{
+  "_note": "Gold readings from claude/human-readings.md, by COLOUR so they do not depend on the tracker's ids. A reading matches when its mover's colour is in `mover` and its target's colour is in `target` (kind must match when given). Scenes without gold are judged by eye.",
+  "wa30": {"kind": ["align", "cover"], "mover": [4], "target": [9], "laws": {"carry": {"key": "ACTION5", "kind": 4, "target": 9}}, "reading": "the crates (4) go into the pen (9), carried by the body (14)"},
+  "wa30:2": {"kind": ["align", "cover"], "mover": [4], "target": [9], "laws": {"helpers": [12], "carry": {"key": "ACTION5", "kind": 4, "target": 9}}, "reading": "crates into the pen; the orange one (12) is an ally carrying crates too — leave its crates to it"},
+  "cn04": {"kind": ["cover"], "mover": [0, 14], "target": [14, 0], "reading": "the piece with marks (0 with 8-marks) docks onto the piece with like marks (14), turned"},
+  "m0r0": {"kind": ["align"], "mover": [10], "target": [10], "reading": "two like movers (10) become one: bring them together using walls that stop one and not the other"},
+  "re86": {"kind": ["cover", "align"], "mover": [11, 9], "target": [4, 9, 11], "reading": "a plus's four arm-ends go onto the four dots of its colour (own-colour constellation), or the two pluses overlap"},
+  "ka59": {"kind": ["align", "cover"], "mover": [4], "target": [14], "reading": "each block (4) goes into the frame (14) whose interior fits it"},
+  "r11l": {"kind": ["align"], "mover": [15], "target": [0], "reading": "the purple traveller (15) is sent along the line to the ring (0) by clicking an end and then pointing"},
+  "vc33": {"kind": ["align"], "mover": [11], "target": [11], "reading": "the marker (11) riding a piston must come level with the mark (11) on the wall; buttons pump length between pistons"},
+  "cd82": {"kind": ["equal"], "mover": [4, 0, 15], "target": [15, 0, 2], "reading": "make the canvas look like the picture"},
+  "tn36": {"kind": ["align", "cover"], "mover": [4, 11], "target": [9], "reading": "the block fits the cup (9) below; the strip of toggles programs the journey"}
+}

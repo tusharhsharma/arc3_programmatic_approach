@@ -1,0 +1,231 @@
+{
+ "game": "tu93",
+ "levels": 1,
+ "per_level": {
+  "1": 28
+ },
+ "score": {
+  "entities": 1.0,
+  "rules": 1.0,
+  "goal": true,
+  "pass": true,
+  "missed_entities": [],
+  "missed_rules": [],
+  "reported_goal": {
+   "kind": "reach",
+   "mover": [
+    9
+   ],
+   "target": [
+    14
+   ]
+  },
+  "truth_goal": "reach(player9->exit14)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "wall",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     6
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     0,
+     6
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     0,
+     6
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     6
+    ]
+   },
+   {
+    "role": "tool",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "canvas",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "button",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     14
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     4
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     4
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     4
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     4
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "recolour",
+    "of": [
+     0
+    ],
+    "when": "adjacent(0)"
+   }
+  ],
+  "goal": {
+   "kind": "reach",
+   "mover": [
+    9
+   ],
+   "target": [
+    14
+   ]
+  }
+ },
+ "secs": 4.2,
+ "error": null,
+ "how": "plan:16/16"
+}

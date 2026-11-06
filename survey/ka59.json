@@ -1,0 +1,210 @@
+{
+  "game_id": "ka59-38d34dbb",
+  "title": "KA59",
+  "tags": [
+    "keyboard_click"
+  ],
+  "baseline_actions": [
+    28,
+    109,
+    51,
+    51,
+    33,
+    132,
+    326
+  ],
+  "win_levels": 7,
+  "available_actions": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "raw_subframes": 1,
+  "bg_color": 2,
+  "cell_size": 1,
+  "logical_shape": [
+    64,
+    64
+  ],
+  "colors_present": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    14,
+    15
+  ],
+  "n_objects": 13,
+  "object_summary": [
+    [
+      [
+        1,
+        9
+      ],
+      3
+    ],
+    [
+      [
+        1,
+        290
+      ],
+      2
+    ],
+    [
+      [
+        4,
+        16
+      ],
+      2
+    ],
+    [
+      [
+        14,
+        8
+      ],
+      2
+    ],
+    [
+      [
+        15,
+        126
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        5,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        4,
+        64
+      ],
+      1
+    ]
+  ],
+  "action_effects": {
+    "ACTION1": {
+      "changed_cells": 19,
+      "moved": [
+        [
+          14,
+          8,
+          [
+            -3,
+            0
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            -3,
+            0
+          ]
+        ]
+      ],
+      "appeared": 3,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION2": {
+      "changed_cells": 18,
+      "moved": [
+        [
+          14,
+          8,
+          [
+            3,
+            0
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            3,
+            0
+          ]
+        ]
+      ],
+      "appeared": 1,
+      "vanished": 1,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION3": {
+      "changed_cells": 19,
+      "moved": [
+        [
+          14,
+          8,
+          [
+            0,
+            -3
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            0,
+            -3
+          ]
+        ]
+      ],
+      "appeared": 4,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION4": {
+      "changed_cells": 19,
+      "moved": [
+        [
+          14,
+          8,
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            0,
+            3
+          ]
+        ]
+      ],
+      "appeared": 4,
+      "vanished": 4,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION6": {
+      "changed_cells": 0,
+      "moved": [],
+      "appeared": 0,
+      "vanished": 0,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    }
+  },
+  "png": "survey/ka59.png"
+}

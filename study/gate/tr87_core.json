@@ -1,0 +1,194 @@
+{
+ "game": "tr87",
+ "levels": 1,
+ "per_level": {
+  "1": 32
+ },
+ "score": {
+  "entities": 0.4,
+  "rules": 0.5,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "canvas:target7",
+   "reference:source10",
+   "reference:table10"
+  ],
+  "missed_rules": [
+   "ACTION1:toggle:target7",
+   "ACTION2:toggle:target7"
+  ],
+  "reported_goal": {
+   "kind": "inside",
+   "mover": [
+    5
+   ],
+   "target": [
+    7
+   ]
+  },
+  "truth_goal": "mapping(target7->source10)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "controlled",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "wall",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "wall",
+    "colors": [
+     7
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     3
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     7
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     1,
+     4
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     1,
+     4
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     7
+    ]
+   },
+   {
+    "role": "socket",
+    "colors": [
+     7
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     5
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     5
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   }
+  ],
+  "goal": {
+   "kind": "inside",
+   "mover": [
+    5
+   ],
+   "target": [
+    7
+   ]
+  }
+ },
+ "secs": 3.4,
+ "error": null,
+ "how": "table"
+}

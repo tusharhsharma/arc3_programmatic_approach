@@ -1,0 +1,717 @@
+{
+ "game": "dc22",
+ "levels": 0,
+ "win_levels": 6,
+ "baseline": [
+  59,
+  102,
+  67,
+  98,
+  324,
+  578
+ ],
+ "per_level": {},
+ "actions": 800,
+ "secs": 8.3,
+ "error": null,
+ "deaths": [
+  127,
+  253,
+  377,
+  496,
+  619,
+  746
+ ],
+ "action_use": {
+  "ACTION1": 87,
+  "ACTION2": 304,
+  "ACTION3": 71,
+  "ACTION4": 299,
+  "ACTION6": 33
+ },
+ "final": {
+  "motions": {
+   "ACTION1": [
+    -2,
+    0
+   ],
+   "ACTION2": [
+    2,
+    0
+   ],
+   "ACTION3": [
+    0,
+    -2
+   ],
+   "ACTION4": [
+    0,
+    2
+   ]
+  },
+  "slides": [],
+  "shape_ops": {},
+  "inert": [],
+  "walls": [
+   4
+  ],
+  "collect": [],
+  "lethal": [],
+  "laws": [],
+  "click_laws": {},
+  "pushable": [],
+  "avatar_color": 14,
+  "avatar_size": 4,
+  "goal_refuted": [
+   8,
+   11,
+   13
+  ],
+  "timer": true,
+  "playfield": [
+   10,
+   54,
+   0,
+   34
+  ]
+ },
+ "level_marks": [],
+ "hlog": [
+  {
+   "chosen": 11,
+   "alternatives": [
+    8,
+    13
+   ],
+   "kind": "goal_choice",
+   "n": 4
+  },
+  {
+   "color": 11,
+   "reason": "unreachable_map_exhausted",
+   "kind": "goal_refuted",
+   "n": 23
+  },
+  {
+   "chosen": 8,
+   "alternatives": [
+    13
+   ],
+   "kind": "goal_choice",
+   "n": 23
+  },
+  {
+   "color": 8,
+   "reason": "unreachable_map_exhausted",
+   "kind": "goal_refuted",
+   "n": 27
+  },
+  {
+   "color": 13,
+   "reason": "unreachable_map_exhausted",
+   "kind": "goal_refuted",
+   "n": 28
+  }
+ ],
+ "gov": {
+  "refassembly": {
+   "spent": 0,
+   "dead": false
+  },
+  "actuators": {
+   "spent": 0,
+   "dead": false
+  },
+  "glyphs": {
+   "spent": 0,
+   "dead": false
+  },
+  "aligner": {
+   "spent": 0,
+   "dead": false
+  },
+  "multibody": {
+   "spent": 0,
+   "dead": false
+  },
+  "overlay": {
+   "spent": 0,
+   "dead": false
+  },
+  "edgemaze": {
+   "spent": 0,
+   "dead": false
+  },
+  "permuter": {
+   "spent": 0,
+   "dead": false
+  },
+  "pegs": {
+   "spent": 0,
+   "dead": false
+  }
+ },
+ "anomalies": [],
+ "tail": [
+  {
+   "n": 749,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 750,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 751,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 752,
+   "a": "ACTION1",
+   "lv": 0,
+   "pos": [
+    30,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 753,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 754,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 755,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 756,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 757,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 758,
+   "a": "ACTION1",
+   "lv": 0,
+   "pos": [
+    30,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 759,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 760,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 761,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 762,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 763,
+   "a": "ACTION1",
+   "lv": 0,
+   "pos": [
+    30,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 764,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 765,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 766,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 767,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 768,
+   "a": "ACTION1",
+   "lv": 0,
+   "pos": [
+    30,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 769,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 770,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 771,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 772,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 773,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 774,
+   "a": "ACTION1",
+   "lv": 0,
+   "pos": [
+    30,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 775,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 776,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 777,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 778,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 779,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 780,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    32,
+    10
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 781,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    10
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 782,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 783,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 784,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 785,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 786,
+   "a": "ACTION3",
+   "lv": 0,
+   "pos": [
+    32,
+    10
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 787,
+   "a": "ACTION4",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  },
+  {
+   "n": 788,
+   "a": "ACTION2",
+   "lv": 0,
+   "pos": [
+    32,
+    12
+   ],
+   "seek": [
+    10,
+    24
+   ],
+   "plan": 0
+  }
+ ],
+ "unresolved": {}
+}

@@ -1,0 +1,161 @@
+{
+ "game": "m0r0",
+ "levels": 1,
+ "per_level": {
+  "1": 41
+ },
+ "score": {
+  "entities": 1.0,
+  "rules": 0.88,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [],
+  "missed_rules": [
+   "ACTION1:merge:dot10"
+  ],
+  "reported_goal": {
+   "kind": "cover",
+   "mover": [
+    10
+   ],
+   "target": [
+    10
+   ]
+  },
+  "truth_goal": "merge(dot10->dot10)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     10
+    ]
+   },
+   {
+    "role": "wall",
+    "colors": [
+     11
+    ]
+   },
+   {
+    "role": "wall",
+    "colors": [
+     12
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     10
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     10
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     10
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     10
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     10
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     10
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION5",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   }
+  ],
+  "goal": {
+   "kind": "cover",
+   "mover": [
+    10
+   ],
+   "target": [
+    10
+   ]
+  }
+ },
+ "secs": 1.2,
+ "error": null,
+ "how": "plan:16/16"
+}

@@ -1,0 +1,208 @@
+{
+ "game": "lp85",
+ "levels": 1,
+ "per_level": {
+  "1": 10
+ },
+ "score": {
+  "entities": 0.86,
+  "rules": 1.0,
+  "goal": true,
+  "pass": true,
+  "missed_entities": [
+   "button:btnR14"
+  ],
+  "missed_rules": [],
+  "reported_goal": {
+   "kind": "inside",
+   "mover": [
+    11
+   ],
+   "target": [
+    11
+   ]
+  },
+  "truth_goal": "inside(goal11->socket11)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "hud",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     5,
+     14
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     5,
+     14
+    ]
+   },
+   {
+    "role": "button",
+    "colors": [
+     8
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     11
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     10
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     11
+    ]
+   },
+   {
+    "role": "socket",
+    "colors": [
+     11
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     1
+    ],
+    "when": "click_on(8)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "when": "click_on(8)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     15
+    ],
+    "when": "click_on(8)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     11
+    ],
+    "when": "click_on(8)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     2
+    ],
+    "when": "click_on(8)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     10
+    ],
+    "when": "click_on(8)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     1,
+     2,
+     15
+    ],
+    "when": "click_on(8)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     1,
+     9
+    ],
+    "when": "click_on(8)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     9,
+     10,
+     15
+    ],
+    "when": "click_on(8)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   }
+  ],
+  "goal": {
+   "kind": "inside",
+   "mover": [
+    11
+   ],
+   "target": [
+    11
+   ]
+  }
+ },
+ "secs": 1.4,
+ "error": null,
+ "how": "plan:4/4"
+}

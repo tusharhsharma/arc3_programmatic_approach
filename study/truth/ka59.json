@@ -1,0 +1,43 @@
+{
+  "game": "ka59",
+  "level": 1,
+  "actions": ["ACTION1", "ACTION2", "ACTION3", "ACTION4", "ACTION6"],
+  "entities": [
+    {"id": "block14", "role": "controlled", "colors": [14, 0], "count": 1, "size": [9, 9],
+     "note": "3x3 square with a colour-14 border and a BLACK(0) centre = the selected block, at rows 30-32, cols 18-20 (on the left room's floor, just left of the bridge); moves 3 px per press"},
+    {"id": "block14b", "role": "mover", "colors": [14, 5], "count": 1, "size": [9, 9],
+     "note": "identical 3x3 colour-14 square with a colour-5 centre (never selected yet) at rows 30-32, cols 27-29 on the bridge; it is pushed by the controlled block and can be made the controlled one by clicking it (centre turns 0; the deselected block's centre turns colour 4)"},
+    {"id": "socket4", "role": "socket", "colors": [4], "count": 2, "size": [16, 16],
+     "note": "hollow 5x5 colour-4 frames with a 3x3 cavity: rows 32-36, cols 11-15 (left room) and rows 26-30, cols 44-48 (right room); a block fits when it sits exactly in the cavity (rows 33-35 cols 12-14 / rows 27-29 cols 45-47)"},
+    {"id": "pit15", "role": "wall", "colors": [15], "count": 1, "size": [126, 126],
+     "note": "colour-15 vertical strip rows 21-41, cols 33-38 splitting the floor: the controlled block can never enter it, but a PUSHED block slides across it (a push keeps going until the block is clear of the strip)"},
+    {"id": "floor1", "role": "floor", "colors": [1], "count": 1, "size": [607, 607],
+     "note": "colour-1 floor: left room rows 21-41 cols 9-23, a one-block-high bridge rows 30-32 cols 24-32, and the right room rows 21-41 cols 39-53 beyond the pit; blocks move on a 3-px lattice"},
+    {"id": "wall2", "role": "wall", "colors": [2], "count": 1, "size": [3200, 3300],
+     "note": "colour 2 everywhere else (letterbox rows 0-20/42-62, cols 0-8/54-63 and the notches above and below the bridge): impassable for every block"},
+    {"id": "stepbar", "role": "budget", "colors": [4, 0], "count": 1, "size": [64, 64],
+     "note": "row 63: colour 4 = remaining steps, black(0) eats in from the RIGHT (64 px = 100 steps, about 0.64 px per action); every action including clicks costs 1"}
+  ],
+  "rules": [
+    {"action": "ACTION1", "when": "always", "effect": "translate", "of": "block14", "by": 3,
+     "note": "selected block up 3 px; costs 1 step"},
+    {"action": "ACTION2", "when": "always", "effect": "translate", "of": "block14", "by": 3,
+     "note": "down 3 px"},
+    {"action": "ACTION3", "when": "always", "effect": "translate", "of": "block14", "by": 3,
+     "note": "left 3 px"},
+    {"action": "ACTION4", "when": "always", "effect": "translate", "of": "block14", "by": 3,
+     "note": "right 3 px"},
+    {"action": "ACTION1", "when": "blocked_by(wall2)", "effect": "nothing",
+     "note": "a move that would overlap colour-2 wall or the colour-15 pit is refused; the step is still spent (same for ACTION2/3/4)"},
+    {"action": "ACTION4", "when": "blocked_by(block14b)", "effect": "push", "of": "block14b", "by": 15,
+     "note": "moving into the other block: the selected block STAYS PUT and the other block shoots 5 cells (15 px) in that direction, 3 px per frame, stopping early at a wall and continuing past 15 px if it would otherwise stop over the pit (so from the bridge it lands in the right room at rows 30-32 cols 42-44); the pusher's leading edge flashes colour 14 (same for ACTION1/2/3)"},
+    {"action": "ACTION6", "when": "click_on(block14b)", "effect": "select", "of": "block14b",
+     "note": "clicking any block makes it the one the arrows move: its centre turns black(0) and the previously selected block's centre turns colour 4; costs 1 step"},
+    {"action": "ACTION6", "when": "always", "effect": "nothing",
+     "note": "clicking floor, wall, pit or a socket changes nothing but still costs 1 step"}
+  ],
+  "goal": {"kind": "inside", "mover": "block14", "target": "socket4", "all": true,
+           "note": "both colour-14 blocks must sit exactly inside the two colour-4 frames at the same time (checked after every action): the bridge block has to be pushed across the pit, then clicked and steered into the right socket; minimal 11 actions"},
+  "budget": {"entity": "stepbar", "kind": "steps", "n": 100, "on_zero": "lose"},
+  "hazards": []
+}

@@ -1,0 +1,39 @@
+{
+  "game": "m0r0",
+  "level": 1,
+  "actions": ["ACTION1", "ACTION2", "ACTION3", "ACTION4", "ACTION5", "ACTION6"],
+  "entities": [
+    {"id": "dot10", "role": "controlled", "colors": [10], "count": 2, "size": [25, 25],
+     "note": "two identical 5x5 colour-10 squares at rows 49-53, cols 19-23 (left) and cols 39-43 (right), placed mirror-symmetrically about the central wall column cols 29-33; BOTH answer every arrow key: same vertical motion, opposite horizontal motion; one 5-px cell per press on a lattice of cells at rows 4+5j, cols 4+5i (11x11 grid)"},
+    {"id": "floor5", "role": "floor", "colors": [5], "count": 1, "size": [1325, 1325],
+     "note": "colour-5 walkable cells rows 9-58, cols 9-53: a mirror-symmetric maze (top corridor rows 9-13 cols 19-48, two side shafts cols 14-18 and 49-53 rows 29-38, centre wall column cols 29-33 from row 14 down, lower rooms rows 44-58 either side of it)"},
+    {"id": "wall11", "role": "wall", "colors": [11], "count": 1, "size": [1294, 1294],
+     "note": "colour 11 = every non-floor pixel in the LEFT half of the screen (cols 0-31, rows 1-62), including the letterbox margin and the left part of the central column; blocks a dot that tries to enter it"},
+    {"id": "wall12", "role": "wall", "colors": [12], "count": 1, "size": [1299, 1299],
+     "note": "colour 12 = every non-floor pixel in the RIGHT half (cols 32-63); the left/right colour split at col 32 is a picture of the mirror rule"},
+    {"id": "stepbar", "role": "budget", "colors": [5, 0], "count": 1, "size": [128, 128],
+     "note": "rows 0 and 63: colour 5 = remaining actions, black(0) eats in from the right on row 0 and from the left on row 63 (64 px = 150 actions, about 0.43 px per action); every action costs 1"}
+  ],
+  "rules": [
+    {"action": "ACTION1", "when": "always", "effect": "translate", "of": "dot10", "by": 5,
+     "note": "both dots move up one cell; costs 1"},
+    {"action": "ACTION2", "when": "always", "effect": "translate", "of": "dot10", "by": 5,
+     "note": "both dots move down one cell"},
+    {"action": "ACTION3", "when": "always", "effect": "translate", "of": "dot10", "by": 5,
+     "note": "MIRRORED: the dot that started on the left moves left, the dot that started on the right moves right (they move apart)"},
+    {"action": "ACTION4", "when": "always", "effect": "translate", "of": "dot10", "by": 5,
+     "note": "MIRRORED: the left-start dot moves right and the right-start dot moves left (they approach each other); the dots keep their identity even after crossing"},
+    {"action": "ACTION1", "when": "blocked_by(wall11)", "effect": "nothing",
+     "note": "each dot is blocked independently by wall11/wall12 or the grid edge: the blocked dot stays while the other still moves, which is the only way to change their horizontal offset (same for ACTION2/3/4)"},
+    {"action": "ACTION1", "when": "adjacent(dot10)", "effect": "merge", "of": "dot10",
+     "note": "if after the move both dots occupy the same cell, or they were side by side and swapped cells, they merge into one and the level is complete immediately (same for ACTION2/3/4/5)"},
+    {"action": "ACTION5", "when": "always", "effect": "nothing",
+     "note": "no movement; only runs the merge check and costs 1 action"},
+    {"action": "ACTION6", "when": "always", "effect": "nothing",
+     "note": "clicking is only meaningful on colour-9 pushable blocks (L3+); L1 has none, so any click changes nothing (it re-asserts avatar mode) and costs 1 action"}
+  ],
+  "goal": {"kind": "merge", "mover": "dot10", "target": "dot10", "all": true,
+           "note": "bring the two mirrored dots onto the same cell (or make them swap adjacent cells); no goal marker exists, the dots are each other's target; use walls to block one dot so their column offset shrinks from 4 cells to 0; minimal 15 moves"},
+  "budget": {"entity": "stepbar", "kind": "steps", "n": 150, "on_zero": "lose"},
+  "hazards": []
+}

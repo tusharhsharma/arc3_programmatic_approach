@@ -1,0 +1,82 @@
+{
+ "game": "sb26",
+ "levels": 0,
+ "per_level": {
+  "1": 28
+ },
+ "score": {
+  "entities": 0.2,
+  "rules": 0.17,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "reference:targets",
+   "canvas:frame8",
+   "socket:spot2",
+   "controlled:block"
+  ],
+  "missed_rules": [
+   "ACTION6:select:block",
+   "ACTION6:teleport:block",
+   "ACTION6:swap:block",
+   "ACTION5:recolour:targets",
+   "ACTION7:teleport:block"
+  ],
+  "reported_goal": null,
+  "truth_goal": "sequence(block->targets)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "hud",
+    "colors": [
+     2,
+     3
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     2,
+     3
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     3
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     3
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION5",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   },
+   {
+    "action": "ACTION7",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   }
+  ],
+  "goal": null
+ },
+ "secs": 0.8,
+ "error": null,
+ "how": "no_plan"
+}

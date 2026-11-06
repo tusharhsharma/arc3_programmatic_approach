@@ -1,0 +1,187 @@
+{
+ "game": "r11l",
+ "levels": 1,
+ "per_level": {
+  "1": 7
+ },
+ "score": {
+  "entities": 0.86,
+  "rules": 0.8,
+  "goal": true,
+  "pass": true,
+  "missed_entities": [
+   "selector:handle15b"
+  ],
+  "missed_rules": [
+   "ACTION6:select:handle15b"
+  ],
+  "reported_goal": {
+   "kind": "inside",
+   "mover": [
+    15
+   ],
+   "target": [
+    15
+   ]
+  },
+  "truth_goal": "inside(disc15->diamond15)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "wall",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     3
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     6
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "tool",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "controlled",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "controlled",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "controlled",
+    "colors": [
+     6
+    ]
+   },
+   {
+    "role": "canvas",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "button",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "socket",
+    "colors": [
+     15
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION6",
+    "effect": "teleport",
+    "of": [
+     0
+    ],
+    "when": "click_near"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "teleport",
+    "of": [
+     15
+    ],
+    "when": "click_near"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     6
+    ],
+    "when": "click_near"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "recolour",
+    "of": [
+     0
+    ],
+    "when": "adjacent(1)"
+   }
+  ],
+  "goal": {
+   "kind": "inside",
+   "mover": [
+    15
+   ],
+   "target": [
+    15
+   ]
+  }
+ },
+ "secs": 0.6,
+ "error": null,
+ "how": "plan:3/3"
+}

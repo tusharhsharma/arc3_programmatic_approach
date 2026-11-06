@@ -1,0 +1,122 @@
+{
+ "game": "dc22",
+ "levels": 0,
+ "per_level": {},
+ "score": {
+  "entities": 0.4,
+  "rules": 0.4,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "marker:goal11",
+   "floor:tile9",
+   "floor:strip8",
+   "button:button8",
+   "button:button9",
+   "wall:panel5"
+  ],
+  "missed_rules": [
+   "ACTION1:nothing:None",
+   "ACTION6:toggle:checker9",
+   "ACTION6:toggle:tile9",
+   "ACTION6:toggle:strip8",
+   "ACTION6:nothing:None",
+   "ACTION6:nothing:None"
+  ],
+  "reported_goal": null,
+  "truth_goal": "reach(player14->goal11)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     14
+    ]
+   },
+   {
+    "role": "wall",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     14
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     3
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     14
+    ],
+    "by": [
+     -2,
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     14
+    ],
+    "by": [
+     2,
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     14
+    ],
+    "by": [
+     0,
+     -2
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     14
+    ],
+    "by": [
+     0,
+     2
+    ],
+    "when": "always"
+   }
+  ],
+  "goal": null
+ },
+ "secs": 6.6,
+ "error": null
+}

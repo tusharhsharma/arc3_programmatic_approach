@@ -1,0 +1,161 @@
+{
+ "game": "sc25",
+ "levels": 0,
+ "per_level": {},
+ "score": {
+  "entities": 0.29,
+  "rules": 0.4,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "controlled:player",
+   "marker:door",
+   "button:spellgrid",
+   "button:spellbook",
+   "budget:stepbar14"
+  ],
+  "missed_rules": [
+   "ACTION3:nothing:None",
+   "ACTION3:nothing:None",
+   "ACTION6:toggle:spellgrid",
+   "ACTION6:shrink:player",
+   "ACTION6:nothing:None",
+   "ACTION6:nothing:None"
+  ],
+  "reported_goal": null,
+  "truth_goal": "reach(player->door)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     10
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "wall",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "hazard",
+    "colors": [
+     10
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     2
+    ],
+    "by": [
+     0,
+     -4
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     2
+    ],
+    "by": [
+     0,
+     2
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     10
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     10
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     10
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     10
+    ],
+    "when": "always"
+   }
+  ],
+  "goal": null
+ },
+ "secs": 9.4,
+ "error": null
+}

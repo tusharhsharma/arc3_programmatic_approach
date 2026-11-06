@@ -1,0 +1,328 @@
+{
+ "game": "re86",
+ "levels": 1,
+ "per_level": {
+  "1": 28
+ },
+ "score": {
+  "entities": 0.6,
+  "rules": 0.83,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "controlled:cross9",
+   "marker:dot9"
+  ],
+  "missed_rules": [
+   "ACTION5:select:cross11"
+  ],
+  "reported_goal": {
+   "kind": "inside",
+   "mover": [
+    11
+   ],
+   "target": [
+    11
+   ]
+  },
+  "truth_goal": "cover(cross9->dot9)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     11
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     11
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     1,
+     15
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     1,
+     15
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     4,
+     9
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     4,
+     11
+    ]
+   },
+   {
+    "role": "tool",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "canvas",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "button",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     11
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     11
+    ]
+   },
+   {
+    "role": "socket",
+    "colors": [
+     11
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     11
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     11
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     11
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     11
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     4
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     4
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION5",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "recolour",
+    "of": [
+     4
+    ],
+    "when": "adjacent(4)"
+   }
+  ],
+  "goal": {
+   "kind": "inside",
+   "mover": [
+    11
+   ],
+   "target": [
+    11
+   ]
+  }
+ },
+ "secs": 96.7,
+ "error": null,
+ "how": "plan:8/8"
+}

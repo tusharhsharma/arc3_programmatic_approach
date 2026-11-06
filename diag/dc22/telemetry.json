@@ -1,0 +1,63 @@
+{
+  "game_id": "dc22-fdcac232",
+  "available_actions": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "win_levels": 6,
+  "deaths": 6,
+  "level_ups": [],
+  "changed_count": 670,
+  "action_use": {
+    "ACTION1": 273,
+    "ACTION2": 515,
+    "ACTION3": 4,
+    "ACTION4": 2
+  },
+  "distinct_frames": 255,
+  "levels_completed": 0,
+  "final_state": "NOT_FINISHED",
+  "avatar_pos": [
+    30,
+    10
+  ],
+  "motions": {
+    "ACTION1": {
+      "(-2, 0)": 270
+    },
+    "ACTION2": {
+      "(2, 0)": 268
+    },
+    "ACTION3": {
+      "(0, -2)": 3
+    },
+    "ACTION4": {
+      "(0, 2)": 2
+    }
+  },
+  "wall_colors": [
+    4
+  ],
+  "tracker_avatar": {
+    "color": 14,
+    "size": 4,
+    "control": 2.2
+  },
+  "click_stats": {},
+  "effect_counts": {},
+  "probe_failed": [
+    "('ACTION1', (28, 10))",
+    "('ACTION1', None)",
+    "('ACTION2', (32, 10))",
+    "('ACTION2', (32, 8))",
+    "('ACTION3', (30, 8))"
+  ],
+  "death_tail": {
+    "(32, 10)": 1,
+    "(32, 8)": 1,
+    "(28, 10)": 4
+  }
+}

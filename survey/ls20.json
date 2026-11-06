@@ -1,0 +1,231 @@
+{
+  "game_id": "ls20-9607627b",
+  "title": "LS20",
+  "tags": [
+    "keyboard"
+  ],
+  "baseline_actions": [
+    22,
+    123,
+    73,
+    84,
+    96,
+    192,
+    186
+  ],
+  "win_levels": 7,
+  "available_actions": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "raw_subframes": 1,
+  "bg_color": 4,
+  "cell_size": 1,
+  "logical_shape": [
+    64,
+    64
+  ],
+  "colors_present": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    8,
+    9,
+    11,
+    12
+  ],
+  "n_objects": 18,
+  "object_summary": [
+    [
+      [
+        8,
+        4
+      ],
+      3
+    ],
+    [
+      [
+        1,
+        1
+      ],
+      2
+    ],
+    [
+      [
+        5,
+        208
+      ],
+      1
+    ],
+    [
+      [
+        3,
+        892
+      ],
+      1
+    ],
+    [
+      [
+        5,
+        43
+      ],
+      1
+    ],
+    [
+      [
+        9,
+        5
+      ],
+      1
+    ],
+    [
+      [
+        9,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        3
+      ],
+      1
+    ],
+    [
+      [
+        12,
+        10
+      ],
+      1
+    ],
+    [
+      [
+        9,
+        15
+      ],
+      1
+    ],
+    [
+      [
+        5,
+        76
+      ],
+      1
+    ],
+    [
+      [
+        9,
+        20
+      ],
+      1
+    ]
+  ],
+  "action_effects": {
+    "ACTION1": {
+      "changed_cells": 52,
+      "moved": [
+        [
+          12,
+          10,
+          [
+            -5,
+            0
+          ]
+        ],
+        [
+          9,
+          15,
+          [
+            -5,
+            0
+          ]
+        ]
+      ],
+      "appeared": 3,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION2": {
+      "changed_cells": 52,
+      "moved": [
+        [
+          12,
+          10,
+          [
+            5,
+            0
+          ]
+        ],
+        [
+          9,
+          15,
+          [
+            5,
+            0
+          ]
+        ]
+      ],
+      "appeared": 3,
+      "vanished": 3,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION3": {
+      "changed_cells": 52,
+      "moved": [
+        [
+          12,
+          10,
+          [
+            0,
+            -5
+          ]
+        ],
+        [
+          9,
+          15,
+          [
+            0,
+            -5
+          ]
+        ]
+      ],
+      "appeared": 3,
+      "vanished": 3,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION4": {
+      "changed_cells": 52,
+      "moved": [
+        [
+          12,
+          10,
+          [
+            0,
+            5
+          ]
+        ],
+        [
+          9,
+          15,
+          [
+            0,
+            5
+          ]
+        ]
+      ],
+      "appeared": 3,
+      "vanished": 3,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    }
+  },
+  "png": "survey/ls20.png"
+}

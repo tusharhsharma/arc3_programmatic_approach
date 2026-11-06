@@ -1,0 +1,335 @@
+{
+ "game": "ka59",
+ "levels": 1,
+ "per_level": {
+  "1": 86
+ },
+ "score": {
+  "entities": 0.86,
+  "rules": 1.0,
+  "goal": true,
+  "pass": true,
+  "missed_entities": [
+   "wall:pit15"
+  ],
+  "missed_rules": [],
+  "reported_goal": {
+   "kind": "inside",
+   "mover": [
+    14
+   ],
+   "target": [
+    4
+   ]
+  },
+  "truth_goal": "inside(block14->socket4)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     14
+    ]
+   },
+   {
+    "role": "selector",
+    "colors": [
+     14
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     14
+    ]
+   },
+   {
+    "role": "wall",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     0,
+     4
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     0,
+     4
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "tool",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "canvas",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "button",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "socket",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "button",
+    "colors": [
+     4,
+     14
+    ]
+   },
+   {
+    "role": "button",
+    "colors": [
+     0,
+     14
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     14
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     14
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     14
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     14
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "select",
+    "of": [
+     14
+    ],
+    "when": "click_on(14)"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "push",
+    "of": [
+     4
+    ],
+    "when": "blocked_by(4)"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "push",
+    "of": [
+     4
+    ],
+    "when": "blocked_by(4)"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "push",
+    "of": [
+     4
+    ],
+    "when": "blocked_by(4)"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "push",
+    "of": [
+     4
+    ],
+    "when": "blocked_by(4)"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "push",
+    "of": [
+     14
+    ],
+    "when": "blocked_by(14)"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "push",
+    "of": [
+     14
+    ],
+    "when": "blocked_by(14)"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "push",
+    "of": [
+     14
+    ],
+    "when": "blocked_by(14)"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "push",
+    "of": [
+     14
+    ],
+    "when": "blocked_by(14)"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "recolour",
+    "of": [
+     0
+    ],
+    "when": "adjacent(4)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "recolour",
+    "of": [
+     14
+    ],
+    "when": "click_on(4)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "recolour",
+    "of": [
+     14
+    ],
+    "when": "click_on(0)"
+   }
+  ],
+  "goal": {
+   "kind": "inside",
+   "mover": [
+    14
+   ],
+   "target": [
+    4
+   ]
+  }
+ },
+ "secs": 191.9,
+ "error": null,
+ "how": "joint"
+}

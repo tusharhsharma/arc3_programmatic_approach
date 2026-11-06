@@ -1,0 +1,208 @@
+{
+  "game_id": "dc22-fdcac232",
+  "title": "DC22",
+  "tags": [
+    "keyboard_click"
+  ],
+  "baseline_actions": [
+    59,
+    102,
+    67,
+    98,
+    324,
+    578
+  ],
+  "win_levels": 6,
+  "available_actions": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "raw_subframes": 1,
+  "bg_color": 4,
+  "cell_size": 1,
+  "logical_shape": [
+    64,
+    64
+  ],
+  "colors_present": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    11,
+    13,
+    14
+  ],
+  "n_objects": 35,
+  "object_summary": [
+    [
+      [
+        0,
+        4
+      ],
+      11
+    ],
+    [
+      [
+        9,
+        1
+      ],
+      8
+    ],
+    [
+      [
+        0,
+        40
+      ],
+      2
+    ],
+    [
+      [
+        2,
+        32
+      ],
+      2
+    ],
+    [
+      [
+        3,
+        640
+      ],
+      1
+    ],
+    [
+      [
+        5,
+        1190
+      ],
+      1
+    ],
+    [
+      [
+        8,
+        47
+      ],
+      1
+    ],
+    [
+      [
+        9,
+        16
+      ],
+      1
+    ],
+    [
+      [
+        11,
+        4
+      ],
+      1
+    ],
+    [
+      [
+        2,
+        16
+      ],
+      1
+    ],
+    [
+      [
+        8,
+        24
+      ],
+      1
+    ],
+    [
+      [
+        13,
+        16
+      ],
+      1
+    ]
+  ],
+  "action_effects": {
+    "ACTION1": {
+      "changed_cells": 9,
+      "moved": [
+        [
+          14,
+          4,
+          [
+            -2,
+            0
+          ]
+        ]
+      ],
+      "appeared": 3,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION2": {
+      "changed_cells": 8,
+      "moved": [
+        [
+          14,
+          4,
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "appeared": 1,
+      "vanished": 1,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION3": {
+      "changed_cells": 9,
+      "moved": [
+        [
+          14,
+          4,
+          [
+            0,
+            -2
+          ]
+        ]
+      ],
+      "appeared": 3,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION4": {
+      "changed_cells": 8,
+      "moved": [
+        [
+          14,
+          4,
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "appeared": 1,
+      "vanished": 1,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    },
+    "ACTION6": {
+      "changed_cells": 1,
+      "moved": [],
+      "appeared": 2,
+      "vanished": 2,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    }
+  },
+  "png": "survey/dc22.png"
+}

@@ -1,0 +1,124 @@
+{
+  "game_id": "ft09-0d8bbf25",
+  "title": "FT09",
+  "tags": [],
+  "baseline_actions": [
+    43,
+    12,
+    23,
+    28,
+    65,
+    37
+  ],
+  "win_levels": 6,
+  "available_actions": [
+    6
+  ],
+  "raw_subframes": 1,
+  "bg_color": 5,
+  "cell_size": 1,
+  "logical_shape": [
+    64,
+    64
+  ],
+  "colors_present": [
+    0,
+    2,
+    4,
+    5,
+    8,
+    9,
+    12
+  ],
+  "n_objects": 64,
+  "object_summary": [
+    [
+      [
+        9,
+        36
+      ],
+      20
+    ],
+    [
+      [
+        8,
+        36
+      ],
+      12
+    ],
+    [
+      [
+        0,
+        4
+      ],
+      7
+    ],
+    [
+      [
+        2,
+        4
+      ],
+      6
+    ],
+    [
+      [
+        2,
+        8
+      ],
+      5
+    ],
+    [
+      [
+        8,
+        4
+      ],
+      4
+    ],
+    [
+      [
+        2,
+        20
+      ],
+      4
+    ],
+    [
+      [
+        0,
+        8
+      ],
+      3
+    ],
+    [
+      [
+        4,
+        496
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        12
+      ],
+      1
+    ],
+    [
+      [
+        12,
+        64
+      ],
+      1
+    ]
+  ],
+  "action_effects": {
+    "ACTION6": {
+      "changed_cells": 0,
+      "moved": [],
+      "appeared": 0,
+      "vanished": 0,
+      "state": "NOT_FINISHED",
+      "levels": 0
+    }
+  },
+  "png": "survey/ft09.png"
+}

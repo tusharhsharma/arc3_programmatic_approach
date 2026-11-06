@@ -1,0 +1,2191 @@
+{
+ "game": "tu93",
+ "levels": 3,
+ "win_levels": 9,
+ "baseline": [
+  19,
+  16,
+  34,
+  42,
+  123,
+  80,
+  14,
+  23,
+  111
+ ],
+ "per_level": {
+  "1": 41,
+  "2": 50,
+  "3": 95
+ },
+ "actions": 800,
+ "secs": 32.7,
+ "error": null,
+ "deaths": [
+  13,
+  16,
+  19,
+  28,
+  34,
+  11,
+  26,
+  29,
+  36,
+  46,
+  65,
+  19,
+  28,
+  47,
+  66,
+  85,
+  104,
+  123,
+  142,
+  161,
+  180,
+  199,
+  218,
+  237,
+  256,
+  275,
+  294,
+  313,
+  332,
+  351,
+  370,
+  389,
+  408,
+  427,
+  446,
+  465,
+  484,
+  503,
+  522,
+  541
+ ],
+ "action_use": {
+  "ACTION1": 604,
+  "ACTION2": 37,
+  "ACTION3": 54,
+  "ACTION4": 65
+ },
+ "final": {
+  "motions": {
+   "ACTION1": [
+    -6,
+    0
+   ],
+   "ACTION2": [
+    8,
+    0
+   ],
+   "ACTION3": [
+    1,
+    -7
+   ],
+   "ACTION4": [
+    0,
+    6
+   ]
+  },
+  "slides": [],
+  "shape_ops": {},
+  "inert": [],
+  "walls": [],
+  "collect": [
+   8,
+   15
+  ],
+  "lethal": [],
+  "laws": [],
+  "click_laws": {},
+  "pushable": [],
+  "avatar_color": 9,
+  "avatar_size": 8,
+  "goal_refuted": [],
+  "timer": true,
+  "playfield": [
+   0,
+   63,
+   0,
+   64
+  ]
+ },
+ "level_marks": [
+  {
+   "level": 1,
+   "n": 40,
+   "beliefs": {
+    "motions": {
+     "ACTION1": [
+      -8,
+      0
+     ],
+     "ACTION2": [
+      7,
+      -1
+     ],
+     "ACTION3": [
+      0,
+      -8
+     ],
+     "ACTION4": [
+      -1,
+      7
+     ]
+    },
+    "slides": [],
+    "shape_ops": {},
+    "inert": [],
+    "walls": [
+     5
+    ],
+    "collect": [],
+    "lethal": [],
+    "laws": [
+     "('action', 'ACTION1')"
+    ],
+    "click_laws": {},
+    "pushable": [],
+    "avatar_color": 4,
+    "avatar_size": 1,
+    "goal_refuted": [],
+    "timer": true,
+    "playfield": [
+     0,
+     63,
+     0,
+     64
+    ]
+   }
+  },
+  {
+   "level": 2,
+   "n": 44,
+   "beliefs": {
+    "motions": {
+     "ACTION1": [
+      -6,
+      0
+     ],
+     "ACTION2": [
+      7,
+      -1
+     ],
+     "ACTION3": [
+      0,
+      -8
+     ],
+     "ACTION4": [
+      0,
+      6
+     ]
+    },
+    "slides": [],
+    "shape_ops": {},
+    "inert": [],
+    "walls": [
+     5
+    ],
+    "collect": [
+     8,
+     15
+    ],
+    "lethal": [],
+    "laws": [],
+    "click_laws": {},
+    "pushable": [],
+    "avatar_color": 4,
+    "avatar_size": 1,
+    "goal_refuted": [],
+    "timer": true,
+    "playfield": [
+     0,
+     63,
+     0,
+     64
+    ]
+   }
+  },
+  {
+   "level": 3,
+   "n": 88,
+   "beliefs": {
+    "motions": {
+     "ACTION1": [
+      -6,
+      0
+     ],
+     "ACTION2": [
+      8,
+      0
+     ],
+     "ACTION3": [
+      1,
+      -7
+     ],
+     "ACTION4": [
+      1,
+      7
+     ]
+    },
+    "slides": [],
+    "shape_ops": {},
+    "inert": [],
+    "walls": [
+     5
+    ],
+    "collect": [
+     8,
+     15
+    ],
+    "lethal": [],
+    "laws": [],
+    "click_laws": {},
+    "pushable": [],
+    "avatar_color": 4,
+    "avatar_size": 1,
+    "goal_refuted": [],
+    "timer": true,
+    "playfield": [
+     0,
+     63,
+     0,
+     64
+    ]
+   }
+  }
+ ],
+ "hlog": [
+  {
+   "candidates": [
+    "align(M=2/18@(32.5, 32.5) -> same-colour marker C2[72@(33, 15, 47, 26)])",
+    "align(M=2/18@(17.5, 20.5) -> same-colour marker C2[72@(33, 15, 47, 26)])",
+    "align(M=2/18@(32.5, 44.5) -> same-colour marker C2[72@(33, 15, 47, 26)])",
+    "align(M=2/18@(32.5, 32.5) -> same-colour marker C2[108@(15, 21, 29, 47)])"
+   ],
+   "kind": "goal_hypotheses",
+   "n": 0
+  },
+  {
+   "gkind": "align",
+   "mover": 2,
+   "note": "same-colour marker C2[72@(33, 15, 47, 26)]",
+   "kind": "goal_adopted",
+   "n": 0
+  },
+  {
+   "gkind": "align",
+   "mover": 2,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 4
+  },
+  {
+   "gkind": "align",
+   "mover": 2,
+   "note": "same-colour marker C2[72@(33, 15, 47, 26)]",
+   "kind": "goal_adopted",
+   "n": 5
+  },
+  {
+   "gkind": "align",
+   "mover": 2,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 9
+  },
+  {
+   "gkind": "align",
+   "mover": 2,
+   "note": "same-colour marker C2[72@(33, 15, 47, 26)]",
+   "kind": "goal_adopted",
+   "n": 10
+  },
+  {
+   "gkind": "align",
+   "mover": 2,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 14
+  },
+  {
+   "gkind": "align",
+   "mover": 2,
+   "note": "same-colour marker C2[108@(15, 21, 29, 47)]",
+   "kind": "goal_adopted",
+   "n": 15
+  },
+  {
+   "gkind": "align",
+   "mover": 2,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 19
+  },
+  {
+   "chosen": 9,
+   "alternatives": [
+    14
+   ],
+   "kind": "goal_choice",
+   "n": 24
+  },
+  {
+   "color": 9,
+   "reason": "unreachable_now",
+   "kind": "goal_deferred",
+   "n": 24
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -7,
+    -1
+   ],
+   "expected": [
+    -8,
+    0
+   ],
+   "at": [
+    28,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 28
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    1,
+    7
+   ],
+   "expected": [
+    0,
+    8
+   ],
+   "at": [
+    21,
+    28
+   ],
+   "kind": "anomaly",
+   "n": 29
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    6,
+    0
+   ],
+   "expected": [
+    7,
+    -1
+   ],
+   "at": [
+    29,
+    34
+   ],
+   "kind": "anomaly",
+   "n": 31
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -1,
+    -7
+   ],
+   "expected": [
+    0,
+    -8
+   ],
+   "at": [
+    35,
+    34
+   ],
+   "kind": "anomaly",
+   "n": 32
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    7,
+    1
+   ],
+   "expected": [
+    7,
+    -1
+   ],
+   "at": [
+    34,
+    21
+   ],
+   "kind": "anomaly",
+   "n": 34
+  },
+  {
+   "group": [
+    "action",
+    "ACTION1"
+   ],
+   "feature": "prev_axis",
+   "value": "h",
+   "blocks_when": true,
+   "witnesses": 4,
+   "outcome": {
+    "True": [
+     -7,
+     -1
+    ],
+    "False": [
+     -8,
+     0
+    ]
+   },
+   "kind": "law_adopt",
+   "n": 39
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -7,
+    -1
+   ],
+   "at": [
+    46,
+    41
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 39
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    1,
+    7
+   ],
+   "at": [
+    39,
+    40
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 40
+  },
+  {
+   "candidates": [
+    "align(M=8/8@(28.0, 37.0) -> fits frame C2[81@(27, 21, 35, 41)])",
+    "align(M=9/8@(34.0, 13.0) -> fits frame C2[81@(27, 21, 35, 41)])",
+    "align(M=14/9@(22.0, 49.0) -> fits frame C2[81@(27, 21, 35, 41)])"
+   ],
+   "kind": "goal_hypotheses",
+   "n": 0
+  },
+  {
+   "gkind": "align",
+   "mover": 8,
+   "note": "fits frame C2[81@(27, 21, 35, 41)]",
+   "kind": "goal_adopted",
+   "n": 0
+  },
+  {
+   "group": [
+    "action",
+    "ACTION1"
+   ],
+   "feature": "prev_axis",
+   "value": "h",
+   "blocks_when": true,
+   "witnesses": 1,
+   "outcome": {
+    "True": [
+     -7,
+     -1
+    ],
+    "False": [
+     -8,
+     0
+    ]
+   },
+   "kind": "law_refute",
+   "n": 1
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    8,
+    0
+   ],
+   "expected": [
+    7,
+    -1
+   ],
+   "at": [
+    27,
+    13
+   ],
+   "kind": "anomaly",
+   "n": 2
+  },
+  {
+   "gkind": "align",
+   "mover": 8,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 4
+  },
+  {
+   "gkind": "align",
+   "mover": 9,
+   "note": "fits frame C2[81@(27, 21, 35, 41)]",
+   "kind": "goal_adopted",
+   "n": 5
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    1,
+    7
+   ],
+   "expected": [
+    -1,
+    7
+   ],
+   "at": [
+    27,
+    13
+   ],
+   "kind": "anomaly",
+   "n": 12
+  },
+  {
+   "group": [
+    "action",
+    "ACTION4"
+   ],
+   "feature": "parity",
+   "value": 0,
+   "blocks_when": true,
+   "witnesses": 6,
+   "outcome": {
+    "True": [
+     0,
+     6
+    ],
+    "False": [
+     1,
+     7
+    ]
+   },
+   "kind": "law_adopt",
+   "n": 19
+  },
+  {
+   "gkind": "align",
+   "mover": 9,
+   "reason": "no_effect_found",
+   "spent": 18,
+   "kind": "goal_refuted",
+   "n": 20
+  },
+  {
+   "color": 9,
+   "reason": "unreachable_now",
+   "kind": "goal_deferred",
+   "n": 20
+  },
+  {
+   "gkind": "align",
+   "mover": 14,
+   "note": "fits frame C2[81@(27, 21, 35, 41)]",
+   "kind": "goal_adopted",
+   "n": 21
+  },
+  {
+   "gkind": "align",
+   "mover": 14,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 25
+  },
+  {
+   "group": [
+    "action",
+    "ACTION1"
+   ],
+   "feature": "prev_axis",
+   "value": "v",
+   "blocks_when": true,
+   "witnesses": 7,
+   "outcome": {
+    "True": [
+     -8,
+     0
+    ],
+    "False": [
+     -6,
+     0
+    ]
+   },
+   "kind": "law_adopt",
+   "n": 26
+  },
+  {
+   "group": [
+    "action",
+    "ACTION4"
+   ],
+   "feature": "parity",
+   "value": 0,
+   "blocks_when": true,
+   "witnesses": 9,
+   "outcome": {
+    "True": [
+     0,
+     6
+    ],
+    "False": [
+     1,
+     7
+    ]
+   },
+   "kind": "law_refute",
+   "n": 31
+  },
+  {
+   "group": [
+    "action",
+    "ACTION4"
+   ],
+   "feature": "prev_axis",
+   "value": "h",
+   "blocks_when": true,
+   "witnesses": 10,
+   "outcome": {
+    "True": [
+     0,
+     6
+    ],
+    "False": [
+     1,
+     7
+    ]
+   },
+   "kind": "law_adopt",
+   "n": 32
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    7,
+    -1
+   ],
+   "expected": [
+    8,
+    0
+   ],
+   "at": [
+    28,
+    26
+   ],
+   "kind": "anomaly",
+   "n": 33
+  },
+  {
+   "group": [
+    "action",
+    "ACTION4"
+   ],
+   "feature": "prev_axis",
+   "value": "h",
+   "blocks_when": true,
+   "witnesses": 11,
+   "outcome": {
+    "True": [
+     0,
+     6
+    ],
+    "False": [
+     1,
+     7
+    ]
+   },
+   "kind": "law_refute",
+   "n": 34
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -1,
+    7
+   ],
+   "expected": [
+    0,
+    6
+   ],
+   "at": [
+    35,
+    25
+   ],
+   "kind": "anomaly",
+   "n": 34
+  },
+  {
+   "color": 15,
+   "reason": "unreachable_now",
+   "kind": "goal_deferred",
+   "n": 35
+  },
+  {
+   "group": [
+    "action",
+    "ACTION1"
+   ],
+   "feature": "prev_axis",
+   "value": "v",
+   "blocks_when": true,
+   "witnesses": 10,
+   "outcome": {
+    "True": [
+     -8,
+     0
+    ],
+    "False": [
+     -6,
+     0
+    ]
+   },
+   "kind": "law_refute",
+   "n": 42
+  },
+  {
+   "color": 8,
+   "kind": "collectible_adopted",
+   "n": 42
+  },
+  {
+   "color": 15,
+   "kind": "collectible_adopted",
+   "n": 42
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -7,
+    -1
+   ],
+   "expected": [
+    -6,
+    0
+   ],
+   "at": [
+    34,
+    38
+   ],
+   "kind": "anomaly",
+   "n": 42
+  },
+  {
+   "candidates": [
+    "align(M=14/9@(43.0, 25.0) -> fits frame C2[63@(30, 12, 44, 23)])",
+    "align(M=8/8@(37.0, 13.0) -> fits frame C2[63@(30, 12, 44, 23)])",
+    "align(M=9/8@(43.0, 43.0) -> fits frame C2[63@(30, 12, 44, 23)])",
+    "align(M=8/8@(25.0, 25.0) -> fits frame C2[63@(30, 12, 44, 23)])",
+    "align(M=8/8@(25.0, 31.0) -> fits frame C2[63@(30, 12, 44, 23)])"
+   ],
+   "kind": "goal_hypotheses",
+   "n": 0
+  },
+  {
+   "gkind": "align",
+   "mover": 14,
+   "note": "fits frame C2[63@(30, 12, 44, 23)]",
+   "kind": "goal_adopted",
+   "n": 0
+  },
+  {
+   "gkind": "align",
+   "mover": 14,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 4
+  },
+  {
+   "gkind": "align",
+   "mover": 8,
+   "note": "fits frame C2[63@(30, 12, 44, 23)]",
+   "kind": "goal_adopted",
+   "n": 5
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -1,
+    -7
+   ],
+   "expected": [
+    0,
+    -8
+   ],
+   "at": [
+    38,
+    43
+   ],
+   "kind": "anomaly",
+   "n": 8
+  },
+  {
+   "gkind": "align",
+   "mover": 8,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 9
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -7,
+    -1
+   ],
+   "expected": [
+    -6,
+    0
+   ],
+   "at": [
+    37,
+    44
+   ],
+   "kind": "anomaly",
+   "n": 10
+  },
+  {
+   "gkind": "align",
+   "mover": 9,
+   "note": "fits frame C2[63@(30, 12, 44, 23)]",
+   "kind": "goal_adopted",
+   "n": 10
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    1,
+    -7
+   ],
+   "expected": [
+    0,
+    -8
+   ],
+   "at": [
+    30,
+    43
+   ],
+   "kind": "anomaly",
+   "n": 11
+  },
+  {
+   "gkind": "align",
+   "mover": 9,
+   "reason": "no_effect_found",
+   "spent": 6,
+   "kind": "goal_refuted",
+   "n": 15
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    1,
+    -7
+   ],
+   "at": [
+    36,
+    43
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 16
+  },
+  {
+   "gkind": "align",
+   "mover": 8,
+   "note": "fits frame C2[63@(30, 12, 44, 23)]",
+   "kind": "goal_adopted",
+   "n": 16
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -7,
+    1
+   ],
+   "expected": [
+    -6,
+    0
+   ],
+   "at": [
+    37,
+    36
+   ],
+   "kind": "anomaly",
+   "n": 17
+  },
+  {
+   "group": [
+    "action",
+    "ACTION3"
+   ],
+   "feature": "parity",
+   "value": 0,
+   "blocks_when": true,
+   "witnesses": 4,
+   "outcome": {
+    "True": [
+     1,
+     -7
+    ],
+    "False": [
+     -1,
+     -7
+    ]
+   },
+   "kind": "law_adopt",
+   "n": 19
+  },
+  {
+   "gkind": "align",
+   "mover": 8,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 20
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -7,
+    -1
+   ],
+   "at": [
+    37,
+    38
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 21
+  },
+  {
+   "gkind": "align",
+   "mover": 8,
+   "note": "fits frame C2[63@(30, 12, 44, 23)]",
+   "kind": "goal_adopted",
+   "n": 21
+  },
+  {
+   "group": [
+    "action",
+    "ACTION3"
+   ],
+   "feature": "parity",
+   "value": 0,
+   "blocks_when": true,
+   "witnesses": 5,
+   "outcome": {
+    "True": [
+     1,
+     -7
+    ],
+    "False": [
+     -1,
+     -7
+    ]
+   },
+   "kind": "law_refute",
+   "n": 24
+  },
+  {
+   "gkind": "align",
+   "mover": 8,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 25
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    0,
+    -8
+   ],
+   "expected": [
+    -1,
+    -7
+   ],
+   "at": [
+    37,
+    38
+   ],
+   "kind": "anomaly",
+   "n": 26
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    1,
+    7
+   ],
+   "expected": [
+    0,
+    6
+   ],
+   "at": [
+    30,
+    43
+   ],
+   "kind": "anomaly",
+   "n": 33
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    0,
+    -6
+   ],
+   "expected": [
+    -1,
+    -7
+   ],
+   "at": [
+    25,
+    42
+   ],
+   "kind": "anomaly",
+   "n": 36
+  },
+  {
+   "group": [
+    "action",
+    "ACTION4"
+   ],
+   "feature": "prev_axis",
+   "value": "v",
+   "blocks_when": true,
+   "witnesses": 7,
+   "outcome": {
+    "True": [
+     1,
+     7
+    ],
+    "False": [
+     0,
+     8
+    ]
+   },
+   "kind": "law_adopt",
+   "n": 53
+  },
+  {
+   "group": [
+    "action",
+    "ACTION4"
+   ],
+   "feature": "prev_axis",
+   "value": "v",
+   "blocks_when": true,
+   "witnesses": 8,
+   "outcome": {
+    "True": [
+     1,
+     7
+    ],
+    "False": [
+     0,
+     8
+    ]
+   },
+   "kind": "law_refute",
+   "n": 54
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    0,
+    6
+   ],
+   "expected": [
+    1,
+    7
+   ],
+   "at": [
+    31,
+    44
+   ],
+   "kind": "anomaly",
+   "n": 54
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    7,
+    1
+   ],
+   "expected": [
+    8,
+    0
+   ],
+   "at": [
+    19,
+    24
+   ],
+   "kind": "anomaly",
+   "n": 61
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -1,
+    7
+   ],
+   "expected": [
+    1,
+    7
+   ],
+   "at": [
+    26,
+    25
+   ],
+   "kind": "anomaly",
+   "n": 62
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    7,
+    -1
+   ],
+   "expected": [
+    8,
+    0
+   ],
+   "at": [
+    25,
+    32
+   ],
+   "kind": "anomaly",
+   "n": 63
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    0,
+    6
+   ],
+   "at": [
+    31,
+    44
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 73
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    7,
+    1
+   ],
+   "at": [
+    19,
+    24
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 80
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -1,
+    7
+   ],
+   "at": [
+    26,
+    25
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 81
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    7,
+    -1
+   ],
+   "at": [
+    25,
+    32
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 82
+  },
+  {
+   "candidates": [
+    "align(M=8/8@(17.0, 28.0) -> fits frame C2[108@(16, 24, 33, 47)])",
+    "align(M=12/8@(23.0, 40.0) -> fits frame C2[108@(16, 24, 33, 47)])",
+    "align(M=14/9@(23.0, 22.0) -> fits frame C2[108@(16, 24, 33, 47)])",
+    "align(M=9/8@(41.0, 22.0) -> fits frame C2[108@(16, 24, 33, 47)])"
+   ],
+   "kind": "goal_hypotheses",
+   "n": 0
+  },
+  {
+   "gkind": "align",
+   "mover": 8,
+   "note": "fits frame C2[108@(16, 24, 33, 47)]",
+   "kind": "goal_adopted",
+   "n": 0
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -11,
+    17
+   ],
+   "expected": [
+    0,
+    6
+   ],
+   "at": [
+    41,
+    23
+   ],
+   "kind": "anomaly",
+   "n": 4
+  },
+  {
+   "gkind": "align",
+   "mover": 8,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 4
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    6,
+    0
+   ],
+   "expected": [
+    0,
+    6
+   ],
+   "at": [
+    30,
+    40
+   ],
+   "kind": "anomaly",
+   "n": 5
+  },
+  {
+   "gkind": "align",
+   "mover": 12,
+   "note": "fits frame C2[108@(16, 24, 33, 47)]",
+   "kind": "goal_adopted",
+   "n": 5
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    4,
+    0
+   ],
+   "expected": [
+    1,
+    -7
+   ],
+   "at": [
+    36,
+    40
+   ],
+   "kind": "anomaly",
+   "n": 8
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    1,
+    -5
+   ],
+   "expected": [
+    0,
+    6
+   ],
+   "at": [
+    40,
+    40
+   ],
+   "kind": "anomaly",
+   "n": 9
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -7,
+    -1
+   ],
+   "expected": [
+    -6,
+    0
+   ],
+   "at": [
+    41,
+    47
+   ],
+   "kind": "anomaly",
+   "n": 12
+  },
+  {
+   "gkind": "align",
+   "mover": 12,
+   "reason": "no_effect_found",
+   "spent": 11,
+   "kind": "goal_refuted",
+   "n": 16
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    2,
+    -6
+   ],
+   "expected": [
+    -6,
+    0
+   ],
+   "at": [
+    34,
+    46
+   ],
+   "kind": "anomaly",
+   "n": 17
+  },
+  {
+   "gkind": "align",
+   "mover": 14,
+   "note": "fits frame C2[108@(16, 24, 33, 47)]",
+   "kind": "goal_adopted",
+   "n": 17
+  },
+  {
+   "gkind": "align",
+   "mover": 14,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 20
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    18,
+    12
+   ],
+   "expected": [
+    0,
+    6
+   ],
+   "at": [
+    18,
+    28
+   ],
+   "kind": "anomaly",
+   "n": 21
+  },
+  {
+   "gkind": "align",
+   "mover": 9,
+   "note": "fits frame C2[108@(16, 24, 33, 47)]",
+   "kind": "goal_adopted",
+   "n": 21
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    4,
+    0
+   ],
+   "at": [
+    36,
+    40
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 24
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    1,
+    -5
+   ],
+   "at": [
+    40,
+    40
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 25
+  },
+  {
+   "gkind": "align",
+   "mover": 9,
+   "note": "fits frame C2[108@(16, 24, 33, 47)]",
+   "spent": 4,
+   "merged": false,
+   "kind": "goal_satisfied",
+   "n": 25
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -23,
+    -13
+   ],
+   "expected": [
+    -6,
+    0
+   ],
+   "at": [
+    41,
+    41
+   ],
+   "kind": "anomaly",
+   "n": 27
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    10,
+    11
+   ],
+   "expected": [
+    -6,
+    0
+   ],
+   "at": [
+    18,
+    28
+   ],
+   "kind": "anomaly",
+   "n": 28
+  }
+ ],
+ "gov": {
+  "goals": {
+   "spent": 23,
+   "dead": false
+  },
+  "refassembly": {
+   "spent": 0,
+   "dead": false
+  },
+  "actuators": {
+   "spent": 0,
+   "dead": false
+  },
+  "glyphs": {
+   "spent": 0,
+   "dead": false
+  },
+  "aligner": {
+   "spent": 0,
+   "dead": false
+  },
+  "multibody": {
+   "spent": 0,
+   "dead": false
+  },
+  "overlay": {
+   "spent": 0,
+   "dead": false
+  },
+  "edgemaze": {
+   "spent": 7,
+   "dead": false
+  }
+ },
+ "anomalies": [
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    41,
+    23
+   ],
+   "vec": [
+    -11,
+    17
+   ],
+   "expected": [
+    0,
+    6
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 4
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    30,
+    40
+   ],
+   "vec": [
+    6,
+    0
+   ],
+   "expected": [
+    0,
+    6
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 5
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    36,
+    40
+   ],
+   "vec": [
+    4,
+    0
+   ],
+   "expected": [
+    1,
+    -7
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 8
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    40,
+    40
+   ],
+   "vec": [
+    1,
+    -5
+   ],
+   "expected": [
+    0,
+    6
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 9
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    41,
+    47
+   ],
+   "vec": [
+    -7,
+    -1
+   ],
+   "expected": [
+    -6,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 12
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    34,
+    46
+   ],
+   "vec": [
+    2,
+    -6
+   ],
+   "expected": [
+    -6,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 17
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    18,
+    28
+   ],
+   "vec": [
+    18,
+    12
+   ],
+   "expected": [
+    0,
+    6
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 21
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    41,
+    41
+   ],
+   "vec": [
+    -23,
+    -13
+   ],
+   "expected": [
+    -6,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 27
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    18,
+    28
+   ],
+   "vec": [
+    10,
+    11
+   ],
+   "expected": [
+    -6,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 28
+  }
+ ],
+ "tail": [
+  {
+   "n": 508,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 509,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 510,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 511,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 512,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 513,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 514,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 515,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 516,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 517,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 518,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 519,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 520,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 521,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 522,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 522,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 13
+  },
+  {
+   "n": 523,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 524,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 525,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 526,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 527,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 528,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 529,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 530,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 531,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 532,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 533,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 534,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 535,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 536,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 537,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 538,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 539,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 540,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 541,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 541,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 13
+  },
+  {
+   "n": 542,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 543,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 544,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 545,
+   "a": "ACTION1",
+   "lv": 3,
+   "pos": [
+    28,
+    39
+   ],
+   "seek": null,
+   "plan": 0
+  }
+ ],
+ "unresolved": {}
+}

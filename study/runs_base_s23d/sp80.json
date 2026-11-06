@@ -1,0 +1,742 @@
+{
+ "game": "sp80",
+ "levels": 1,
+ "win_levels": 6,
+ "baseline": [
+  39,
+  58,
+  25,
+  148,
+  96,
+  152
+ ],
+ "per_level": {
+  "1": 11
+ },
+ "actions": 800,
+ "secs": 8.0,
+ "error": null,
+ "deaths": [
+  7,
+  15,
+  21,
+  26,
+  70,
+  114,
+  158,
+  202,
+  246,
+  290,
+  334,
+  378,
+  422,
+  466,
+  510,
+  554,
+  598,
+  642,
+  686,
+  730
+ ],
+ "action_use": {
+  "ACTION1": 152,
+  "ACTION2": 120,
+  "ACTION3": 202,
+  "ACTION4": 280,
+  "ACTION5": 26
+ },
+ "final": {
+  "motions": {
+   "ACTION1": [
+    -4,
+    0
+   ],
+   "ACTION2": [
+    4,
+    0
+   ],
+   "ACTION3": [
+    0,
+    -4
+   ],
+   "ACTION4": [
+    0,
+    4
+   ],
+   "ACTION5": [
+    0,
+    4
+   ]
+  },
+  "slides": [],
+  "shape_ops": {},
+  "inert": [
+   "ACTION5"
+  ],
+  "walls": [],
+  "collect": [],
+  "lethal": [],
+  "laws": [],
+  "click_laws": {},
+  "pushable": [],
+  "avatar_color": 9,
+  "avatar_size": 80,
+  "goal_refuted": [],
+  "timer": true,
+  "playfield": [
+   4,
+   63,
+   0,
+   64
+  ]
+ },
+ "level_marks": [
+  {
+   "level": 1,
+   "n": 10,
+   "beliefs": {
+    "motions": {
+     "ACTION1": [
+      -4,
+      0
+     ],
+     "ACTION2": [
+      4,
+      0
+     ],
+     "ACTION3": [
+      0,
+      -4
+     ],
+     "ACTION4": [
+      0,
+      4
+     ]
+    },
+    "slides": [],
+    "shape_ops": {},
+    "inert": [],
+    "walls": [],
+    "collect": [],
+    "lethal": [],
+    "laws": [],
+    "click_laws": {},
+    "pushable": [],
+    "avatar_color": 9,
+    "avatar_size": 80,
+    "goal_refuted": [],
+    "timer": true,
+    "playfield": [
+     1,
+     60,
+     0,
+     64
+    ]
+   }
+  }
+ ],
+ "hlog": [
+  {
+   "chosen": 6,
+   "alternatives": [
+    4
+   ],
+   "kind": "goal_choice",
+   "n": 26
+  }
+ ],
+ "gov": {
+  "refassembly": {
+   "spent": 0,
+   "dead": false
+  },
+  "actuators": {
+   "spent": 0,
+   "dead": false
+  },
+  "glyphs": {
+   "spent": 0,
+   "dead": false
+  },
+  "aligner": {
+   "spent": 31,
+   "dead": false
+  },
+  "multibody": {
+   "spent": 0,
+   "dead": false
+  },
+  "overlay": {
+   "spent": 0,
+   "dead": false
+  },
+  "edgemaze": {
+   "spent": 0,
+   "dead": false
+  }
+ },
+ "anomalies": [],
+ "tail": [
+  {
+   "n": 711,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    16
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 5
+  },
+  {
+   "n": 712,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    20
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 4
+  },
+  {
+   "n": 713,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    24
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 3
+  },
+  {
+   "n": 714,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    28
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 2
+  },
+  {
+   "n": 715,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    32
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 1
+  },
+  {
+   "n": 716,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    36
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 0
+  },
+  {
+   "n": 717,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    20,
+    36
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 7
+  },
+  {
+   "n": 718,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    16,
+    36
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 6
+  },
+  {
+   "n": 719,
+   "a": "ACTION3",
+   "lv": 1,
+   "pos": [
+    16,
+    32
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 5
+  },
+  {
+   "n": 720,
+   "a": "ACTION3",
+   "lv": 1,
+   "pos": [
+    16,
+    28
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 4
+  },
+  {
+   "n": 721,
+   "a": "ACTION3",
+   "lv": 1,
+   "pos": [
+    16,
+    24
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 3
+  },
+  {
+   "n": 722,
+   "a": "ACTION3",
+   "lv": 1,
+   "pos": [
+    16,
+    20
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 2
+  },
+  {
+   "n": 723,
+   "a": "ACTION3",
+   "lv": 1,
+   "pos": [
+    16,
+    16
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 1
+  },
+  {
+   "n": 724,
+   "a": "ACTION3",
+   "lv": 1,
+   "pos": [
+    16,
+    12
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 0
+  },
+  {
+   "n": 725,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    20,
+    12
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 7
+  },
+  {
+   "n": 726,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    24,
+    12
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 6
+  },
+  {
+   "n": 727,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    16
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 5
+  },
+  {
+   "n": 728,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    20
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 4
+  },
+  {
+   "n": 729,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    24
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 3
+  },
+  {
+   "n": 730,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    28
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 2
+  },
+  {
+   "n": 730,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    28
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 1
+  },
+  {
+   "n": 731,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    28,
+    20
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 5
+  },
+  {
+   "n": 732,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    24,
+    20
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 4
+  },
+  {
+   "n": 733,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    20,
+    20
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 3
+  },
+  {
+   "n": 734,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    16,
+    20
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 2
+  },
+  {
+   "n": 735,
+   "a": "ACTION3",
+   "lv": 1,
+   "pos": [
+    16,
+    16
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 1
+  },
+  {
+   "n": 736,
+   "a": "ACTION3",
+   "lv": 1,
+   "pos": [
+    16,
+    12
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 0
+  },
+  {
+   "n": 737,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    20,
+    12
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 7
+  },
+  {
+   "n": 738,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    24,
+    12
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 6
+  },
+  {
+   "n": 739,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    16
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 5
+  },
+  {
+   "n": 740,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    20
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 4
+  },
+  {
+   "n": 741,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    24
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 3
+  },
+  {
+   "n": 742,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    28
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 2
+  },
+  {
+   "n": 743,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    32
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 1
+  },
+  {
+   "n": 744,
+   "a": "ACTION4",
+   "lv": 1,
+   "pos": [
+    24,
+    36
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 0
+  },
+  {
+   "n": 745,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    20,
+    36
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 7
+  },
+  {
+   "n": 746,
+   "a": "ACTION1",
+   "lv": 1,
+   "pos": [
+    16,
+    36
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 6
+  },
+  {
+   "n": 747,
+   "a": "ACTION3",
+   "lv": 1,
+   "pos": [
+    16,
+    32
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 5
+  },
+  {
+   "n": 748,
+   "a": "ACTION3",
+   "lv": 1,
+   "pos": [
+    16,
+    28
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 4
+  },
+  {
+   "n": 749,
+   "a": "ACTION3",
+   "lv": 1,
+   "pos": [
+    16,
+    24
+   ],
+   "seek": [
+    52,
+    40
+   ],
+   "plan": 3
+  }
+ ],
+ "unresolved": {}
+}

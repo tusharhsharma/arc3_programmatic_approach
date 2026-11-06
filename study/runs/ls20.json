@@ -1,0 +1,2355 @@
+{
+ "game": "ls20",
+ "levels": 1,
+ "win_levels": 7,
+ "baseline": [
+  22,
+  123,
+  73,
+  84,
+  96,
+  192,
+  186
+ ],
+ "per_level": {
+  "1": 44
+ },
+ "actions": 800,
+ "secs": 45.2,
+ "error": null,
+ "deaths": [
+  65,
+  130,
+  195,
+  260,
+  325,
+  390,
+  455,
+  520,
+  585,
+  650,
+  715
+ ],
+ "action_use": {
+  "ACTION1": 188,
+  "ACTION2": 510,
+  "ACTION3": 43,
+  "ACTION4": 48
+ },
+ "final": {
+  "motions": {
+   "ACTION1": [
+    -5,
+    0
+   ],
+   "ACTION2": [
+    5,
+    0
+   ],
+   "ACTION3": [
+    0,
+    -5
+   ],
+   "ACTION4": [
+    0,
+    5
+   ]
+  },
+  "slides": [],
+  "shape_ops": {},
+  "inert": [],
+  "walls": [
+   5
+  ],
+  "collect": [],
+  "lethal": [],
+  "laws": [],
+  "click_laws": {},
+  "pushable": [],
+  "avatar_color": 3,
+  "avatar_size": 1354,
+  "goal_refuted": [],
+  "timer": true,
+  "playfield": [
+   0,
+   64,
+   0,
+   64
+  ]
+ },
+ "level_marks": [
+  {
+   "level": 1,
+   "n": 43,
+   "beliefs": {
+    "motions": {
+     "ACTION1": [
+      -5,
+      0
+     ],
+     "ACTION2": [
+      5,
+      0
+     ],
+     "ACTION3": [
+      0,
+      -5
+     ],
+     "ACTION4": [
+      0,
+      5
+     ]
+    },
+    "slides": [
+     "ACTION1",
+     "ACTION2"
+    ],
+    "shape_ops": {},
+    "inert": [],
+    "walls": [
+     4,
+     5
+    ],
+    "collect": [],
+    "lethal": [],
+    "laws": [
+     "('action', 'ACTION1')"
+    ],
+    "click_laws": {},
+    "pushable": [],
+    "avatar_color": 12,
+    "avatar_size": 10,
+    "goal_refuted": [],
+    "timer": true,
+    "playfield": [
+     0,
+     64,
+     0,
+     64
+    ]
+   }
+  }
+ ],
+ "hlog": [
+  {
+   "candidates": [
+    "align(M=5/43@(12.0, 36.0) -> same-colour marker C5[396@(0, 0, 63, 63)])",
+    "align(M=9/6@(12.0, 36.0) -> same-colour marker C9[15@(47, 34, 49, 38)])",
+    "align(M=9/15@(48.0, 36.0) -> same-colour marker C9[24@(55, 3, 60, 8)])",
+    "align(M=9/6@(12.0, 36.0) -> same-colour marker C9[24@(55, 3, 60, 8)])",
+    "align(M=9/15@(48.0, 36.0) -> same-colour marker C9[6@(11, 35, 13, 37)])"
+   ],
+   "kind": "goal_hypotheses",
+   "n": 0
+  },
+  {
+   "gkind": "align",
+   "mover": 5,
+   "note": "same-colour marker C5[396@(0, 0, 63, 63)]",
+   "kind": "goal_adopted",
+   "n": 0
+  },
+  {
+   "gkind": "align",
+   "mover": 5,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 4
+  },
+  {
+   "chosen": 5,
+   "alternatives": [
+    0,
+    12
+   ],
+   "kind": "goal_choice",
+   "n": 4
+  },
+  {
+   "color": 5,
+   "reason": "unreachable_now",
+   "kind": "goal_deferred",
+   "n": 4
+  },
+  {
+   "gkind": "align",
+   "mover": 9,
+   "note": "same-colour marker C9[15@(47, 34, 49, 38)]",
+   "kind": "goal_adopted",
+   "n": 5
+  },
+  {
+   "gkind": "align",
+   "mover": 9,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 9
+  },
+  {
+   "gkind": "align",
+   "mover": 9,
+   "note": "same-colour marker C9[24@(55, 3, 60, 8)]",
+   "kind": "goal_adopted",
+   "n": 10
+  },
+  {
+   "found": false,
+   "target": [
+    54,
+    4
+   ],
+   "kind": "goal_route",
+   "n": 11
+  },
+  {
+   "found": false,
+   "target": [
+    54,
+    4
+   ],
+   "kind": "goal_route",
+   "n": 16
+  },
+  {
+   "found": false,
+   "target": [
+    54,
+    4
+   ],
+   "kind": "goal_route",
+   "n": 17
+  },
+  {
+   "found": false,
+   "target": [
+    54,
+    4
+   ],
+   "kind": "goal_route",
+   "n": 21
+  },
+  {
+   "found": false,
+   "target": [
+    54,
+    4
+   ],
+   "kind": "goal_route",
+   "n": 22
+  },
+  {
+   "gkind": "align",
+   "mover": 9,
+   "reason": "no_effect_found",
+   "spent": 13,
+   "kind": "goal_refuted",
+   "n": 23
+  },
+  {
+   "gkind": "align",
+   "mover": 9,
+   "note": "same-colour marker C9[24@(55, 3, 60, 8)]",
+   "kind": "goal_adopted",
+   "n": 24
+  },
+  {
+   "gkind": "align",
+   "mover": 9,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 28
+  },
+  {
+   "gkind": "align",
+   "mover": 9,
+   "note": "same-colour marker C9[6@(11, 35, 13, 37)]",
+   "kind": "goal_adopted",
+   "n": 29
+  },
+  {
+   "group": [
+    "action",
+    "ACTION1"
+   ],
+   "feature": "prev_axis",
+   "value": "v",
+   "blocks_when": true,
+   "witnesses": 6,
+   "outcome": {
+    "True": [
+     -7,
+     0
+    ],
+    "False": [
+     -5,
+     0
+    ]
+   },
+   "kind": "law_adopt",
+   "n": 32
+  },
+  {
+   "found": true,
+   "target": [
+    9,
+    34
+   ],
+   "length": 9,
+   "kind": "goal_route",
+   "n": 34
+  },
+  {
+   "gkind": "align",
+   "mover": 9,
+   "note": "same-colour marker C9[6@(11, 35, 13, 37)]",
+   "spent": 15,
+   "kind": "goal_confirmed",
+   "n": 43
+  },
+  {
+   "candidates": [
+    "align(M=11/84@(61.5, 33.5) -> same-colour marker C11[8@(51, 40, 53, 42)])",
+    "align(M=11/84@(61.5, 33.5) -> same-colour marker C11[8@(16, 15, 18, 17)])",
+    "align(M=11/8@(17.0, 16.0) -> fits frame C5[43@(39, 13, 45, 19)])",
+    "align(M=11/8@(52.0, 41.0) -> fits frame C5[43@(39, 13, 45, 19)])"
+   ],
+   "kind": "goal_hypotheses",
+   "n": 0
+  },
+  {
+   "gkind": "align",
+   "mover": 11,
+   "note": "same-colour marker C11[8@(51, 40, 53, 42)]",
+   "kind": "goal_adopted",
+   "n": 0
+  },
+  {
+   "gkind": "align",
+   "mover": 11,
+   "reason": "mover_lost",
+   "spent": 7,
+   "kind": "goal_refuted",
+   "n": 7
+  },
+  {
+   "gkind": "align",
+   "mover": 11,
+   "note": "same-colour marker C11[8@(16, 15, 18, 17)]",
+   "kind": "goal_adopted",
+   "n": 7
+  },
+  {
+   "gkind": "align",
+   "mover": 11,
+   "note": "fits frame C5[43@(39, 13, 45, 19)]",
+   "kind": "goal_adopted",
+   "n": 8
+  },
+  {
+   "gkind": "align",
+   "mover": 11,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 12
+  },
+  {
+   "gkind": "align",
+   "mover": 11,
+   "note": "fits frame C5[43@(39, 13, 45, 19)]",
+   "kind": "goal_adopted",
+   "n": 13
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    5,
+    0
+   ],
+   "expected": [
+    0,
+    -5
+   ],
+   "at": [
+    35,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 16
+  },
+  {
+   "gkind": "align",
+   "mover": 11,
+   "reason": "no_effect_found",
+   "spent": 4,
+   "kind": "goal_refuted",
+   "n": 17
+  },
+  {
+   "color": 0,
+   "reason": "unreachable_now",
+   "kind": "goal_deferred",
+   "n": 19
+  },
+  {
+   "group": [
+    "action",
+    "ACTION1"
+   ],
+   "feature": "prev_axis",
+   "value": "v",
+   "blocks_when": true,
+   "witnesses": 4,
+   "outcome": {
+    "True": [
+     -7,
+     0
+    ],
+    "False": [
+     -5,
+     0
+    ]
+   },
+   "kind": "law_refute",
+   "n": 22
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    5,
+    0
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "at": [
+    37,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 22
+  },
+  {
+   "color": 0,
+   "reason": "unreachable_now",
+   "kind": "goal_deferred",
+   "n": 22
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "kind": "anomaly_dismissed",
+   "n": 26
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    2,
+    5
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "at": [
+    40,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 28
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    30,
+    25
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "at": [
+    5,
+    9
+   ],
+   "kind": "anomaly",
+   "n": 35
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "kind": "anomaly_dismissed",
+   "n": 39
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    20,
+    -5
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "at": [
+    22,
+    34
+   ],
+   "kind": "anomaly",
+   "n": 44
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    2,
+    -5
+   ],
+   "expected": [
+    0,
+    -5
+   ],
+   "at": [
+    35,
+    34
+   ],
+   "kind": "anomaly",
+   "n": 47
+  },
+  {
+   "chosen": 0,
+   "alternatives": [
+    8
+   ],
+   "kind": "goal_choice",
+   "n": 48
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -2,
+    5
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "at": [
+    42,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 67
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -2,
+    0
+   ],
+   "expected": [
+    0,
+    -5
+   ],
+   "at": [
+    27,
+    34
+   ],
+   "kind": "anomaly",
+   "n": 72
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    2,
+    0
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "at": [
+    15,
+    34
+   ],
+   "kind": "anomaly",
+   "n": 77
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    2,
+    0
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "at": [
+    5,
+    34
+   ],
+   "kind": "anomaly",
+   "n": 82
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    30,
+    10
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "at": [
+    10,
+    19
+   ],
+   "kind": "anomaly",
+   "n": 87
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -2,
+    0
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "at": [
+    42,
+    34
+   ],
+   "kind": "anomaly",
+   "n": 97
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -2,
+    5
+   ],
+   "at": [
+    32,
+    34
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 105
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -25,
+    -25
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "at": [
+    30,
+    34
+   ],
+   "kind": "anomaly",
+   "n": 109
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    35,
+    25
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "at": [
+    5,
+    9
+   ],
+   "kind": "anomaly",
+   "n": 112
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -30,
+    -25
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "at": [
+    35,
+    34
+   ],
+   "kind": "anomaly",
+   "n": 120
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    37,
+    25
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "at": [
+    5,
+    9
+   ],
+   "kind": "anomaly",
+   "n": 121
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -7,
+    -5
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "at": [
+    42,
+    34
+   ],
+   "kind": "anomaly",
+   "n": 126
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    7,
+    5
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "at": [
+    25,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 129
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -32,
+    -20
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "at": [
+    37,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 133
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    30,
+    20
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "at": [
+    5,
+    9
+   ],
+   "kind": "anomaly",
+   "n": 136
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -30,
+    -20
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "at": [
+    35,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 137
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    30,
+    20
+   ],
+   "expected": [
+    0,
+    -5
+   ],
+   "at": [
+    5,
+    9
+   ],
+   "kind": "anomaly",
+   "n": 138
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -5,
+    10
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "at": [
+    35,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 139
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -2,
+    -10
+   ],
+   "expected": [
+    0,
+    -5
+   ],
+   "at": [
+    27,
+    39
+   ],
+   "kind": "anomaly",
+   "n": 149
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -20,
+    -20
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "at": [
+    25,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 151
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    35,
+    20
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "at": [
+    5,
+    9
+   ],
+   "kind": "anomaly",
+   "n": 152
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    -2,
+    -10
+   ],
+   "at": [
+    27,
+    39
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 165
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -20,
+    -20
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "at": [
+    25,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 167
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    20,
+    20
+   ],
+   "expected": [
+    0,
+    -5
+   ],
+   "at": [
+    5,
+    9
+   ],
+   "kind": "anomaly",
+   "n": 170
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    5,
+    -10
+   ],
+   "expected": [
+    0,
+    -5
+   ],
+   "at": [
+    30,
+    39
+   ],
+   "kind": "anomaly",
+   "n": 173
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    7,
+    0
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "at": [
+    35,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 174
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    3,
+    0
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "at": [
+    37,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 217
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -2,
+    0
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "at": [
+    17,
+    34
+   ],
+   "kind": "anomaly",
+   "n": 232
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    5,
+    -5
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "at": [
+    37,
+    34
+   ],
+   "kind": "anomaly",
+   "n": 239
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    -32,
+    -20
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "at": [
+    37,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 247
+  },
+  {
+   "akind": "move",
+   "action": "ACTION3",
+   "vec": [
+    30,
+    20
+   ],
+   "at": [
+    5,
+    9
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 255
+  },
+  {
+   "akind": "move",
+   "action": "ACTION1",
+   "vec": [
+    3,
+    0
+   ],
+   "at": [
+    37,
+    29
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 282
+  },
+  {
+   "akind": "move",
+   "action": "ACTION4",
+   "vec": [
+    -2,
+    0
+   ],
+   "at": [
+    17,
+    34
+   ],
+   "witnesses": 2,
+   "kind": "unknown_mechanic_confirmed",
+   "n": 297
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    3,
+    -5
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "at": [
+    37,
+    34
+   ],
+   "kind": "anomaly",
+   "n": 304
+  },
+  {
+   "akind": "move",
+   "action": "ACTION2",
+   "vec": [
+    -35,
+    -20
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "at": [
+    40,
+    29
+   ],
+   "kind": "anomaly",
+   "n": 307
+  }
+ ],
+ "gov": {
+  "goals": {
+   "spent": 15,
+   "dead": false
+  },
+  "refassembly": {
+   "spent": 0,
+   "dead": false
+  },
+  "actuators": {
+   "spent": 0,
+   "dead": false
+  },
+  "glyphs": {
+   "spent": 0,
+   "dead": false
+  },
+  "aligner": {
+   "spent": 0,
+   "dead": false
+  },
+  "multibody": {
+   "spent": 11,
+   "dead": false
+  },
+  "overlay": {
+   "spent": 0,
+   "dead": false
+  },
+  "edgemaze": {
+   "spent": 4,
+   "dead": false
+  },
+  "permuter": {
+   "spent": 0,
+   "dead": false
+  }
+ },
+ "anomalies": [
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    35,
+    29
+   ],
+   "vec": [
+    5,
+    0
+   ],
+   "expected": [
+    0,
+    -5
+   ],
+   "retests": 1,
+   "reproduced": 0,
+   "closed": true,
+   "n": 16
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    37,
+    29
+   ],
+   "vec": [
+    5,
+    0
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": true,
+   "n": 22
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    40,
+    29
+   ],
+   "vec": [
+    2,
+    5
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "retests": 1,
+   "reproduced": 0,
+   "closed": true,
+   "n": 28
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    5,
+    9
+   ],
+   "vec": [
+    30,
+    25
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 35
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    22,
+    34
+   ],
+   "vec": [
+    20,
+    -5
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 44
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    35,
+    34
+   ],
+   "vec": [
+    2,
+    -5
+   ],
+   "expected": [
+    0,
+    -5
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 47
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    42,
+    29
+   ],
+   "vec": [
+    -2,
+    5
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 67
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    27,
+    34
+   ],
+   "vec": [
+    -2,
+    0
+   ],
+   "expected": [
+    0,
+    -5
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 72
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    15,
+    34
+   ],
+   "vec": [
+    2,
+    0
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 77
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    5,
+    34
+   ],
+   "vec": [
+    2,
+    0
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 82
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    10,
+    19
+   ],
+   "vec": [
+    30,
+    10
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 87
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    42,
+    34
+   ],
+   "vec": [
+    -2,
+    0
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 97
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    30,
+    34
+   ],
+   "vec": [
+    -25,
+    -25
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 109
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    5,
+    9
+   ],
+   "vec": [
+    35,
+    25
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 112
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    35,
+    34
+   ],
+   "vec": [
+    -30,
+    -25
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 120
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    5,
+    9
+   ],
+   "vec": [
+    37,
+    25
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 121
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    42,
+    34
+   ],
+   "vec": [
+    -7,
+    -5
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 126
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    25,
+    29
+   ],
+   "vec": [
+    7,
+    5
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 129
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    37,
+    29
+   ],
+   "vec": [
+    -32,
+    -20
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 133
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    5,
+    9
+   ],
+   "vec": [
+    30,
+    20
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 136
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    35,
+    29
+   ],
+   "vec": [
+    -30,
+    -20
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 137
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    5,
+    9
+   ],
+   "vec": [
+    30,
+    20
+   ],
+   "expected": [
+    0,
+    -5
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 138
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    35,
+    29
+   ],
+   "vec": [
+    -5,
+    10
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 139
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    27,
+    39
+   ],
+   "vec": [
+    -2,
+    -10
+   ],
+   "expected": [
+    0,
+    -5
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 149
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    25,
+    29
+   ],
+   "vec": [
+    -20,
+    -20
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 151
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    5,
+    9
+   ],
+   "vec": [
+    35,
+    20
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 152
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    25,
+    29
+   ],
+   "vec": [
+    -20,
+    -20
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 167
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    5,
+    9
+   ],
+   "vec": [
+    20,
+    20
+   ],
+   "expected": [
+    0,
+    -5
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 170
+  },
+  {
+   "kind": "move",
+   "action": "ACTION3",
+   "pos_before": [
+    30,
+    39
+   ],
+   "vec": [
+    5,
+    -10
+   ],
+   "expected": [
+    0,
+    -5
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 173
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    35,
+    29
+   ],
+   "vec": [
+    7,
+    0
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 174
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    37,
+    29
+   ],
+   "vec": [
+    3,
+    0
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 217
+  },
+  {
+   "kind": "move",
+   "action": "ACTION4",
+   "pos_before": [
+    17,
+    34
+   ],
+   "vec": [
+    -2,
+    0
+   ],
+   "expected": [
+    0,
+    5
+   ],
+   "retests": 0,
+   "reproduced": 1,
+   "closed": true,
+   "n": 232
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    37,
+    34
+   ],
+   "vec": [
+    5,
+    -5
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 239
+  },
+  {
+   "kind": "move",
+   "action": "ACTION1",
+   "pos_before": [
+    37,
+    29
+   ],
+   "vec": [
+    -32,
+    -20
+   ],
+   "expected": [
+    -5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 247
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    37,
+    34
+   ],
+   "vec": [
+    3,
+    -5
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 304
+  },
+  {
+   "kind": "move",
+   "action": "ACTION2",
+   "pos_before": [
+    40,
+    29
+   ],
+   "vec": [
+    -35,
+    -20
+   ],
+   "expected": [
+    5,
+    0
+   ],
+   "retests": 0,
+   "reproduced": 0,
+   "closed": false,
+   "n": 307
+  }
+ ],
+ "tail": [
+  {
+   "n": 696,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 697,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 698,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 699,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 700,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 701,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 702,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 703,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 704,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 705,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 706,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 707,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 708,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 709,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 710,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 711,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 712,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 713,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 714,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 715,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 715,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 25
+  },
+  {
+   "n": 716,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 717,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 718,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 719,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 720,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 721,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 722,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 723,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 724,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 725,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 726,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 727,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 728,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 729,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 730,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 731,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 732,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 733,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  },
+  {
+   "n": 734,
+   "a": "ACTION2",
+   "lv": 1,
+   "pos": [
+    5,
+    9
+   ],
+   "seek": null,
+   "plan": 0
+  }
+ ],
+ "unresolved": {}
+}

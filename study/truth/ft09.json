@@ -1,0 +1,29 @@
+{
+  "game": "ft09",
+  "level": 1,
+  "actions": ["ACTION6"],
+  "entities": [
+    {"id": "tile9", "role": "canvas", "colors": [9, 8], "count": 8, "size": [36, 36],
+     "note": "the live puzzle: eight 6x6 tiles on an 8-px pitch at rows 36-41/44-49/52-57 x cols 36-41/44-49/52-57 (the ring around the centre card), all colour 9 at the start; a click flips a tile between the two palette colours 9 and 8"},
+    {"id": "card8", "role": "reference", "colors": [8, 0, 2], "count": 1, "size": [36, 36],
+     "note": "the constraint card in the middle of the ring (rows 44-49, cols 44-49): 3x3 of 2x2 cells, centre colour 8, left column and right-middle black(0) = 'that neighbour must be 8', top-middle, top-right, bottom-middle, bottom-right red(2) = 'that neighbour must NOT be 8'; not a tile, clicking it does nothing"},
+    {"id": "box4", "role": "decor", "colors": [4, 2], "count": 1, "size": [400, 500],
+     "note": "yellow(4) box rows 32-61, cols 32-61 with red(2) corner brackets framing the live puzzle; the brackets flash black for a few frames on a stray click"},
+    {"id": "examples", "role": "decor", "colors": [9, 8, 0, 2], "count": 3, "size": [300, 330],
+     "note": "three solved worked examples of the same card-plus-8-tiles layout on the grey background: top-left (rows 2-23, cols 4-27), top-right (rows 2-23, cols 36-59), bottom-left (rows 36-57, cols 4-27); they demonstrate the rule and are not interactive"},
+    {"id": "energy12", "role": "budget", "colors": [12, 11], "count": 1, "size": [64, 64],
+     "note": "row 63: colour 12 = remaining energy, colour 11 fills from the RIGHT as energy is spent (32 at L1, 2 px per unit); only tile clicks cost"}
+  ],
+  "rules": [
+    {"action": "ACTION6", "when": "click_on(tile9)", "effect": "recolour", "of": "tile9",
+     "note": "the clicked tile alone advances to the next palette colour (9 -> 8 -> 9 ...); no neighbours change at L1; costs 1 energy; the win is checked immediately"},
+    {"action": "ACTION6", "when": "click_on(card8)", "effect": "nothing",
+     "note": "the card is not a tile: no change and no energy spent"},
+    {"action": "ACTION6", "when": "always", "effect": "nothing",
+     "note": "clicking the examples, the box or empty background changes nothing and costs no energy (the red brackets flash briefly). Non-click actions are not offered but if sent they also do nothing yet drain 1 energy"}
+  ],
+  "goal": {"kind": "mapping", "mover": "tile9", "target": "card8", "all": true,
+           "note": "every tile must satisfy the card: tiles beside a black card cell must equal the card's centre colour 8, tiles beside a red cell must differ from it (stay 9); i.e. flip the left column (rows 36-57, cols 36-41) and the right-middle tile (rows 44-49, cols 52-57) to 8 and leave the other four at 9; 4 clicks, order irrelevant"},
+  "budget": {"entity": "energy12", "kind": "steps", "n": 32, "on_zero": "lose"},
+  "hazards": []
+}

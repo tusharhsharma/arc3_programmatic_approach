@@ -1,0 +1,31 @@
+{
+  "game": "su15",
+  "level": 1,
+  "actions": ["ACTION6", "ACTION7"],
+  "entities": [
+    {"id": "blob15", "role": "controlled", "colors": [15], "count": 1, "size": [9, 9],
+     "note": "solid 3x3 colour-15 square at rows 58-60, cols 3-5 (bottom-left); the only blob at L1; it is pulled to wherever you click near it"},
+    {"id": "disc9", "role": "marker", "colors": [9, 3], "count": 1, "size": [60, 69],
+     "note": "9x9 colour-9 disc at rows 11-19, cols 44-52 (top-right) with a 3x3 colour-3 centre mark at rows 14-16, cols 47-49; the blob's centre must end inside the disc's bounding box"},
+    {"id": "trail3", "role": "decor", "colors": [3], "count": 1, "size": [20, 24],
+     "note": "dotted diagonal of single colour-3 pixels every 2 rows from (57,6) up to (19,45) joining the blob to the disc: a hint of the path, no collision"},
+    {"id": "arrow0", "role": "decor", "colors": [0], "count": 1, "size": [6, 6],
+     "note": "black right-pointing arrow glyph at rows 52-55, cols 8-11 next to the blob; disappears on the first click / once the blob leaves its start"},
+    {"id": "hud4", "role": "hud", "colors": [4, 15], "count": 1, "size": [640, 640],
+     "note": "colour-4 strip rows 0-9 with a 3x3 colour-15 icon at rows 4-6, cols 30-32 = 'one blob of this size is required'; clicks in the strip are ignored (no step cost)"},
+    {"id": "stepbar", "role": "budget", "colors": [0, 5], "count": 1, "size": [64, 64],
+     "note": "row 63: black(0) = remaining steps, eaten from the RIGHT by background colour 5 as steps are spent (64 px = 32 steps, 2 px per click)"}
+  ],
+  "rules": [
+    {"action": "ACTION6", "when": "click_near(blob15, 8)", "effect": "teleport", "of": "blob15",
+     "note": "a click whose point is within Euclidean distance 8 of the blob's bounding box pulls the blob so that its CENTRE lands on the click point (animated 4 frames, max 4 px per axis per frame): i.e. a jump of at most about 9 px per axis per click; a shrinking black ring is drawn around the click; costs 1 step"},
+    {"action": "ACTION6", "when": "always", "effect": "nothing",
+     "note": "a click farther than 8 px from the blob (rows 10-62) moves nothing but still costs 1 step; clicks on rows 0-9 (HUD) or row 63 are ignored entirely and cost nothing"},
+    {"action": "ACTION7", "when": "previous_action", "effect": "teleport", "of": "blob15",
+     "note": "undo: restores the blob to where it was before the previous click; no step cost; does nothing visible if the previous click moved nothing"}
+  ],
+  "goal": {"kind": "inside", "mover": "blob15", "target": "disc9", "all": true,
+           "note": "the level ends the moment the colour-15 blob's centre lies inside the colour-9 disc's box (rows 11-19, cols 44-52): about +40 cols and -40 rows from the start, 7 pulls minimum within 32 steps"},
+  "budget": {"entity": "stepbar", "kind": "steps", "n": 32, "on_zero": "lose"},
+  "hazards": []
+}

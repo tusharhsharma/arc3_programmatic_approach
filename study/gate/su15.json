@@ -1,0 +1,89 @@
+{
+ "game": "su15",
+ "levels": 1,
+ "per_level": {
+  "1": 9
+ },
+ "score": {
+  "entities": 0.5,
+  "rules": 0.0,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "controlled:blob15",
+   "hud:hud4"
+  ],
+  "missed_rules": [
+   "ACTION6:teleport:blob15",
+   "ACTION6:nothing:None",
+   "ACTION7:teleport:blob15"
+  ],
+  "reported_goal": {
+   "kind": "align",
+   "mover": [
+    15
+   ],
+   "target": [
+    9
+   ]
+  },
+  "truth_goal": "inside(blob15->disc9)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "budget",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     9
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     15
+    ],
+    "when": "click_near"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     3
+    ],
+    "when": "click_near"
+   }
+  ],
+  "goal": {
+   "kind": "align",
+   "mover": [
+    15
+   ],
+   "target": [
+    9
+   ]
+  }
+ },
+ "secs": 0.1,
+ "error": null
+}

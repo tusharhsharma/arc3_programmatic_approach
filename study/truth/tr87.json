@@ -1,0 +1,33 @@
+{
+  "game": "tr87",
+  "level": 1,
+  "actions": ["ACTION1", "ACTION2", "ACTION3", "ACTION4"],
+  "entities": [
+    {"id": "cursor0", "role": "controlled", "colors": [0], "count": 1, "size": [16, 16],
+     "note": "a pair of black 5x2 bracket glyphs at rows 48-49 and rows 59-60, cols 15-19, sitting 2 px above and below the first tile of the bottom row; it steps 7 px left/right along the bottom row and marks which tile up/down edit"},
+    {"id": "target7", "role": "canvas", "colors": [7, 5], "count": 5, "size": [49, 49],
+     "note": "bottom row of five 7x7 colour-7 tiles at rows 51-57, cols 14-48 (tile origins cols 14, 21, 28, 35, 42), each showing a 5x5 colour-5 glyph; the editable row: every tile cycles through 7 glyph patterns (drawn with a fixed random rotation)"},
+    {"id": "source10", "role": "reference", "colors": [10, 5], "count": 5, "size": [49, 49],
+     "note": "row of five 7x7 colour-10 tiles at rows 40-46, cols 14-48 directly above the bottom row: the input word; it never changes"},
+    {"id": "table10", "role": "reference", "colors": [10, 7, 5, 3], "count": 6, "size": [101, 101],
+     "note": "upper panel (colour-2 background, rows 0-33): six rules in two columns, each = a colour-10 tile with a glyph (cols 12-18 / 35-41), a 3-px colour-3 connector (rows 7, 16, 25) and a colour-7 tile with a glyph (cols 22-28 / 45-51) at rows 4-10, 13-19, 22-28: 'colour-10 glyph translates to colour-7 glyph'; glyph identity ignores rotation"},
+    {"id": "panel3", "role": "decor", "colors": [3, 2], "count": 1, "size": [1800, 2200],
+     "note": "colour-3 lower panel from row 34 down and colour-2 upper background; no interaction"},
+    {"id": "stepbar", "role": "budget", "colors": [1, 4], "count": 1, "size": [64, 64],
+     "note": "row 63: colour 1 = remaining budget, filled in with colour 4 from the RIGHT as actions are spent (64 px = 128 actions, half a pixel per action)"}
+  ],
+  "rules": [
+    {"action": "ACTION3", "when": "always", "effect": "translate", "of": "cursor0", "by": 7,
+     "note": "brackets move one tile (7 px) left along the bottom row, wrapping from the first tile to the last; costs 1"},
+    {"action": "ACTION4", "when": "always", "effect": "translate", "of": "cursor0", "by": 7,
+     "note": "brackets move one tile right, wrapping from the last tile to the first; costs 1"},
+    {"action": "ACTION1", "when": "selected(target7)", "effect": "toggle", "of": "target7",
+     "note": "the bracketed colour-7 tile's glyph is replaced by the previous pattern in the cycle of 7 (index -1, cyclic); its rotation is kept; costs 1; win check runs"},
+    {"action": "ACTION2", "when": "selected(target7)", "effect": "toggle", "of": "target7",
+     "note": "the bracketed tile's glyph is replaced by the next pattern in the cycle (index +1, cyclic); costs 1; win check runs"}
+  ],
+  "goal": {"kind": "mapping", "mover": "target7", "target": "source10", "all": true,
+           "note": "every bottom-row glyph must equal the table's translation of the colour-10 glyph directly above it (position by position, 5 positions, glyphs compared up to rotation): initial bottom row B1,B7,B2,B4,B6 must become B3,B2,B6,B5,B1 (10 glyph steps + 4 cursor moves = 14 actions); a colour-cycling flash on each matched pair ends the level"},
+  "budget": {"entity": "stepbar", "kind": "steps", "n": 128, "on_zero": "lose"},
+  "hazards": []
+}

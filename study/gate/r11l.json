@@ -1,0 +1,140 @@
+{
+ "game": "r11l",
+ "levels": 1,
+ "per_level": {
+  "1": 11
+ },
+ "score": {
+  "entities": 0.29,
+  "rules": 0.0,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "controlled:handle15",
+   "selector:handle15b",
+   "wall:wall2",
+   "floor:floor5",
+   "budget:stepbar0"
+  ],
+  "missed_rules": [
+   "ACTION6:teleport:handle15",
+   "ACTION6:teleport:disc15",
+   "ACTION6:select:handle15b",
+   "ACTION6:nothing:None",
+   "ACTION6:nothing:None"
+  ],
+  "reported_goal": {
+   "kind": "cover",
+   "mover": [
+    15
+   ],
+   "target": [
+    15
+   ]
+  },
+  "truth_goal": "inside(disc15->diamond15)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "button",
+    "colors": []
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "click_on"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     15
+    ],
+    "when": "click_on"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     1
+    ],
+    "when": "click_on"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     6
+    ],
+    "when": "click_on"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "click_near"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     15
+    ],
+    "when": "click_near"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     1
+    ],
+    "when": "click_near"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     6
+    ],
+    "when": "click_near"
+   }
+  ],
+  "goal": {
+   "kind": "cover",
+   "mover": [
+    15
+   ],
+   "target": [
+    15
+   ]
+  }
+ },
+ "secs": 0.3,
+ "error": null
+}

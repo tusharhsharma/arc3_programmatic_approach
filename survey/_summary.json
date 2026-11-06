@@ -1,0 +1,4840 @@
+[
+  {
+    "game_id": "mz01-local0000maze",
+    "title": "MZ01 Micromouse Maze",
+    "tags": [
+      "navigation",
+      "exploration"
+    ],
+    "baseline_actions": [
+      50,
+      120
+    ],
+    "win_levels": 2,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "raw_subframes": 1,
+    "bg_color": 9,
+    "cell_size": 4,
+    "logical_shape": [
+      16,
+      16
+    ],
+    "colors_present": [
+      0,
+      8,
+      9,
+      12
+    ],
+    "n_objects": 5,
+    "object_summary": [
+      [
+        [
+          12,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          44
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          55
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          8
+        ],
+        1
+      ],
+      [
+        [
+          8,
+          1
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 2,
+        "moved": [
+          [
+            12,
+            1,
+            [
+              1,
+              0
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/mz01.png"
+  },
+  {
+    "game_id": "lp85-305b61c3",
+    "title": "LP85",
+    "tags": [
+      "click"
+    ],
+    "baseline_actions": [
+      17,
+      38,
+      31,
+      16,
+      41,
+      60,
+      26,
+      159
+    ],
+    "win_levels": 8,
+    "available_actions": [
+      6
+    ],
+    "raw_subframes": 1,
+    "bg_color": 4,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      11,
+      14,
+      15
+    ],
+    "n_objects": 37,
+    "object_summary": [
+      [
+        [
+          5,
+          4
+        ],
+        8
+      ],
+      [
+        [
+          11,
+          4
+        ],
+        4
+      ],
+      [
+        [
+          2,
+          16
+        ],
+        4
+      ],
+      [
+        [
+          10,
+          16
+        ],
+        4
+      ],
+      [
+        [
+          9,
+          16
+        ],
+        4
+      ],
+      [
+        [
+          15,
+          16
+        ],
+        4
+      ],
+      [
+        [
+          1,
+          16
+        ],
+        3
+      ],
+      [
+        [
+          14,
+          64
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          787
+        ],
+        1
+      ],
+      [
+        [
+          11,
+          16
+        ],
+        1
+      ],
+      [
+        [
+          8,
+          40
+        ],
+        1
+      ],
+      [
+        [
+          14,
+          40
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION6": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/lp85.png"
+  },
+  {
+    "game_id": "cd82-fb555c5d",
+    "title": "CD82",
+    "tags": [
+      "keyboard_click"
+    ],
+    "baseline_actions": [
+      55,
+      8,
+      41,
+      21,
+      23,
+      23
+    ],
+    "win_levels": 6,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "raw_subframes": 1,
+    "bg_color": 5,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      15
+    ],
+    "n_objects": 13,
+    "object_summary": [
+      [
+        [
+          4,
+          16
+        ],
+        2
+      ],
+      [
+        [
+          4,
+          68
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          359
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          50
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          9
+        ],
+        1
+      ],
+      [
+        [
+          15,
+          9
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          5
+        ],
+        1
+      ],
+      [
+        [
+          15,
+          50
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          30
+        ],
+        1
+      ],
+      [
+        [
+          15,
+          84
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          100
+        ],
+        1
+      ],
+      [
+        [
+          4,
+          64
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 1,
+        "moved": [],
+        "appeared": 1,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 201,
+        "moved": [],
+        "appeared": 3,
+        "vanished": 3,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 201,
+        "moved": [],
+        "appeared": 3,
+        "vanished": 3,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION5": {
+        "changed_cells": 50,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION6": {
+        "changed_cells": 1,
+        "moved": [],
+        "appeared": 1,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/cd82.png"
+  },
+  {
+    "game_id": "sp80-589a99af",
+    "title": "SP80",
+    "tags": [
+      "keyboard_click"
+    ],
+    "baseline_actions": [
+      39,
+      58,
+      25,
+      148,
+      96,
+      152
+    ],
+    "win_levels": 6,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "raw_subframes": 1,
+    "bg_color": 12,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      1,
+      4,
+      6,
+      9,
+      11,
+      12,
+      14
+    ],
+    "n_objects": 7,
+    "object_summary": [
+      [
+        [
+          11,
+          80
+        ],
+        2
+      ],
+      [
+        [
+          14,
+          64
+        ],
+        1
+      ],
+      [
+        [
+          4,
+          12
+        ],
+        1
+      ],
+      [
+        [
+          6,
+          16
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          80
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          256
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 162,
+        "moved": [
+          [
+            9,
+            80,
+            [
+              -4,
+              0
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 162,
+        "moved": [
+          [
+            9,
+            80,
+            [
+              4,
+              0
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 34,
+        "moved": [
+          [
+            9,
+            80,
+            [
+              0,
+              -4
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 35,
+        "moved": [
+          [
+            9,
+            80,
+            [
+              0,
+              4
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION5": {
+        "changed_cells": 2,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION6": {
+        "changed_cells": 2,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/sp80.png"
+  },
+  {
+    "game_id": "re86-8af5384d",
+    "title": "RE86",
+    "tags": [
+      "keyboard_click"
+    ],
+    "baseline_actions": [
+      26,
+      42,
+      86,
+      108,
+      189,
+      139,
+      424,
+      241
+    ],
+    "win_levels": 8,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "raw_subframes": 1,
+    "bg_color": 5,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      4,
+      5,
+      9,
+      11,
+      15
+    ],
+    "n_objects": 23,
+    "object_summary": [
+      [
+        [
+          4,
+          8
+        ],
+        8
+      ],
+      [
+        [
+          11,
+          1
+        ],
+        4
+      ],
+      [
+        [
+          9,
+          1
+        ],
+        4
+      ],
+      [
+        [
+          9,
+          13
+        ],
+        4
+      ],
+      [
+        [
+          11,
+          45
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          15,
+          64
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 61,
+        "moved": [
+          [
+            9,
+            13,
+            [
+              -3,
+              0
+            ]
+          ],
+          [
+            9,
+            13,
+            [
+              -3,
+              0
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              -3,
+              0
+            ]
+          ],
+          [
+            9,
+            13,
+            [
+              -3,
+              0
+            ]
+          ],
+          [
+            9,
+            13,
+            [
+              -3,
+              0
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 60,
+        "moved": [
+          [
+            9,
+            13,
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            9,
+            13,
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            9,
+            13,
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            9,
+            13,
+            [
+              3,
+              0
+            ]
+          ]
+        ],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 61,
+        "moved": [
+          [
+            9,
+            13,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            9,
+            13,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            9,
+            13,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            9,
+            13,
+            [
+              0,
+              -3
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 61,
+        "moved": [
+          [
+            9,
+            13,
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            9,
+            13,
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            9,
+            13,
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            9,
+            13,
+            [
+              0,
+              3
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION5": {
+        "changed_cells": 2,
+        "moved": [
+          [
+            0,
+            1,
+            [
+              -18,
+              -15
+            ]
+          ]
+        ],
+        "appeared": 5,
+        "vanished": 5,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/re86.png"
+  },
+  {
+    "game_id": "dc22-fdcac232",
+    "title": "DC22",
+    "tags": [
+      "keyboard_click"
+    ],
+    "baseline_actions": [
+      59,
+      102,
+      67,
+      98,
+      324,
+      578
+    ],
+    "win_levels": 6,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "raw_subframes": 1,
+    "bg_color": 4,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      11,
+      13,
+      14
+    ],
+    "n_objects": 35,
+    "object_summary": [
+      [
+        [
+          0,
+          4
+        ],
+        11
+      ],
+      [
+        [
+          9,
+          1
+        ],
+        8
+      ],
+      [
+        [
+          0,
+          40
+        ],
+        2
+      ],
+      [
+        [
+          2,
+          32
+        ],
+        2
+      ],
+      [
+        [
+          3,
+          640
+        ],
+        1
+      ],
+      [
+        [
+          5,
+          1190
+        ],
+        1
+      ],
+      [
+        [
+          8,
+          47
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          16
+        ],
+        1
+      ],
+      [
+        [
+          11,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          16
+        ],
+        1
+      ],
+      [
+        [
+          8,
+          24
+        ],
+        1
+      ],
+      [
+        [
+          13,
+          16
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 9,
+        "moved": [
+          [
+            14,
+            4,
+            [
+              -2,
+              0
+            ]
+          ]
+        ],
+        "appeared": 3,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 8,
+        "moved": [
+          [
+            14,
+            4,
+            [
+              2,
+              0
+            ]
+          ]
+        ],
+        "appeared": 1,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 9,
+        "moved": [
+          [
+            14,
+            4,
+            [
+              0,
+              -2
+            ]
+          ]
+        ],
+        "appeared": 3,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 8,
+        "moved": [
+          [
+            14,
+            4,
+            [
+              0,
+              2
+            ]
+          ]
+        ],
+        "appeared": 1,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION6": {
+        "changed_cells": 1,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/dc22.png"
+  },
+  {
+    "game_id": "sc25-635fd71a",
+    "title": "SC25",
+    "tags": [
+      "keyboard_click"
+    ],
+    "baseline_actions": [
+      36,
+      6,
+      32,
+      83,
+      143,
+      50
+    ],
+    "win_levels": 6,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "raw_subframes": 1,
+    "bg_color": 5,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      2,
+      3,
+      5,
+      9,
+      10,
+      14,
+      15
+    ],
+    "n_objects": 22,
+    "object_summary": [
+      [
+        [
+          2,
+          9
+        ],
+        5
+      ],
+      [
+        [
+          0,
+          9
+        ],
+        4
+      ],
+      [
+        [
+          15,
+          4
+        ],
+        4
+      ],
+      [
+        [
+          14,
+          128
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          14
+        ],
+        1
+      ],
+      [
+        [
+          10,
+          16
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          76
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          8
+        ],
+        1
+      ],
+      [
+        [
+          10,
+          8
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          208
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          36
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          48
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 8,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 36,
+        "moved": [],
+        "appeared": 6,
+        "vanished": 4,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 32,
+        "moved": [
+          [
+            10,
+            8,
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            9,
+            8,
+            [
+              0,
+              6
+            ]
+          ]
+        ],
+        "appeared": 1,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION6": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/sc25.png"
+  },
+  {
+    "game_id": "cn04-2fe56bfb",
+    "title": "CN04",
+    "tags": [
+      "keyboard_click"
+    ],
+    "baseline_actions": [
+      29,
+      54,
+      85,
+      300,
+      208,
+      113
+    ],
+    "win_levels": 6,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "raw_subframes": 1,
+    "bg_color": 10,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      4,
+      8,
+      10,
+      14
+    ],
+    "n_objects": 7,
+    "object_summary": [
+      [
+        [
+          8,
+          9
+        ],
+        4
+      ],
+      [
+        [
+          4,
+          32
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          135
+        ],
+        1
+      ],
+      [
+        [
+          14,
+          144
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 144,
+        "moved": [
+          [
+            0,
+            135,
+            [
+              -3,
+              0
+            ]
+          ],
+          [
+            8,
+            9,
+            [
+              -3,
+              0
+            ]
+          ],
+          [
+            8,
+            9,
+            [
+              -3,
+              0
+            ]
+          ]
+        ],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 145,
+        "moved": [
+          [
+            0,
+            135,
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            8,
+            9,
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            8,
+            9,
+            [
+              3,
+              0
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 198,
+        "moved": [
+          [
+            0,
+            135,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            8,
+            9,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            8,
+            9,
+            [
+              0,
+              -3
+            ]
+          ]
+        ],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 199,
+        "moved": [
+          [
+            0,
+            135,
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            8,
+            9,
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            8,
+            9,
+            [
+              0,
+              3
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION5": {
+        "changed_cells": 207,
+        "moved": [
+          [
+            8,
+            9,
+            [
+              -12,
+              -3
+            ]
+          ],
+          [
+            8,
+            9,
+            [
+              -6,
+              -9
+            ]
+          ]
+        ],
+        "appeared": 1,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION6": {
+        "changed_cells": 1,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/cn04.png"
+  },
+  {
+    "game_id": "vc33-5430563c",
+    "title": "VC33",
+    "tags": [
+      "click"
+    ],
+    "baseline_actions": [
+      7,
+      18,
+      44,
+      61,
+      131,
+      34,
+      152
+    ],
+    "win_levels": 7,
+    "available_actions": [
+      6
+    ],
+    "raw_subframes": 1,
+    "bg_color": 3,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      3,
+      4,
+      5,
+      7,
+      9,
+      11
+    ],
+    "n_objects": 10,
+    "object_summary": [
+      [
+        [
+          9,
+          16
+        ],
+        2
+      ],
+      [
+        [
+          7,
+          64
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          848
+        ],
+        1
+      ],
+      [
+        [
+          5,
+          72
+        ],
+        1
+      ],
+      [
+        [
+          11,
+          8
+        ],
+        1
+      ],
+      [
+        [
+          5,
+          96
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          368
+        ],
+        1
+      ],
+      [
+        [
+          4,
+          16
+        ],
+        1
+      ],
+      [
+        [
+          11,
+          12
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION6": {
+        "changed_cells": 1,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/vc33.png"
+  },
+  {
+    "game_id": "m0r0-492f87ba",
+    "title": "M0R0",
+    "tags": [
+      "keyboard_click"
+    ],
+    "baseline_actions": [
+      30,
+      111,
+      203,
+      26,
+      500,
+      237
+    ],
+    "win_levels": 6,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "raw_subframes": 1,
+    "bg_color": 5,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      5,
+      10,
+      11,
+      12
+    ],
+    "n_objects": 4,
+    "object_summary": [
+      [
+        [
+          10,
+          25
+        ],
+        2
+      ],
+      [
+        [
+          11,
+          1294
+        ],
+        1
+      ],
+      [
+        [
+          12,
+          1299
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 100,
+        "moved": [
+          [
+            10,
+            25,
+            [
+              -5,
+              0
+            ]
+          ],
+          [
+            10,
+            25,
+            [
+              -5,
+              0
+            ]
+          ]
+        ],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 102,
+        "moved": [
+          [
+            10,
+            25,
+            [
+              5,
+              0
+            ]
+          ],
+          [
+            10,
+            25,
+            [
+              5,
+              0
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 100,
+        "moved": [
+          [
+            10,
+            25,
+            [
+              0,
+              -5
+            ]
+          ],
+          [
+            10,
+            25,
+            [
+              0,
+              5
+            ]
+          ]
+        ],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 102,
+        "moved": [
+          [
+            10,
+            25,
+            [
+              0,
+              5
+            ]
+          ],
+          [
+            10,
+            25,
+            [
+              0,
+              -5
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION5": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION6": {
+        "changed_cells": 2,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/m0r0.png"
+  },
+  {
+    "game_id": "su15-1944f8ab",
+    "title": "SU15",
+    "tags": [
+      "click"
+    ],
+    "baseline_actions": [
+      22,
+      42,
+      26,
+      115,
+      36,
+      31,
+      8,
+      40,
+      41
+    ],
+    "win_levels": 9,
+    "available_actions": [
+      6,
+      7
+    ],
+    "raw_subframes": 1,
+    "bg_color": 5,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      3,
+      4,
+      5,
+      9,
+      15
+    ],
+    "n_objects": 27,
+    "object_summary": [
+      [
+        [
+          3,
+          1
+        ],
+        20
+      ],
+      [
+        [
+          15,
+          9
+        ],
+        2
+      ],
+      [
+        [
+          4,
+          631
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          59
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          9
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          5
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          64
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION6": {
+        "changed_cells": 2,
+        "moved": [],
+        "appeared": 1,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION7": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/su15.png"
+  },
+  {
+    "game_id": "sk48-d8078629",
+    "title": "SK48",
+    "tags": [
+      "keyboard_click"
+    ],
+    "baseline_actions": [
+      61,
+      177,
+      101,
+      103,
+      230,
+      181,
+      125,
+      92
+    ],
+    "win_levels": 8,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7
+    ],
+    "raw_subframes": 1,
+    "bg_color": 5,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      14
+    ],
+    "n_objects": 45,
+    "object_summary": [
+      [
+        [
+          2,
+          1
+        ],
+        12
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        8
+      ],
+      [
+        [
+          2,
+          4
+        ],
+        4
+      ],
+      [
+        [
+          3,
+          8
+        ],
+        3
+      ],
+      [
+        [
+          8,
+          16
+        ],
+        2
+      ],
+      [
+        [
+          9,
+          16
+        ],
+        2
+      ],
+      [
+        [
+          14,
+          16
+        ],
+        2
+      ],
+      [
+        [
+          6,
+          18
+        ],
+        2
+      ],
+      [
+        [
+          0,
+          12
+        ],
+        2
+      ],
+      [
+        [
+          6,
+          4
+        ],
+        2
+      ],
+      [
+        [
+          1,
+          4
+        ],
+        2
+      ],
+      [
+        [
+          4,
+          840
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 96,
+        "moved": [
+          [
+            3,
+            4,
+            [
+              -6,
+              0
+            ]
+          ],
+          [
+            6,
+            18,
+            [
+              -6,
+              0
+            ]
+          ],
+          [
+            0,
+            12,
+            [
+              -6,
+              0
+            ]
+          ],
+          [
+            6,
+            4,
+            [
+              -6,
+              0
+            ]
+          ],
+          [
+            1,
+            1,
+            [
+              -6,
+              0
+            ]
+          ],
+          [
+            2,
+            1,
+            [
+              -6,
+              0
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 96,
+        "moved": [
+          [
+            2,
+            4,
+            [
+              -6,
+              0
+            ]
+          ],
+          [
+            3,
+            4,
+            [
+              -2,
+              0
+            ]
+          ],
+          [
+            6,
+            18,
+            [
+              6,
+              0
+            ]
+          ],
+          [
+            0,
+            12,
+            [
+              6,
+              0
+            ]
+          ],
+          [
+            6,
+            4,
+            [
+              6,
+              0
+            ]
+          ],
+          [
+            1,
+            1,
+            [
+              6,
+              0
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 12,
+        "moved": [],
+        "appeared": 1,
+        "vanished": 3,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 13,
+        "moved": [
+          [
+            2,
+            1,
+            [
+              -1,
+              1
+            ]
+          ],
+          [
+            2,
+            1,
+            [
+              -20,
+              -6
+            ]
+          ],
+          [
+            2,
+            1,
+            [
+              -20,
+              -9
+            ]
+          ],
+          [
+            2,
+            1,
+            [
+              -19,
+              -13
+            ]
+          ],
+          [
+            2,
+            1,
+            [
+              -20,
+              -9
+            ]
+          ],
+          [
+            2,
+            1,
+            [
+              0,
+              -12
+            ]
+          ]
+        ],
+        "appeared": 9,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION6": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION7": {
+        "changed_cells": 12,
+        "moved": [],
+        "appeared": 1,
+        "vanished": 3,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/sk48.png"
+  },
+  {
+    "game_id": "tn36-ef4dde99",
+    "title": "TN36",
+    "tags": [
+      "click"
+    ],
+    "baseline_actions": [
+      32,
+      72,
+      26,
+      40,
+      30,
+      55,
+      62
+    ],
+    "win_levels": 7,
+    "available_actions": [
+      6
+    ],
+    "raw_subframes": 1,
+    "bg_color": 5,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      1,
+      4,
+      5,
+      9,
+      11
+    ],
+    "n_objects": 47,
+    "object_summary": [
+      [
+        [
+          4,
+          16
+        ],
+        32
+      ],
+      [
+        [
+          1,
+          3
+        ],
+        6
+      ],
+      [
+        [
+          4,
+          12
+        ],
+        3
+      ],
+      [
+        [
+          9,
+          61
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          353
+        ],
+        1
+      ],
+      [
+        [
+          11,
+          14
+        ],
+        1
+      ],
+      [
+        [
+          4,
+          2
+        ],
+        1
+      ],
+      [
+        [
+          11,
+          16
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          69
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION6": {
+        "changed_cells": 1,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/tn36.png"
+  },
+  {
+    "game_id": "sb26-7fbdac44",
+    "title": "SB26",
+    "tags": [
+      "keyboard_click"
+    ],
+    "baseline_actions": [
+      18,
+      28,
+      18,
+      19,
+      31,
+      23,
+      58,
+      18
+    ],
+    "win_levels": 8,
+    "available_actions": [
+      5,
+      6,
+      7
+    ],
+    "raw_subframes": 1,
+    "bg_color": 4,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      2,
+      4,
+      5,
+      8,
+      9,
+      11,
+      14,
+      15
+    ],
+    "n_objects": 23,
+    "object_summary": [
+      [
+        [
+          5,
+          16
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          5
+        ],
+        4
+      ],
+      [
+        [
+          2,
+          4
+        ],
+        4
+      ],
+      [
+        [
+          5,
+          88
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          20
+        ],
+        1
+      ],
+      [
+        [
+          14,
+          20
+        ],
+        1
+      ],
+      [
+        [
+          11,
+          20
+        ],
+        1
+      ],
+      [
+        [
+          15,
+          20
+        ],
+        1
+      ],
+      [
+        [
+          8,
+          72
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          64
+        ],
+        1
+      ],
+      [
+        [
+          14,
+          16
+        ],
+        1
+      ],
+      [
+        [
+          15,
+          16
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION5": {
+        "changed_cells": 1,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION6": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION7": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/sb26.png"
+  },
+  {
+    "game_id": "ft09-0d8bbf25",
+    "title": "FT09",
+    "tags": [],
+    "baseline_actions": [
+      43,
+      12,
+      23,
+      28,
+      65,
+      37
+    ],
+    "win_levels": 6,
+    "available_actions": [
+      6
+    ],
+    "raw_subframes": 1,
+    "bg_color": 5,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      2,
+      4,
+      5,
+      8,
+      9,
+      12
+    ],
+    "n_objects": 64,
+    "object_summary": [
+      [
+        [
+          9,
+          36
+        ],
+        20
+      ],
+      [
+        [
+          8,
+          36
+        ],
+        12
+      ],
+      [
+        [
+          0,
+          4
+        ],
+        7
+      ],
+      [
+        [
+          2,
+          4
+        ],
+        6
+      ],
+      [
+        [
+          2,
+          8
+        ],
+        5
+      ],
+      [
+        [
+          8,
+          4
+        ],
+        4
+      ],
+      [
+        [
+          2,
+          20
+        ],
+        4
+      ],
+      [
+        [
+          0,
+          8
+        ],
+        3
+      ],
+      [
+        [
+          4,
+          496
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          12
+        ],
+        1
+      ],
+      [
+        [
+          12,
+          64
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION6": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/ft09.png"
+  },
+  {
+    "game_id": "tu93-0768757b",
+    "title": "TU93",
+    "tags": [
+      "keyboard_click"
+    ],
+    "baseline_actions": [
+      19,
+      16,
+      34,
+      42,
+      123,
+      80,
+      14,
+      23,
+      111
+    ],
+    "win_levels": 9,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "raw_subframes": 1,
+    "bg_color": 5,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      2,
+      4,
+      5,
+      6,
+      9,
+      14
+    ],
+    "n_objects": 65,
+    "object_summary": [
+      [
+        [
+          2,
+          9
+        ],
+        32
+      ],
+      [
+        [
+          0,
+          9
+        ],
+        29
+      ],
+      [
+        [
+          9,
+          8
+        ],
+        1
+      ],
+      [
+        [
+          4,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          14,
+          9
+        ],
+        1
+      ],
+      [
+        [
+          6,
+          64
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 1,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 2,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 1,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 19,
+        "moved": [
+          [
+            0,
+            9,
+            [
+              0,
+              -6
+            ]
+          ],
+          [
+            9,
+            8,
+            [
+              0,
+              6
+            ]
+          ],
+          [
+            4,
+            1,
+            [
+              0,
+              6
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/tu93.png"
+  },
+  {
+    "game_id": "lf52-271a04aa",
+    "title": "LF52",
+    "tags": [
+      "click"
+    ],
+    "baseline_actions": [
+      32,
+      81,
+      60,
+      71,
+      205,
+      148,
+      244,
+      109,
+      164,
+      225
+    ],
+    "win_levels": 10,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7
+    ],
+    "raw_subframes": 2,
+    "bg_color": 10,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      1,
+      5,
+      9,
+      10,
+      14
+    ],
+    "n_objects": 58,
+    "object_summary": [
+      [
+        [
+          1,
+          16
+        ],
+        28
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        20
+      ],
+      [
+        [
+          14,
+          12
+        ],
+        5
+      ],
+      [
+        [
+          0,
+          64
+        ],
+        1
+      ],
+      [
+        [
+          5,
+          172
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          660
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          63
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          23
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION6": {
+        "changed_cells": 64,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION7": {
+        "changed_cells": 1,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/lf52.png"
+  },
+  {
+    "game_id": "wa30-ee6fef47",
+    "title": "WA30",
+    "tags": [
+      "keyboard"
+    ],
+    "baseline_actions": [
+      71,
+      119,
+      183,
+      98,
+      368,
+      68,
+      79,
+      442,
+      415
+    ],
+    "win_levels": 9,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "raw_subframes": 1,
+    "bg_color": 1,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      9,
+      14
+    ],
+    "n_objects": 11,
+    "object_summary": [
+      [
+        [
+          4,
+          12
+        ],
+        3
+      ],
+      [
+        [
+          9,
+          4
+        ],
+        3
+      ],
+      [
+        [
+          9,
+          28
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          20
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          4
+        ],
+        1
+      ],
+      [
+        [
+          14,
+          12
+        ],
+        1
+      ],
+      [
+        [
+          7,
+          64
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 32,
+        "moved": [
+          [
+            0,
+            4,
+            [
+              -4,
+              0
+            ]
+          ],
+          [
+            14,
+            12,
+            [
+              -4,
+              0
+            ]
+          ]
+        ],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 33,
+        "moved": [
+          [
+            14,
+            12,
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            0,
+            4,
+            [
+              7,
+              0
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 32,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 32,
+        "moved": [
+          [
+            14,
+            12,
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            0,
+            4,
+            [
+              0,
+              7
+            ]
+          ]
+        ],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION5": {
+        "changed_cells": 1,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/wa30.png"
+  },
+  {
+    "game_id": "ls20-9607627b",
+    "title": "LS20",
+    "tags": [
+      "keyboard"
+    ],
+    "baseline_actions": [
+      22,
+      123,
+      73,
+      84,
+      96,
+      192,
+      186
+    ],
+    "win_levels": 7,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "raw_subframes": 1,
+    "bg_color": 4,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      8,
+      9,
+      11,
+      12
+    ],
+    "n_objects": 18,
+    "object_summary": [
+      [
+        [
+          8,
+          4
+        ],
+        3
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        2
+      ],
+      [
+        [
+          5,
+          208
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          892
+        ],
+        1
+      ],
+      [
+        [
+          5,
+          43
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          5
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          3
+        ],
+        1
+      ],
+      [
+        [
+          12,
+          10
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          15
+        ],
+        1
+      ],
+      [
+        [
+          5,
+          76
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          20
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 52,
+        "moved": [
+          [
+            12,
+            10,
+            [
+              -5,
+              0
+            ]
+          ],
+          [
+            9,
+            15,
+            [
+              -5,
+              0
+            ]
+          ]
+        ],
+        "appeared": 3,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 52,
+        "moved": [
+          [
+            12,
+            10,
+            [
+              5,
+              0
+            ]
+          ],
+          [
+            9,
+            15,
+            [
+              5,
+              0
+            ]
+          ]
+        ],
+        "appeared": 3,
+        "vanished": 3,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 52,
+        "moved": [
+          [
+            12,
+            10,
+            [
+              0,
+              -5
+            ]
+          ],
+          [
+            9,
+            15,
+            [
+              0,
+              -5
+            ]
+          ]
+        ],
+        "appeared": 3,
+        "vanished": 3,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 52,
+        "moved": [
+          [
+            12,
+            10,
+            [
+              0,
+              5
+            ]
+          ],
+          [
+            9,
+            15,
+            [
+              0,
+              5
+            ]
+          ]
+        ],
+        "appeared": 3,
+        "vanished": 3,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/ls20.png"
+  },
+  {
+    "game_id": "ar25-0c556536",
+    "title": "AR25",
+    "tags": [
+      "keyboard_click"
+    ],
+    "baseline_actions": [
+      32,
+      50,
+      75,
+      37,
+      89,
+      159,
+      233,
+      73
+    ],
+    "win_levels": 8,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "raw_subframes": 1,
+    "bg_color": 9,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "n_objects": 11,
+    "object_summary": [
+      [
+        [
+          0,
+          1
+        ],
+        5
+      ],
+      [
+        [
+          10,
+          189
+        ],
+        1
+      ],
+      [
+        [
+          11,
+          64
+        ],
+        1
+      ],
+      [
+        [
+          5,
+          40
+        ],
+        1
+      ],
+      [
+        [
+          4,
+          45
+        ],
+        1
+      ],
+      [
+        [
+          11,
+          45
+        ],
+        1
+      ],
+      [
+        [
+          5,
+          63
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 109,
+        "moved": [
+          [
+            5,
+            40,
+            [
+              -3,
+              0
+            ]
+          ],
+          [
+            4,
+            45,
+            [
+              -3,
+              0
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              -3,
+              0
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              -3,
+              0
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              -3,
+              0
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              -3,
+              0
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 109,
+        "moved": [
+          [
+            5,
+            40,
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            4,
+            45,
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              9,
+              0
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 109,
+        "moved": [
+          [
+            5,
+            40,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            4,
+            45,
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              0,
+              -3
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 109,
+        "moved": [
+          [
+            5,
+            40,
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            4,
+            45,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              -3,
+              3
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              -3,
+              3
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              6,
+              9
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION5": {
+        "changed_cells": 1,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION6": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION7": {
+        "changed_cells": 108,
+        "moved": [
+          [
+            5,
+            40,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            4,
+            45,
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              0,
+              -3
+            ]
+          ]
+        ],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/ar25.png"
+  },
+  {
+    "game_id": "g50t-5849a774",
+    "title": "G50T",
+    "tags": [
+      "keyboard"
+    ],
+    "baseline_actions": [
+      78,
+      175,
+      179,
+      230,
+      96,
+      54,
+      67
+    ],
+    "win_levels": 7,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "raw_subframes": 1,
+    "bg_color": 0,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      1,
+      5,
+      8,
+      9
+    ],
+    "n_objects": 10,
+    "object_summary": [
+      [
+        [
+          9,
+          8
+        ],
+        1
+      ],
+      [
+        [
+          1,
+          9
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          3
+        ],
+        1
+      ],
+      [
+        [
+          5,
+          879
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          24
+        ],
+        1
+      ],
+      [
+        [
+          8,
+          82
+        ],
+        1
+      ],
+      [
+        [
+          5,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          19
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          64
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 49,
+        "moved": [
+          [
+            9,
+            24,
+            [
+              6,
+              0
+            ]
+          ],
+          [
+            5,
+            1,
+            [
+              6,
+              0
+            ]
+          ]
+        ],
+        "appeared": 3,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 1,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION5": {
+        "changed_cells": 71,
+        "moved": [
+          [
+            9,
+            8,
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            9,
+            3,
+            [
+              0,
+              4
+            ]
+          ],
+          [
+            9,
+            24,
+            [
+              -6,
+              0
+            ]
+          ],
+          [
+            5,
+            1,
+            [
+              -6,
+              0
+            ]
+          ]
+        ],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/g50t.png"
+  },
+  {
+    "game_id": "ka59-38d34dbb",
+    "title": "KA59",
+    "tags": [
+      "keyboard_click"
+    ],
+    "baseline_actions": [
+      28,
+      109,
+      51,
+      51,
+      33,
+      132,
+      326
+    ],
+    "win_levels": 7,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "raw_subframes": 1,
+    "bg_color": 2,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      14,
+      15
+    ],
+    "n_objects": 13,
+    "object_summary": [
+      [
+        [
+          1,
+          9
+        ],
+        3
+      ],
+      [
+        [
+          1,
+          290
+        ],
+        2
+      ],
+      [
+        [
+          4,
+          16
+        ],
+        2
+      ],
+      [
+        [
+          14,
+          8
+        ],
+        2
+      ],
+      [
+        [
+          15,
+          126
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          5,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          4,
+          64
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 19,
+        "moved": [
+          [
+            14,
+            8,
+            [
+              -3,
+              0
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              -3,
+              0
+            ]
+          ]
+        ],
+        "appeared": 3,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 18,
+        "moved": [
+          [
+            14,
+            8,
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              3,
+              0
+            ]
+          ]
+        ],
+        "appeared": 1,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 19,
+        "moved": [
+          [
+            14,
+            8,
+            [
+              0,
+              -3
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              0,
+              -3
+            ]
+          ]
+        ],
+        "appeared": 4,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 19,
+        "moved": [
+          [
+            14,
+            8,
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            0,
+            1,
+            [
+              0,
+              3
+            ]
+          ]
+        ],
+        "appeared": 4,
+        "vanished": 4,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION6": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/ka59.png"
+  },
+  {
+    "game_id": "tr87-cd924810",
+    "title": "TR87",
+    "tags": [
+      "keyboard"
+    ],
+    "baseline_actions": [
+      54,
+      58,
+      40,
+      45,
+      71,
+      146
+    ],
+    "win_levels": 6,
+    "available_actions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "raw_subframes": 1,
+    "bg_color": 2,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      7,
+      10
+    ],
+    "n_objects": 63,
+    "object_summary": [
+      [
+        [
+          5,
+          15
+        ],
+        9
+      ],
+      [
+        [
+          7,
+          1
+        ],
+        9
+      ],
+      [
+        [
+          3,
+          3
+        ],
+        6
+      ],
+      [
+        [
+          5,
+          11
+        ],
+        4
+      ],
+      [
+        [
+          10,
+          34
+        ],
+        3
+      ],
+      [
+        [
+          5,
+          16
+        ],
+        2
+      ],
+      [
+        [
+          7,
+          7
+        ],
+        2
+      ],
+      [
+        [
+          10,
+          38
+        ],
+        2
+      ],
+      [
+        [
+          7,
+          32
+        ],
+        2
+      ],
+      [
+        [
+          5,
+          14
+        ],
+        2
+      ],
+      [
+        [
+          5,
+          13
+        ],
+        2
+      ],
+      [
+        [
+          7,
+          4
+        ],
+        2
+      ]
+    ],
+    "action_effects": {
+      "ACTION1": {
+        "changed_cells": 13,
+        "moved": [
+          [
+            7,
+            1,
+            [
+              -1,
+              -8
+            ]
+          ],
+          [
+            7,
+            1,
+            [
+              -1,
+              -12
+            ]
+          ],
+          [
+            7,
+            1,
+            [
+              0,
+              -14
+            ]
+          ]
+        ],
+        "appeared": 4,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION2": {
+        "changed_cells": 14,
+        "moved": [],
+        "appeared": 5,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION3": {
+        "changed_cells": 28,
+        "moved": [
+          [
+            0,
+            7,
+            [
+              0,
+              28
+            ]
+          ],
+          [
+            0,
+            7,
+            [
+              0,
+              28
+            ]
+          ]
+        ],
+        "appeared": 1,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 29,
+        "moved": [
+          [
+            0,
+            7,
+            [
+              0,
+              -28
+            ]
+          ],
+          [
+            0,
+            7,
+            [
+              0,
+              -28
+            ]
+          ]
+        ],
+        "appeared": 3,
+        "vanished": 3,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/tr87.png"
+  },
+  {
+    "game_id": "s5i5-18d95033",
+    "title": "S5I5",
+    "tags": [
+      "click"
+    ],
+    "baseline_actions": [
+      20,
+      89,
+      106,
+      54,
+      162,
+      38,
+      86,
+      83
+    ],
+    "win_levels": 8,
+    "available_actions": [
+      6
+    ],
+    "raw_subframes": 1,
+    "bg_color": 5,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      2,
+      3,
+      4,
+      5,
+      11,
+      13,
+      14
+    ],
+    "n_objects": 27,
+    "object_summary": [
+      [
+        [
+          13,
+          1
+        ],
+        10
+      ],
+      [
+        [
+          4,
+          18
+        ],
+        4
+      ],
+      [
+        [
+          3,
+          3
+        ],
+        2
+      ],
+      [
+        [
+          2,
+          36
+        ],
+        2
+      ],
+      [
+        [
+          3,
+          5
+        ],
+        2
+      ],
+      [
+        [
+          14,
+          7
+        ],
+        2
+      ],
+      [
+        [
+          11,
+          7
+        ],
+        2
+      ],
+      [
+        [
+          14,
+          14
+        ],
+        1
+      ],
+      [
+        [
+          11,
+          23
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          64
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION6": {
+        "changed_cells": 1,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/s5i5.png"
+  },
+  {
+    "game_id": "r11l-495a7899",
+    "title": "R11L",
+    "tags": [
+      "click"
+    ],
+    "baseline_actions": [
+      22,
+      33,
+      51,
+      26,
+      52,
+      49
+    ],
+    "win_levels": 6,
+    "available_actions": [
+      6
+    ],
+    "raw_subframes": 1,
+    "bg_color": 5,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      15
+    ],
+    "n_objects": 37,
+    "object_summary": [
+      [
+        [
+          15,
+          1
+        ],
+        14
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        11
+      ],
+      [
+        [
+          1,
+          2
+        ],
+        3
+      ],
+      [
+        [
+          0,
+          64
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          240
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          134
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          12
+        ],
+        1
+      ],
+      [
+        [
+          15,
+          20
+        ],
+        1
+      ],
+      [
+        [
+          6,
+          1
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          227
+        ],
+        1
+      ],
+      [
+        [
+          2,
+          37
+        ],
+        1
+      ],
+      [
+        [
+          3,
+          12
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION6": {
+        "changed_cells": 103,
+        "moved": [
+          [
+            0,
+            12,
+            [
+              -4,
+              25
+            ]
+          ],
+          [
+            15,
+            1,
+            [
+              -4,
+              25
+            ]
+          ],
+          [
+            15,
+            20,
+            [
+              -2,
+              12
+            ]
+          ],
+          [
+            6,
+            1,
+            [
+              -2,
+              12
+            ]
+          ],
+          [
+            1,
+            1,
+            [
+              -1,
+              10
+            ]
+          ],
+          [
+            1,
+            1,
+            [
+              1,
+              3
+            ]
+          ]
+        ],
+        "appeared": 4,
+        "vanished": 4,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/r11l.png"
+  },
+  {
+    "game_id": "bp35-0a0ad940",
+    "title": "BP35",
+    "tags": [
+      "keyboard_click"
+    ],
+    "baseline_actions": [
+      21,
+      48,
+      44,
+      38,
+      33,
+      87,
+      86,
+      131,
+      163
+    ],
+    "win_levels": 9,
+    "available_actions": [
+      3,
+      4,
+      6,
+      7
+    ],
+    "raw_subframes": 2,
+    "bg_color": 5,
+    "cell_size": 1,
+    "logical_shape": [
+      64,
+      64
+    ],
+    "colors_present": [
+      0,
+      3,
+      5,
+      9,
+      10,
+      11,
+      14
+    ],
+    "n_objects": 190,
+    "object_summary": [
+      [
+        [
+          3,
+          1
+        ],
+        178
+      ],
+      [
+        [
+          14,
+          21
+        ],
+        7
+      ],
+      [
+        [
+          10,
+          276
+        ],
+        1
+      ],
+      [
+        [
+          10,
+          1529
+        ],
+        1
+      ],
+      [
+        [
+          9,
+          6
+        ],
+        1
+      ],
+      [
+        [
+          11,
+          2
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          64
+        ],
+        1
+      ]
+    ],
+    "action_effects": {
+      "ACTION3": {
+        "changed_cells": 64,
+        "moved": [],
+        "appeared": 3,
+        "vanished": 1,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION4": {
+        "changed_cells": 47,
+        "moved": [
+          [
+            11,
+            2,
+            [
+              0,
+              8
+            ]
+          ]
+        ],
+        "appeared": 4,
+        "vanished": 4,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION6": {
+        "changed_cells": 1,
+        "moved": [],
+        "appeared": 2,
+        "vanished": 2,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      },
+      "ACTION7": {
+        "changed_cells": 0,
+        "moved": [],
+        "appeared": 0,
+        "vanished": 0,
+        "state": "NOT_FINISHED",
+        "levels": 0
+      }
+    },
+    "png": "survey/bp35.png"
+  }
+]

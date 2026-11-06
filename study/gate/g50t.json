@@ -1,0 +1,157 @@
+{
+ "game": "g50t",
+ "levels": 0,
+ "per_level": {},
+ "score": {
+  "entities": 0.33,
+  "rules": 0.42,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "mover:ghost2",
+   "wall:void0",
+   "button:pad8",
+   "mover:door8",
+   "marker:goal9",
+   "hud:slots"
+  ],
+  "missed_rules": [
+   "ACTION1:nothing:None",
+   "ACTION1:translate:door8",
+   "ACTION5:teleport:player9",
+   "ACTION5:appear:ghost2",
+   "ACTION5:recolour:slots",
+   "ACTION5:vanish:ghost2",
+   "ACTION5:nothing:None"
+  ],
+  "reported_goal": null,
+  "truth_goal": "reach(player9->goal9)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "wall",
+    "colors": [
+     8
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     1
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     9
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     5
+    ],
+    "by": [
+     -6,
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     5
+    ],
+    "by": [
+     6,
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     5
+    ],
+    "by": [
+     0,
+     -6
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     5
+    ],
+    "by": [
+     0,
+     6
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION5",
+    "effect": "translate",
+    "of": [
+     5
+    ],
+    "by": [
+     -12,
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION5",
+    "effect": "translate",
+    "of": [
+     9
+    ],
+    "when": "always"
+   }
+  ],
+  "goal": null
+ },
+ "secs": 8.6,
+ "error": null
+}

@@ -1,0 +1,420 @@
+{
+ "game": "cd82",
+ "levels": 1,
+ "per_level": {
+  "1": 66
+ },
+ "score": {
+  "entities": 0.83,
+  "rules": 1.0,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "hud:marker0"
+  ],
+  "missed_rules": [],
+  "reported_goal": {
+   "kind": "align",
+   "mover": [
+    0
+   ],
+   "target": [
+    0
+   ]
+  },
+  "truth_goal": "equal(canvas0->target)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "controlled",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     5
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "floor",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     4
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "tool",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "tool",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "button",
+    "colors": [
+     4,
+     15
+    ]
+   },
+   {
+    "role": "button",
+    "colors": [
+     0,
+     4
+    ]
+   },
+   {
+    "role": "canvas",
+    "colors": [
+     2
+    ]
+   },
+   {
+    "role": "button",
+    "colors": [
+     15
+    ]
+   },
+   {
+    "role": "canvas",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "button",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     0
+    ]
+   },
+   {
+    "role": "canvas",
+    "colors": [
+     0,
+     15
+    ]
+   },
+   {
+    "role": "reference",
+    "colors": [
+     0,
+     15
+    ]
+   },
+   {
+    "role": "controlled",
+    "colors": [
+     0,
+     2
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     2
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     2
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "push",
+    "of": [
+     0
+    ],
+    "when": "blocked_by(0)"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "push",
+    "of": [
+     0
+    ],
+    "when": "blocked_by(0)"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "push",
+    "of": [
+     2
+    ],
+    "when": "blocked_by(2)"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "push",
+    "of": [
+     2
+    ],
+    "when": "blocked_by(2)"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "push",
+    "of": [
+     15
+    ],
+    "when": "blocked_by(15)"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "push",
+    "of": [
+     15
+    ],
+    "when": "blocked_by(15)"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     2
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     2,
+     15
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "click_on(15)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "translate",
+    "of": [
+     0
+    ],
+    "when": "click_on(0)"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "nothing",
+    "of": [],
+    "when": "blocked_by"
+   },
+   {
+    "action": "ACTION5",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "recolour",
+    "of": [
+     2
+    ],
+    "when": "adjacent(15)"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "recolour",
+    "of": [
+     0
+    ],
+    "when": "adjacent(0)"
+   },
+   {
+    "action": "ACTION5",
+    "effect": "recolour",
+    "of": [
+     0,
+     15
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION3",
+    "effect": "translate",
+    "of": [
+     0,
+     2
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION2",
+    "effect": "translate",
+    "of": [
+     0,
+     2
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION1",
+    "effect": "translate",
+    "of": [
+     0,
+     2
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION4",
+    "effect": "translate",
+    "of": [
+     0,
+     2
+    ],
+    "when": "always"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "recolour",
+    "of": [
+     0
+    ],
+    "when": "click_on(0)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "recolour",
+    "of": [
+     0
+    ],
+    "when": "click_on(4)"
+   },
+   {
+    "action": "ACTION6",
+    "effect": "recolour",
+    "of": [
+     2
+    ],
+    "when": "click_on(4)"
+   }
+  ],
+  "goal": {
+   "kind": "align",
+   "mover": [
+    0
+   ],
+   "target": [
+    0
+   ]
+  }
+ },
+ "secs": 5.4,
+ "error": null,
+ "how": "paint"
+}

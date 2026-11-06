@@ -1,0 +1,101 @@
+{
+ "game": "tn36",
+ "levels": 1,
+ "per_level": {
+  "1": 41
+ },
+ "score": {
+  "entities": 0.33,
+  "rules": 0.33,
+  "goal": false,
+  "pass": false,
+  "missed_entities": [
+   "socket:ghost11",
+   "button:toggle15",
+   "button:run9",
+   "floor:board5"
+  ],
+  "missed_rules": [
+   "ACTION6:toggle:toggle15",
+   "ACTION6:translate:avatar11"
+  ],
+  "reported_goal": {
+   "kind": "align",
+   "mover": [
+    11
+   ],
+   "target": [
+    11
+   ]
+  },
+  "truth_goal": "inside(avatar11->ghost11)"
+ },
+ "report": {
+  "entities": [
+   {
+    "role": "budget",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     3
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     3,
+     9
+    ]
+   },
+   {
+    "role": "budget",
+    "colors": [
+     3,
+     9
+    ]
+   },
+   {
+    "role": "hud",
+    "colors": [
+     9
+    ]
+   },
+   {
+    "role": "mover",
+    "colors": [
+     11
+    ]
+   },
+   {
+    "role": "marker",
+    "colors": [
+     11
+    ]
+   }
+  ],
+  "rules": [
+   {
+    "action": "ACTION6",
+    "effect": "nothing",
+    "of": [],
+    "when": "always"
+   }
+  ],
+  "goal": {
+   "kind": "align",
+   "mover": [
+    11
+   ],
+   "target": [
+    11
+   ]
+  }
+ },
+ "secs": 6.4,
+ "error": null,
+ "how": "program"
+}
